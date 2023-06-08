@@ -70,6 +70,25 @@
                                                                                  rdfs:range <http://www.NewOnto1.org/SecAOnto_V1#SecurityProperty> .
 
 
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#composedOfAS
+:composedOfAS rdf:type owl:ObjectProperty ;
+              rdfs:domain :Composite_Service ;
+              rdfs:range :Atomic_Service .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#composedOfCS
+:composedOfCS rdf:type owl:ObjectProperty ;
+              rdfs:domain :Composite_Service ;
+              rdfs:range :Composite_Service .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#delieveredTo
+:delieveredTo rdf:type owl:ObjectProperty ;
+              rdfs:domain :Product ,
+                          :Service ;
+              rdfs:range :Customers .
+
+
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context#isCreatedBy
 :isCreatedBy rdf:type owl:ObjectProperty ;
              rdfs:domain <http://www.NewOnto1.org/SecAOnto_V1#Threat> ;
@@ -80,6 +99,18 @@
 :mitigatedBy rdf:type owl:ObjectProperty ;
              rdfs:domain <http://www.NewOnto1.org/SecAOnto_V1#Threat> ;
              rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Threat_Mitigation> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#organizedInto
+:organizedInto rdf:type owl:ObjectProperty ;
+               rdfs:domain :Personel ;
+               rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Teams> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#retrievedFrom
+:retrievedFrom rdf:type owl:ObjectProperty ;
+               rdfs:domain :Information_System ;
+               rdfs:range :Service .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context/addresses
@@ -465,8 +496,7 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
 
 
 ###  http://www.NewOnto1.org/SecAOnto_V1#Attack
-<http://www.NewOnto1.org/SecAOnto_V1#Attack> rdf:type owl:Class ;
-                                             rdfs:subClassOf owl:Thing .
+<http://www.NewOnto1.org/SecAOnto_V1#Attack> rdf:type owl:Class .
 
 
 ###  http://www.NewOnto1.org/SecAOnto_V1#Backup
@@ -888,6 +918,71 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
                                                            rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Countermeasure> .
 
 
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Atomic_Service
+:Atomic_Service rdf:type owl:Class ;
+                rdfs:subClassOf :Service .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Available_Resources
+:Available_Resources rdf:type owl:Class ;
+                     rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Business_Service
+:Business_Service rdf:type owl:Class ;
+                  rdfs:subClassOf :Atomic_Service .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Composite_Service
+:Composite_Service rdf:type owl:Class ;
+                   rdfs:subClassOf :Service .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Customers
+:Customers rdf:type owl:Class ;
+           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Data_Service
+:Data_Service rdf:type owl:Class ;
+              rdfs:subClassOf :Atomic_Service .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Information_System
+:Information_System rdf:type owl:Class ;
+                    rdfs:subClassOf :Available_Resources .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Personel
+:Personel rdf:type owl:Class ;
+          rdfs:subClassOf :Available_Resources .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Product
+:Product rdf:type owl:Class ;
+         rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Service
+:Service rdf:type owl:Class ;
+         rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Service_Inventory
+:Service_Inventory rdf:type owl:Class ;
+                   rdfs:subClassOf :Service .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Utility_Service
+:Utility_Service rdf:type owl:Class ;
+                 rdfs:subClassOf :Atomic_Service .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Verification_Service
+:Verification_Service rdf:type owl:Class ;
+                      rdfs:subClassOf :Atomic_Service .
+
+
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context/API_Documentation
 <http://www.semanticweb.org/ontologies/2023/SE/software-context/API_Documentation> rdf:type owl:Class .
 
@@ -1279,7 +1374,7 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Developers
 <http://www.semanticweb.org/ontologies/2023/SE/software-context/Developers> rdf:type owl:Class ;
-                                                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Organization> ,
+                                                                            rdfs:subClassOf :Personel ,
                                                                                             <http://www.semanticweb.org/ontologies/2023/SE/software-context/Stakeholders> .
 
 
