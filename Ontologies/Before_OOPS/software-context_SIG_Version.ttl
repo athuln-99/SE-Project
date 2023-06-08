@@ -1,0 +1,1342 @@
+@prefix : <http://www.semanticweb.org/ontologies/2023/SE/software-context2/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/ontologies/2023/SE/software-context2/> .
+
+<http://www.semanticweb.org/ontologies/2023/SE/software-context2> rdf:type owl:Ontology ;
+                                                                   rdfs:comment "This is an ontoloy about Software Context"@en .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/addresses
+:addresses rdf:type owl:ObjectProperty ;
+           rdfs:domain :Maintainability ;
+           rdfs:range :Current_Challenges .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/affectsEaseOfReliabilityFixes
+:affectsEaseOfReliabilityFixes rdf:type owl:ObjectProperty ;
+                               rdfs:domain :Maintainable_Architechture_Considerations ;
+                               rdfs:range :Reliability .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/appliesEasilyUsable
+:appliesEasilyUsable rdf:type owl:ObjectProperty ;
+                     rdfs:domain :API_Maturity ;
+                     rdfs:range :Frameworks ,
+                                :Tools .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/automatedProvisioning
+:automatedProvisioning rdf:type owl:ObjectProperty ;
+                       rdfs:domain :Environments ;
+                       rdfs:range :Environments .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/automates
+:automates rdf:type owl:ObjectProperty ;
+           rdfs:domain :Deployment_Process ;
+           rdfs:range :Data_Migration .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/canDirectlyAffect
+:canDirectlyAffect rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Competitors ,
+                               :KPI ,
+                               :Project_Management_Practices ,
+                               :Software_Purpose ,
+                               :Stakeholders ,
+                               :Strategic_Roadmap ,
+                               :Userbase_Information ;
+                   rdfs:range :Business_Model .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/commitRegularlyFor
+:commitRegularlyFor rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Commit_Changes ;
+                    rdfs:range :Configuration_Management .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/controlledApplicationOf
+:controlledApplicationOf rdf:type owl:ObjectProperty ;
+                         rdfs:domain :Deployment_Process ;
+                         rdfs:range :Hotfixes .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/definesRequirements
+:definesRequirements rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Definition_Of_Done ;
+                     rdfs:range :Definition_Of_Done .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/easilyCreates
+:easilyCreates rdf:type owl:ObjectProperty ;
+               rdfs:domain :Environments ;
+               rdfs:range :Test_Environments .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/incorporates
+:incorporates rdf:type owl:ObjectProperty ;
+              rdfs:domain :Integration ;
+              rdfs:range :Automation_Characteristics ,
+                         :Build_Automation .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/informsAbout
+:informsAbout rdf:type owl:ObjectProperty ;
+              rdfs:domain :Strategic_Roadmap ;
+              rdfs:range :Resource_Allocation .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/interactWith
+:interactWith rdf:type owl:ObjectProperty ,
+                       owl:SymmetricProperty ;
+              rdfs:domain :Developers ;
+              rdfs:range :Teams .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/intergatedWith
+:intergatedWith rdf:type owl:ObjectProperty ;
+                rdfs:domain :Maintainable_Architechture_Considerations ;
+                rdfs:range :Security_Architechture .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/isFlexible
+:isFlexible rdf:type owl:ObjectProperty ;
+            rdfs:domain :API_Maturity ;
+            rdfs:range :API_Maturity .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/isTransparent
+:isTransparent rdf:type owl:ObjectProperty ;
+               rdfs:domain :API_Maturity ;
+               rdfs:range :API_Maturity .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/issuesRelatedTo
+:issuesRelatedTo rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Historical_Issues ;
+                 rdfs:range :Software_Quality_Factors .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/measures
+:measures rdf:type owl:ObjectProperty ;
+          rdfs:domain :Data_Scalability ;
+          rdfs:range :Data_Scalability_Metrics .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/organizationStructureImpacts
+:organizationStructureImpacts rdf:type owl:ObjectProperty ;
+                              rdfs:domain :Organization ;
+                              rdfs:range :Resource_Allocation .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/percentageDedicatedFor
+:percentageDedicatedFor rdf:type owl:ObjectProperty ;
+                        rdfs:domain :Hardware ;
+                        rdfs:range :Isolation .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/protectedBy
+:protectedBy rdf:type owl:ObjectProperty ;
+             rdfs:domain :Communication_Protocols ;
+             rdfs:range :Security .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/providesCriteriaFor
+:providesCriteriaFor rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Definition_Of_Done ;
+                     rdfs:range :Development_Practices .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/recordedThrough
+:recordedThrough rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Performance_Metrics ;
+                 rdfs:range :Monitoring .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/regularlyIntegrateFor
+:regularlyIntegrateFor rdf:type owl:ObjectProperty ;
+                       rdfs:domain :Branches ;
+                       rdfs:range :Configuration_Management .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/relatedTo
+:relatedTo rdf:type owl:ObjectProperty ;
+           rdfs:domain :Historical_Issues ;
+           rdfs:range :Software_Quality_Factors .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/safelyPlansForCorrect
+:safelyPlansForCorrect rdf:type owl:ObjectProperty ;
+                       rdfs:domain :Project_Management_Practices ;
+                       rdfs:range :Resource_Allocation .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/setsGoals
+:setsGoals rdf:type owl:ObjectProperty ;
+           rdfs:domain :Strategic_Roadmap ;
+           rdfs:range :Goals .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/standardizes
+:standardizes rdf:type owl:ObjectProperty ;
+              rdfs:domain :API_Maturity ;
+              rdfs:range :Architechtures_Principles ,
+                         :Communication_Protocols ,
+                         :Data_Formats ,
+                         :Endpoints ,
+                         :Error_Messages ,
+                         :Technology .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/testableThrough
+:testableThrough rdf:type owl:ObjectProperty ;
+                 rdfs:domain :External_Integrations ;
+                 rdfs:range :Environments .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/usedToDevelop
+:usedToDevelop rdf:type owl:ObjectProperty ;
+               rdfs:domain :Programming_Considerations ;
+               rdfs:range :Codebase ,
+                          :Other_Systems .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesDependencies
+:usesDependencies rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Components ;
+                  rdfs:range :Dependencies .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesFrameworks
+:usesFrameworks rdf:type owl:ObjectProperty ;
+                rdfs:domain :API_Maturity ,
+                            :Codebase ,
+                            :Testing_Phase ;
+                rdfs:range :Frameworks .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesTestTypes
+:usesTestTypes rdf:type owl:ObjectProperty ;
+               rdfs:domain :Testing_Phase ;
+               rdfs:range :Test_Types .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesTools
+:usesTools rdf:type owl:ObjectProperty ;
+           rdfs:domain :Programming_Considerations ,
+                       :Testing_Phase ;
+           rdfs:range :Tools .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesUpToDate
+:usesUpToDate rdf:type owl:ObjectProperty ;
+              rdfs:domain :Libraries ;
+              rdfs:range :Policy .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/validate
+:validate rdf:type owl:ObjectProperty ;
+          rdfs:domain :Input_Validation ;
+          rdfs:range :File_Uploads .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/wellDocumentIn
+:wellDocumentIn rdf:type owl:ObjectProperty ;
+                rdfs:domain :API_Maturity ;
+                rdfs:range :API_Documentation .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/API_Documentation
+:API_Documentation rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/API_Maturity
+:API_Maturity rdf:type owl:Class ;
+              rdfs:subClassOf :Software_Quality_Factors .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Accesibility
+:Accesibility rdf:type owl:Class ;
+              rdfs:subClassOf :Software_Quality_Factors .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Administrators
+:Administrators rdf:type owl:Class ;
+                rdfs:subClassOf :User_Types .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Algorithms
+:Algorithms rdf:type owl:Class ;
+            rdfs:subClassOf :Single_Transaction_Optimization .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Anonymous_Users
+:Anonymous_Users rdf:type owl:Class ;
+                 rdfs:subClassOf :User_Types .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/App_Information
+:App_Information rdf:type owl:Class ;
+                 rdfs:subClassOf :Accesibility .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Application_Server
+:Application_Server rdf:type owl:Class ;
+                    rdfs:subClassOf :System_Processes .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Architechts
+:Architechts rdf:type owl:Class ;
+             rdfs:subClassOf :Stakeholders .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Architechtures_Principles
+:Architechtures_Principles rdf:type owl:Class ;
+                           rdfs:subClassOf :API_Maturity .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Attack_Prevention_Measures
+:Attack_Prevention_Measures rdf:type owl:Class ;
+                            rdfs:subClassOf :Security .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Authenticaion_Credentials
+:Authenticaion_Credentials rdf:type owl:Class ;
+                           rdfs:subClassOf :Authentication_Mechanisms .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Authenticated_Users
+:Authenticated_Users rdf:type owl:Class ;
+                     rdfs:subClassOf :User_Types .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Authentication_Mechanisms
+:Authentication_Mechanisms rdf:type owl:Class ;
+                           rdfs:subClassOf :Security_Architechture .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Automated_Testing
+:Automated_Testing rdf:type owl:Class ;
+                   rdfs:subClassOf :Automation_Characteristics ,
+                                   :Build_Automation ,
+                                   :Functional_Scalability .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Automation_Characteristics
+:Automation_Characteristics rdf:type owl:Class ;
+                            rdfs:subClassOf :Development_Scalability .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Backup_Server
+:Backup_Server rdf:type owl:Class ;
+               rdfs:subClassOf :System_Processes .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Backups
+:Backups rdf:type owl:Class ;
+         rdfs:subClassOf :Data_Stores .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Behaviour
+:Behaviour rdf:type owl:Class ;
+           rdfs:subClassOf :Maintainable_Architechture_Considerations .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Branches
+:Branches rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Browser
+:Browser rdf:type owl:Class ;
+         rdfs:subClassOf :System_Processes .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Browser_local_cookies
+:Browser_local_cookies rdf:type owl:Class ;
+                       rdfs:subClassOf :Data_Stores .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Browser_local_storage
+:Browser_local_storage rdf:type owl:Class ;
+                       rdfs:subClassOf :Data_Stores .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Build_Automation
+:Build_Automation rdf:type owl:Class ;
+                  rdfs:subClassOf :Codebase ,
+                                  :Reliability .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Model
+:Business_Model rdf:type owl:Class ;
+                rdfs:subClassOf :Business_Process .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Process
+:Business_Process rdf:type owl:Class ;
+                  rdfs:subClassOf :Software_Context .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Caching
+:Caching rdf:type owl:Class ;
+         rdfs:subClassOf :Efficiency .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Central_Error_Handling_System
+:Central_Error_Handling_System rdf:type owl:Class ;
+                               rdfs:subClassOf :Exception_Handling .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Certification_Scope
+:Certification_Scope rdf:type owl:Class ;
+                     rdfs:subClassOf :Codebase .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Code_Reviews
+:Code_Reviews rdf:type owl:Class ;
+              rdfs:subClassOf :Quality_Assurance_Considerations ;
+              owl:disjointWith :Code_Standards .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Code_Standards
+:Code_Standards rdf:type owl:Class ;
+                rdfs:subClassOf :Quality_Assurance_Considerations .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Codebase
+:Codebase rdf:type owl:Class ;
+          rdfs:subClassOf :Maintainability .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Coding_Standards
+:Coding_Standards rdf:type owl:Class ;
+                  rdfs:subClassOf :Programming_Considerations .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Commit_Changes
+:Commit_Changes rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Communication_Channels
+:Communication_Channels rdf:type owl:Class ;
+                        rdfs:subClassOf :Security_Architechture .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Communication_Protocols
+:Communication_Protocols rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Competitors
+:Competitors rdf:type owl:Class ;
+             rdfs:subClassOf :Business_Process .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Components
+:Components rdf:type owl:Class ;
+            rdfs:subClassOf :Maintainable_Architechture_Considerations .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Compression
+:Compression rdf:type owl:Class ;
+             rdfs:subClassOf :Efficiency .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Computation_Side_Effects
+:Computation_Side_Effects rdf:type owl:Class ;
+                          rdfs:subClassOf :Single_Transaction_Optimization .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Configuration_Management
+:Configuration_Management rdf:type owl:Class ;
+                          rdfs:subClassOf :Development_Practices .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Configurations
+:Configurations rdf:type owl:Class ;
+                rdfs:subClassOf :Data_Stores .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Content_Delivery_Networks
+:Content_Delivery_Networks rdf:type owl:Class ;
+                           rdfs:subClassOf :Other_Systems .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Continuous_Integration
+:Continuous_Integration rdf:type owl:Class ;
+                        rdfs:subClassOf :Automation_Characteristics .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Credit_Card_Numbers
+:Credit_Card_Numbers rdf:type owl:Class ;
+                     rdfs:subClassOf :Sensitive_Data .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Critical_Componenets
+:Critical_Componenets rdf:type owl:Class ;
+                      rdfs:subClassOf :Errors ;
+                      owl:disjointWith :Non_Critical_Components .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Cryptography
+:Cryptography rdf:type owl:Class ;
+              rdfs:subClassOf :Security .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Current_Challenges
+:Current_Challenges rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Formats
+:Data_Formats rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Migration
+:Data_Migration rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Scalability
+:Data_Scalability rdf:type owl:Class ;
+                  rdfs:subClassOf :Performance_Efficiency ,
+                                  :Scalability .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Scalability_Metrics
+:Data_Scalability_Metrics rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Storage_Handling
+:Data_Storage_Handling rdf:type owl:Class ;
+                       rdfs:subClassOf :Security .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Stores
+:Data_Stores rdf:type owl:Class ;
+             rdfs:subClassOf :Security_Architechture .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Structures
+:Data_Structures rdf:type owl:Class ;
+                 rdfs:subClassOf :Single_Transaction_Optimization .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Database_Code
+:Database_Code rdf:type owl:Class ;
+               rdfs:subClassOf :Codebase .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Database_Encryption
+:Database_Encryption rdf:type owl:Class ;
+                     rdfs:subClassOf :Data_Storage_Handling .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Databases
+:Databases rdf:type owl:Class ;
+           rdfs:subClassOf :Data_Stores .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Definition_Of_Done
+:Definition_Of_Done rdf:type owl:Class ;
+                    rdfs:subClassOf :Business_Process ,
+                                    :Methodology .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Demographics
+:Demographics rdf:type owl:Class ;
+              rdfs:subClassOf :App_Information ,
+                              :Userbase_Information .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Dependencies
+:Dependencies rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Deployment
+:Deployment rdf:type owl:Class ;
+            rdfs:subClassOf :Build_Automation .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Deployment_Process
+:Deployment_Process rdf:type owl:Class ;
+                    rdfs:subClassOf :Development_Practices .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Design_Phase
+:Design_Phase rdf:type owl:Class ;
+              rdfs:subClassOf :Development_Cycle_Security .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Design_Standards
+:Design_Standards rdf:type owl:Class ;
+                  rdfs:subClassOf :Programming_Considerations .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Developers
+:Developers rdf:type owl:Class ;
+            rdfs:subClassOf :Organization ,
+                            :Stakeholders .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Cycle_Security
+:Development_Cycle_Security rdf:type owl:Class ;
+                            rdfs:subClassOf :Security .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Phase_Practices
+:Development_Phase_Practices rdf:type owl:Class ;
+                             rdfs:subClassOf :Methodology ;
+                             owl:disjointWith :Release_Phase_Practices .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Practices
+:Development_Practices rdf:type owl:Class ;
+                       rdfs:subClassOf :Software_Quality_Factors .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Scalability
+:Development_Scalability rdf:type owl:Class ;
+                         rdfs:subClassOf :Scalability .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Documentation
+:Documentation rdf:type owl:Class ;
+               rdfs:subClassOf :Development_Scalability ,
+                               :Maintainable_Architechture_Considerations .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Efficiency
+:Efficiency rdf:type owl:Class ;
+            rdfs:subClassOf :API_Maturity .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Encryption_keys
+:Encryption_keys rdf:type owl:Class ;
+                 rdfs:subClassOf :Sensitive_Data .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Endpoints
+:Endpoints rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Environments
+:Environments rdf:type owl:Class ;
+              rdfs:subClassOf :Development_Practices .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Error_Handling
+:Error_Handling rdf:type owl:Class ;
+                rdfs:subClassOf :API_Maturity ,
+                                :Security .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Error_Messages
+:Error_Messages rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Errors
+:Errors rdf:type owl:Class ;
+        rdfs:subClassOf :Fault_Isolation .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Evaluation_Criteria
+:Evaluation_Criteria rdf:type owl:Class ;
+                     rdfs:subClassOf :Certification_Scope .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Exception_Handling
+:Exception_Handling rdf:type owl:Class ;
+                    rdfs:subClassOf :Fault_Isolation .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Exception_Tree
+:Exception_Tree rdf:type owl:Class ;
+                rdfs:subClassOf :Exception_Handling .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/External
+:External rdf:type owl:Class ;
+          rdfs:subClassOf :System_Communication .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/External_Communication_Metrics
+:External_Communication_Metrics rdf:type owl:Class ;
+                                rdfs:subClassOf :External .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/External_Integrations
+:External_Integrations rdf:type owl:Class ;
+                       rdfs:subClassOf :Development_Practices .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/External_Systems
+:External_Systems rdf:type owl:Class ;
+                  rdfs:subClassOf :Codebase .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/External_Web_Services
+:External_Web_Services rdf:type owl:Class ;
+                       rdfs:subClassOf :IO ,
+                                       :Other_Systems .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Failover
+:Failover rdf:type owl:Class ;
+          rdfs:subClassOf :Reliability .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Fault_Isolation
+:Fault_Isolation rdf:type owl:Class ;
+                 rdfs:subClassOf :Reliability .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Features
+:Features rdf:type owl:Class ;
+          rdfs:subClassOf :Future_Plans .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/File_Uploads
+:File_Uploads rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Financial_Transactions
+:Financial_Transactions rdf:type owl:Class ;
+                        rdfs:subClassOf :Non_Repudiation_Functionality ;
+                        owl:disjointWith :Longin_Actions .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Frameworks
+:Frameworks rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Functional_Scalability
+:Functional_Scalability rdf:type owl:Class ;
+                        rdfs:subClassOf :Scalability .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Functionality
+:Functionality rdf:type owl:Class ;
+               rdfs:subClassOf :Maintainable_Architechture_Considerations .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Future_Plans
+:Future_Plans rdf:type owl:Class ;
+              rdfs:subClassOf :Maintainable_Architechture_Considerations .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Goals
+:Goals rdf:type owl:Class ;
+       rdfs:subClassOf :Software_Purpose .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/HTTP_requests
+:HTTP_requests rdf:type owl:Class ;
+               rdfs:subClassOf :IO .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Hardware
+:Hardware rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Historical_Issues
+:Historical_Issues rdf:type owl:Class ;
+                   rdfs:subClassOf :KPI .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Hotfixes
+:Hotfixes rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/IDE
+:IDE rdf:type owl:Class ;
+     rdfs:subClassOf :Programming_Considerations .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/IO
+:IO rdf:type owl:Class ;
+    rdfs:subClassOf :Security_Architechture .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Implementations
+:Implementations rdf:type owl:Class ;
+                 rdfs:subClassOf :Future_Plans .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Indespensable_Componenets
+:Indespensable_Componenets rdf:type owl:Class ;
+                           rdfs:subClassOf :Fault_Isolation .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Input_Validation
+:Input_Validation rdf:type owl:Class ;
+                  rdfs:subClassOf :Security .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Integration
+:Integration rdf:type owl:Class ;
+             rdfs:subClassOf :Development_Practices .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Internal
+:Internal rdf:type owl:Class ;
+          rdfs:subClassOf :System_Communication .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Internal_Communication_Metrics
+:Internal_Communication_Metrics rdf:type owl:Class ;
+                                rdfs:subClassOf :Internal .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Isolation
+:Isolation rdf:type owl:Class ;
+           rdfs:subClassOf :Performance_Efficiency .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/KPI
+:KPI rdf:type owl:Class ;
+     rdfs:subClassOf :Business_Process .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/KPI_Metrics
+:KPI_Metrics rdf:type owl:Class ;
+             rdfs:subClassOf :Methodology .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Libraries
+:Libraries rdf:type owl:Class ;
+           rdfs:subClassOf :Codebase ,
+                           :Development_Practices ,
+                           :IO ,
+                           :Other_Systems .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Log_Files
+:Log_Files rdf:type owl:Class ;
+           rdfs:subClassOf :Data_Stores .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Logging
+:Logging rdf:type owl:Class ;
+         rdfs:subClassOf :Error_Handling .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Longin_Actions
+:Longin_Actions rdf:type owl:Class ;
+                rdfs:subClassOf :Non_Repudiation_Functionality .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maintainability
+:Maintainability rdf:type owl:Class ;
+                 rdfs:subClassOf :Software_Quality_Factors .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maintainable_Architechture_Considerations
+:Maintainable_Architechture_Considerations rdf:type owl:Class ;
+                                           rdfs:subClassOf :Functional_Scalability ,
+                                                           :Maintainability .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Marketing
+:Marketing rdf:type owl:Class ;
+           rdfs:subClassOf :Business_Model .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Methodology
+:Methodology rdf:type owl:Class ;
+             rdfs:subClassOf :Development_Practices .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Monitoring
+:Monitoring rdf:type owl:Class ;
+            rdfs:subClassOf :Codebase ,
+                            :Deployment_Process ,
+                            :Performance_Efficiency .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Network_Protection
+:Network_Protection rdf:type owl:Class ;
+                    rdfs:subClassOf :Data_Storage_Handling .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Non_Critical_Components
+:Non_Critical_Components rdf:type owl:Class ;
+                         rdfs:subClassOf :Errors .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Non_Repudiation_Functionality
+:Non_Repudiation_Functionality rdf:type owl:Class ;
+                               rdfs:subClassOf :Security_Architechture .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Optimization
+:Optimization rdf:type owl:Class ;
+              rdfs:subClassOf :Efficiency .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Organization
+:Organization rdf:type owl:Class ;
+              rdfs:subClassOf :Business_Process ,
+                              :Development_Practices .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Other_Systems
+:Other_Systems rdf:type owl:Class ;
+               rdfs:subClassOf :Security_Architechture .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Passwords
+:Passwords rdf:type owl:Class ;
+           rdfs:subClassOf :Authenticaion_Credentials ,
+                           :Sensitive_Data .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Efficiency
+:Performance_Efficiency rdf:type owl:Class ;
+                        rdfs:subClassOf :Software_Quality_Factors .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Impact
+:Performance_Impact rdf:type owl:Class ;
+                    rdfs:subClassOf :Transaction_Scalability ;
+                    owl:disjointWith :Scaling_Strategy .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Metrics
+:Performance_Metrics rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Testing
+:Performance_Testing rdf:type owl:Class ;
+                     rdfs:subClassOf :Performance_Efficiency .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Permissions
+:Permissions rdf:type owl:Class ;
+             rdfs:subClassOf :User_Management .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Physical_Database_Security
+:Physical_Database_Security rdf:type owl:Class ;
+                            rdfs:subClassOf :Data_Storage_Handling .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Planning_Process_Considerations
+:Planning_Process_Considerations rdf:type owl:Class ;
+                                 rdfs:subClassOf :Development_Scalability .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Policy
+:Policy rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Product_Owner
+:Product_Owner rdf:type owl:Class ;
+               rdfs:subClassOf :Stakeholders .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Programming_Considerations
+:Programming_Considerations rdf:type owl:Class ;
+                            rdfs:subClassOf :Development_Practices ,
+                                            :IO .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Project_Management_Practices
+:Project_Management_Practices rdf:type owl:Class ;
+                              rdfs:subClassOf :Business_Process .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Project_Manager
+:Project_Manager rdf:type owl:Class ;
+                 rdfs:subClassOf :Stakeholders .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Quality_Assurance_Considerations
+:Quality_Assurance_Considerations rdf:type owl:Class ;
+                                  rdfs:subClassOf :Development_Scalability .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Redundancy
+:Redundancy rdf:type owl:Class ;
+            rdfs:subClassOf :Reliability .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Release_Phase_Practices
+:Release_Phase_Practices rdf:type owl:Class ;
+                         rdfs:subClassOf :Development_Cycle_Security ,
+                                         :Methodology .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Reliability
+:Reliability rdf:type owl:Class ;
+             rdfs:subClassOf :Software_Quality_Factors .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Reliability_Testing
+:Reliability_Testing rdf:type owl:Class ;
+                     rdfs:subClassOf :Reliability .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Resource_Allocation
+:Resource_Allocation rdf:type owl:Class ;
+                     rdfs:subClassOf :Business_Process .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Resource_Elasticity
+:Resource_Elasticity rdf:type owl:Class ;
+                     rdfs:subClassOf :Performance_Efficiency .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Resource_Intensive_Tasks
+:Resource_Intensive_Tasks rdf:type owl:Class ;
+                          rdfs:subClassOf :Performance_Efficiency .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Runtime_Components
+:Runtime_Components rdf:type owl:Class ;
+                    rdfs:subClassOf :Internal .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/SLA_Metrics
+:SLA_Metrics rdf:type owl:Class ;
+             rdfs:subClassOf :Failover .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Sales
+:Sales rdf:type owl:Class ;
+       rdfs:subClassOf :Business_Model .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Scalability
+:Scalability rdf:type owl:Class ;
+             rdfs:subClassOf :Software_Quality_Factors .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Scaling_Strategy
+:Scaling_Strategy rdf:type owl:Class ;
+                  rdfs:subClassOf :Transaction_Scalability .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security
+:Security rdf:type owl:Class ;
+          rdfs:subClassOf :Software_Quality_Factors .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security_Architechture
+:Security_Architechture rdf:type owl:Class ;
+                        rdfs:subClassOf :Security .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security_Measures
+:Security_Measures rdf:type owl:Class ;
+                   rdfs:subClassOf :Security .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Sensitive_Data
+:Sensitive_Data rdf:type owl:Class ;
+                rdfs:subClassOf :Security_Architechture .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Services
+:Services rdf:type owl:Class ;
+          rdfs:subClassOf :External .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Simulations
+:Simulations rdf:type owl:Class ;
+             rdfs:subClassOf :Reliability_Testing .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Single_Transaction_Optimization
+:Single_Transaction_Optimization rdf:type owl:Class ;
+                                 rdfs:subClassOf :Performance_Efficiency .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Site_statistics
+:Site_statistics rdf:type owl:Class ;
+                 rdfs:subClassOf :IO ,
+                                 :Other_Systems .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Size
+:Size rdf:type owl:Class ;
+      rdfs:subClassOf :Userbase_Information .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Context
+:Software_Context rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Purpose
+:Software_Purpose rdf:type owl:Class ;
+                  rdfs:subClassOf :Business_Process .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Quality_Factors
+:Software_Quality_Factors rdf:type owl:Class ;
+                          rdfs:subClassOf :Software_Context .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Stability
+:Stability rdf:type owl:Class ;
+           rdfs:subClassOf :API_Maturity .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Stakeholders
+:Stakeholders rdf:type owl:Class ;
+              rdfs:subClassOf :Business_Process .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Strategic_Roadmap
+:Strategic_Roadmap rdf:type owl:Class ;
+                   rdfs:subClassOf :Business_Process .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Structure
+:Structure rdf:type owl:Class ;
+           rdfs:subClassOf :Planning_Process_Considerations ;
+           owl:disjointWith :Technical_Debt .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/System_Communication
+:System_Communication rdf:type owl:Class ;
+                      rdfs:subClassOf :Performance_Efficiency .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/System_Functionality
+:System_Functionality rdf:type owl:Class ;
+                      rdfs:subClassOf :Maintainability .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/System_Processes
+:System_Processes rdf:type owl:Class ;
+                  rdfs:subClassOf :Security_Architechture .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Teams
+:Teams rdf:type owl:Class ;
+       rdfs:subClassOf :Organization .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Technical_Debt
+:Technical_Debt rdf:type owl:Class ;
+                rdfs:subClassOf :Planning_Process_Considerations .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Technology
+:Technology rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Code
+:Test_Code rdf:type owl:Class ;
+           rdfs:subClassOf :Codebase .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Configuration
+:Test_Configuration rdf:type owl:Class ;
+                    rdfs:subClassOf :Codebase .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Environments
+:Test_Environments rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Maturity
+:Test_Maturity rdf:type owl:Class ;
+               rdfs:subClassOf :Functional_Scalability .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Types
+:Test_Types rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Testing_Criteria
+:Testing_Criteria rdf:type owl:Class ;
+                  rdfs:subClassOf :Testing_Phase .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Testing_Phase
+:Testing_Phase rdf:type owl:Class ;
+               rdfs:subClassOf :Development_Cycle_Security ,
+                               :Development_Practices .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Tests
+:Tests rdf:type owl:Class ;
+       rdfs:subClassOf :Failover .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Threat_Mitigation
+:Threat_Mitigation rdf:type owl:Class ;
+                   rdfs:subClassOf :Security .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Tools
+:Tools rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Transaction_Handling
+:Transaction_Handling rdf:type owl:Class ;
+                      rdfs:subClassOf :Reliability .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Transaction_Increase
+:Transaction_Increase rdf:type owl:Class ;
+                      rdfs:subClassOf :Performance_Impact .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Transaction_Scalability
+:Transaction_Scalability rdf:type owl:Class ;
+                         rdfs:subClassOf :Performance_Efficiency ,
+                                         :Scalability .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Usage_Measurements
+:Usage_Measurements rdf:type owl:Class ;
+                    rdfs:subClassOf :App_Information .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Feedback
+:User_Feedback rdf:type owl:Class ;
+               rdfs:subClassOf :App_Information .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Management
+:User_Management rdf:type owl:Class ;
+                 rdfs:subClassOf :Security_Architechture .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Portals
+:User_Portals rdf:type owl:Class ;
+              rdfs:subClassOf :Userbase_Information .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Roles
+:User_Roles rdf:type owl:Class ;
+            rdfs:subClassOf :Userbase_Information .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Types
+:User_Types rdf:type owl:Class ;
+            rdfs:subClassOf :User_Management .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Userbase_Information
+:Userbase_Information rdf:type owl:Class ;
+                      rdfs:subClassOf :Business_Process .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Usernames
+:Usernames rdf:type owl:Class ;
+           rdfs:subClassOf :Authenticaion_Credentials .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Users
+:Users rdf:type owl:Class ;
+       rdfs:subClassOf :Stakeholders .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Version_Control
+:Version_Control rdf:type owl:Class ;
+                 rdfs:subClassOf :Configuration_Management .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Web_Server
+:Web_Server rdf:type owl:Class ;
+            rdfs:subClassOf :System_Processes .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Architechture_Documentation
+:Architechture_Documentation rdf:type owl:NamedIndividual ,
+                                      :Documentation .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Computer_Resource_Utilization
+:Computer_Resource_Utilization rdf:type owl:NamedIndividual ,
+                                        :Performance_Metrics .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_per_Request
+:Data_per_Request rdf:type owl:NamedIndividual ,
+                           :Internal_Communication_Metrics .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_per_call
+:Data_per_call rdf:type owl:NamedIndividual ,
+                        :External_Communication_Metrics .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/End_to_End
+:End_to_End rdf:type owl:NamedIndividual ,
+                     :Test_Types .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maximum_Size
+:Maximum_Size rdf:type owl:NamedIndividual ,
+                       :Data_Scalability_Metrics .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maximum_Volume
+:Maximum_Volume rdf:type owl:NamedIndividual ,
+                         :Data_Scalability_Metrics .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Non_Functional
+:Non_Functional rdf:type owl:NamedIndividual ,
+                         :Test_Types .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Non_Functional_Requirements_Documentation
+:Non_Functional_Requirements_Documentation rdf:type owl:NamedIndividual ,
+                                                    :Documentation .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Number_of_users
+:Number_of_users rdf:type owl:NamedIndividual ,
+                          :KPI .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Recovery
+:Recovery rdf:type owl:NamedIndividual ,
+                   :Tests .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Regression
+:Regression rdf:type owl:NamedIndividual ,
+                     :Test_Types .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Response_Time
+:Response_Time rdf:type owl:NamedIndividual ,
+                        :External_Communication_Metrics ,
+                        :Performance_Metrics .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Source_Code_Documentation
+:Source_Code_Documentation rdf:type owl:NamedIndividual ,
+                                    :Documentation .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/System_Documentation
+:System_Documentation rdf:type owl:NamedIndividual ,
+                               :Documentation .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Unit
+:Unit rdf:type owl:NamedIndividual ,
+               :Test_Types .
+
+
+###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi

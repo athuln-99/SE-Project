@@ -138,7 +138,6 @@
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/percentageDedicatedFor
 :percentageDedicatedFor rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf owl:topObjectProperty ;
                         rdfs:domain :Hardware ;
                         rdfs:range :Isolation .
 
@@ -231,7 +230,6 @@
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesTools
 :usesTools rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf owl:topObjectProperty ;
            rdfs:domain :Programming_Considerations ,
                        :Testing_Phase ;
            rdfs:range :Tools .
@@ -1285,10 +1283,6 @@
                      :Test_Types .
 
 
-###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maintainability
-:Maintainability rdf:type owl:NamedIndividual .
-
-
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maximum_Size
 :Maximum_Size rdf:type owl:NamedIndividual ,
                        :Data_Scalability_Metrics .
@@ -1314,10 +1308,6 @@
                           :KPI .
 
 
-###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Efficiency
-:Performance_Efficiency rdf:type owl:NamedIndividual .
-
-
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Recovery
 :Recovery rdf:type owl:NamedIndividual ,
                    :Tests .
@@ -1328,22 +1318,10 @@
                      :Test_Types .
 
 
-###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Reliability
-:Reliability rdf:type owl:NamedIndividual .
-
-
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Response_Time
 :Response_Time rdf:type owl:NamedIndividual ,
                         :External_Communication_Metrics ,
                         :Performance_Metrics .
-
-
-###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Scalability
-:Scalability rdf:type owl:NamedIndividual .
-
-
-###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security
-:Security rdf:type owl:NamedIndividual .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Source_Code_Documentation

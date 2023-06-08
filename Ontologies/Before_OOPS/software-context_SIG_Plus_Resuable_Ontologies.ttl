@@ -1,0 +1,2698 @@
+@prefix : <http://www.semanticweb.org/ontologies/2023/SE/software-context#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/ontologies/2023/SE/software-context#> .
+
+<http://www.semanticweb.org/ontologies/2023/SE/software-context> rdf:type owl:Ontology ;
+                                                                  rdfs:comment "This is an ontoloy about Software Context"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/has_relation
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/has_relation> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.NewOnto1.org/SecAOnto_V1#assessmentDimensionHasRelatedAssessmentDimension
+<http://www.NewOnto1.org/SecAOnto_V1#assessmentDimensionHasRelatedAssessmentDimension> rdf:type owl:ObjectProperty ;
+                                                                                       rdfs:domain <http://www.NewOnto1.org/SecAOnto_V1#AssessmentDimension> ;
+                                                                                       rdfs:range <http://www.NewOnto1.org/SecAOnto_V1#AssessmentDimension> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#hasDistanceFromAssessmentDimension
+<http://www.NewOnto1.org/SecAOnto_V1#hasDistanceFromAssessmentDimension> rdf:type owl:ObjectProperty ;
+                                                                         rdfs:domain <http://www.NewOnto1.org/SecAOnto_V1#AssessmentDimension> ;
+                                                                         rdfs:range <http://www.NewOnto1.org/SecAOnto_V1#AssessmentDimension> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#hasDistanceFromSecurityProperty
+<http://www.NewOnto1.org/SecAOnto_V1#hasDistanceFromSecurityProperty> rdf:type owl:ObjectProperty ;
+                                                                      rdfs:domain <http://www.NewOnto1.org/SecAOnto_V1#SecurityProperty> ;
+                                                                      rdfs:range <http://www.NewOnto1.org/SecAOnto_V1#SecurityProperty> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#isExploitedBy
+<http://www.NewOnto1.org/SecAOnto_V1#isExploitedBy> rdf:type owl:ObjectProperty ;
+                                                    rdfs:domain <http://www.NewOnto1.org/SecAOnto_V1#Defect> ;
+                                                    rdfs:range <http://www.NewOnto1.org/SecAOnto_V1#Attack> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#isGeneratedBy
+<http://www.NewOnto1.org/SecAOnto_V1#isGeneratedBy> rdf:type owl:ObjectProperty ;
+                                                    rdfs:domain <http://www.NewOnto1.org/SecAOnto_V1#Error> ;
+                                                    rdfs:range <http://www.NewOnto1.org/SecAOnto_V1#Defect> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#isThreatenedBy
+<http://www.NewOnto1.org/SecAOnto_V1#isThreatenedBy> rdf:type owl:ObjectProperty ;
+                                                     rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability> ,
+                                                                 <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security> ;
+                                                     rdfs:range <http://www.NewOnto1.org/SecAOnto_V1#Attack> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#protectsFrom
+<http://www.NewOnto1.org/SecAOnto_V1#protectsFrom> rdf:type owl:ObjectProperty ;
+                                                   rdfs:domain <http://www.NewOnto1.org/SecAOnto_V1#Defense> ;
+                                                   rdfs:range <http://www.NewOnto1.org/SecAOnto_V1#Attack> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#securityPropertyHasRelatedSecurityProperty
+<http://www.NewOnto1.org/SecAOnto_V1#securityPropertyHasRelatedSecurityProperty> rdf:type owl:ObjectProperty ;
+                                                                                 rdfs:domain <http://www.NewOnto1.org/SecAOnto_V1#SecurityProperty> ;
+                                                                                 rdfs:range <http://www.NewOnto1.org/SecAOnto_V1#SecurityProperty> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#composedOfAS
+:composedOfAS rdf:type owl:ObjectProperty ;
+              rdfs:domain :Composite_Service ;
+              rdfs:range :Atomic_Service .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#composedOfCS
+:composedOfCS rdf:type owl:ObjectProperty ;
+              rdfs:domain :Composite_Service ;
+              rdfs:range :Composite_Service .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#delieveredTo
+:delieveredTo rdf:type owl:ObjectProperty ;
+              rdfs:domain :Product ,
+                          :Service ;
+              rdfs:range :Customers .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#isCreatedBy
+:isCreatedBy rdf:type owl:ObjectProperty ;
+             rdfs:domain <http://www.NewOnto1.org/SecAOnto_V1#Threat> ;
+             rdfs:range <http://www.NewOnto1.org/SecAOnto_V1#Attack> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#mitigatedBy
+:mitigatedBy rdf:type owl:ObjectProperty ;
+             rdfs:domain <http://www.NewOnto1.org/SecAOnto_V1#Threat> ;
+             rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Threat_Mitigation> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#organizedInto
+:organizedInto rdf:type owl:ObjectProperty ;
+               rdfs:domain :Personel ;
+               rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Teams> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#retrievedFrom
+:retrievedFrom rdf:type owl:ObjectProperty ;
+               rdfs:domain :Information_System ;
+               rdfs:range :Service .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/addresses
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/addresses> rdf:type owl:ObjectProperty ;
+                                                                           rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainability> ;
+                                                                           rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Current_Challenges> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/affectsEaseOfReliabilityFixes
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/affectsEaseOfReliabilityFixes> rdf:type owl:ObjectProperty ;
+                                                                                               rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainable_Architechture_Considerations> ;
+                                                                                               rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/allowsFor
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/allowsFor> rdf:type owl:ObjectProperty ;
+                                                                           rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Modifiability> ;
+                                                                           rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Corrections> ,
+                                                                                      <http://www.semanticweb.org/ontologies/2023/SE/software-context/Improvements> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/appliesEasilyUsable
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/appliesEasilyUsable> rdf:type owl:ObjectProperty ;
+                                                                                     rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/API_Maturity> ;
+                                                                                     rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Frameworks> ,
+                                                                                                <http://www.semanticweb.org/ontologies/2023/SE/software-context/Tools> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/assistsWithRecoverability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/assistsWithRecoverability> rdf:type owl:ObjectProperty ;
+                                                                                           rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Redundancy> ;
+                                                                                           rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Recoverability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/automatedProvisioning
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/automatedProvisioning> rdf:type owl:ObjectProperty ;
+                                                                                       rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Environments> ;
+                                                                                       rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Environments> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/automates
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/automates> rdf:type owl:ObjectProperty ;
+                                                                           rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Deployment_Process> ;
+                                                                           rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Migration> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/canDirectlyAffect
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/canDirectlyAffect> rdf:type owl:ObjectProperty ;
+                                                                                   rdfs:domain :Available_Resources ,
+                                                                                               <http://www.semanticweb.org/ontologies/2023/SE/software-context/Competitors> ,
+                                                                                               <http://www.semanticweb.org/ontologies/2023/SE/software-context/KPI> ,
+                                                                                               <http://www.semanticweb.org/ontologies/2023/SE/software-context/Project_Management_Practices> ,
+                                                                                               <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Purpose> ,
+                                                                                               <http://www.semanticweb.org/ontologies/2023/SE/software-context/Stakeholders> ,
+                                                                                               <http://www.semanticweb.org/ontologies/2023/SE/software-context/Strategic_Roadmap> ,
+                                                                                               <http://www.semanticweb.org/ontologies/2023/SE/software-context/Userbase_Information> ;
+                                                                                   rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Model> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/commitRegularlyFor
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/commitRegularlyFor> rdf:type owl:ObjectProperty ;
+                                                                                    rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Commit_Changes> ;
+                                                                                    rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Configuration_Management> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/controlledApplicationOf
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/controlledApplicationOf> rdf:type owl:ObjectProperty ;
+                                                                                         rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Deployment_Process> ;
+                                                                                         rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Hotfixes> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/definesRequirements
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/definesRequirements> rdf:type owl:ObjectProperty ;
+                                                                                     rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Definition_Of_Done> ;
+                                                                                     rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Definition_Of_Done> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/easilyCreates
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/easilyCreates> rdf:type owl:ObjectProperty ;
+                                                                               rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Environments> ;
+                                                                               rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Test_Environments> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/implies
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/implies> rdf:type owl:ObjectProperty ;
+                                                                         rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Implemented_Modifications> ;
+                                                                         rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Modifiability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/impliesToHave
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/impliesToHave> rdf:type owl:ObjectProperty ;
+                                                                               rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Implemented_Modifications> ;
+                                                                               rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Fault_Tolerance> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/improvedByTesting
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/improvedByTesting> rdf:type owl:ObjectProperty ;
+                                                                                   rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Model_Characteristics> ;
+                                                                                   rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Testing> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/improvesFaultTolerance
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/improvesFaultTolerance> rdf:type owl:ObjectProperty ;
+                                                                                        rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Fault_Isolation> ;
+                                                                                        rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Fault_Tolerance> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/incorporates
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/incorporates> rdf:type owl:ObjectProperty ;
+                                                                              rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Integration> ;
+                                                                              rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Automation_Characteristics> ,
+                                                                                         <http://www.semanticweb.org/ontologies/2023/SE/software-context/Build_Automation> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/informsAbout
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/informsAbout> rdf:type owl:ObjectProperty ;
+                                                                              rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Strategic_Roadmap> ;
+                                                                              rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Resource_Allocation> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/interactWith
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/interactWith> rdf:type owl:ObjectProperty ,
+                                                                                       owl:SymmetricProperty ;
+                                                                              rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Developers> ;
+                                                                              rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Teams> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/intergatedWith
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/intergatedWith> rdf:type owl:ObjectProperty ;
+                                                                                rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainable_Architechture_Considerations> ;
+                                                                                rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security_Architechture> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/isFlexible
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/isFlexible> rdf:type owl:ObjectProperty ;
+                                                                            rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/API_Maturity> ;
+                                                                            rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/API_Maturity> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/isTransparent
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/isTransparent> rdf:type owl:ObjectProperty ;
+                                                                               rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/API_Maturity> ;
+                                                                               rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/API_Maturity> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/issuesRelatedTo
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/issuesRelatedTo> rdf:type owl:ObjectProperty ;
+                                                                                 rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Historical_Issues> ;
+                                                                                 rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Quality_Factors> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/madeUsingCriteria
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/madeUsingCriteria> rdf:type owl:ObjectProperty ;
+                                                                                   rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainable_Architechture_Considerations> ;
+                                                                                   rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/measures
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/measures> rdf:type owl:ObjectProperty ;
+                                                                          rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Scalability> ;
+                                                                          rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Scalability_Metrics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/measuresDataScalabilityUsing
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/measuresDataScalabilityUsing> rdf:type owl:ObjectProperty ;
+                                                                                              rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Scalability> ;
+                                                                                              rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Scalability_Metrics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/measuresPerfomanceEfficiencyUsing
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/measuresPerfomanceEfficiencyUsing> rdf:type owl:ObjectProperty ;
+                                                                                                   rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Efficiency> ;
+                                                                                                   rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Metrics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/measuresReliabilityUsing
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/measuresReliabilityUsing> rdf:type owl:ObjectProperty ;
+                                                                                          rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability> ;
+                                                                                          rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Metrics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/observedUsing
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/observedUsing> rdf:type owl:ObjectProperty ;
+                                                                               rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainability_Model_Characteristics> ;
+                                                                               rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Codebase> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/organizationStructureImpacts
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/organizationStructureImpacts> rdf:type owl:ObjectProperty ;
+                                                                                              rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Organization> ;
+                                                                                              rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Resource_Allocation> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/percentageDedicatedFor
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/percentageDedicatedFor> rdf:type owl:ObjectProperty ;
+                                                                                        rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Hardware> ;
+                                                                                        rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Isolation> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/protectedBy
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/protectedBy> rdf:type owl:ObjectProperty ;
+                                                                             rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Communication_Protocols> ;
+                                                                             rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/providesCriteriaFor
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/providesCriteriaFor> rdf:type owl:ObjectProperty ;
+                                                                                     rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Definition_Of_Done> ;
+                                                                                     rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Practices> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/recordedThrough
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/recordedThrough> rdf:type owl:ObjectProperty ;
+                                                                                 rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Metrics> ;
+                                                                                 rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Monitoring> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/regularlyIntegrateFor
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/regularlyIntegrateFor> rdf:type owl:ObjectProperty ;
+                                                                                       rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Branches> ;
+                                                                                       rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Configuration_Management> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/relatedTo
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/relatedTo> rdf:type owl:ObjectProperty ;
+                                                                           rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Historical_Issues> ;
+                                                                           rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Quality_Factors> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/safelyPlansForCorrect
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/safelyPlansForCorrect> rdf:type owl:ObjectProperty ;
+                                                                                       rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Project_Management_Practices> ;
+                                                                                       rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Resource_Allocation> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/setsGoals
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/setsGoals> rdf:type owl:ObjectProperty ;
+                                                                           rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Strategic_Roadmap> ;
+                                                                           rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Goals> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/standardizes
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/standardizes> rdf:type owl:ObjectProperty ;
+                                                                              rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/API_Maturity> ;
+                                                                              rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Architechtures_Principles> ,
+                                                                                         <http://www.semanticweb.org/ontologies/2023/SE/software-context/Communication_Protocols> ,
+                                                                                         <http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Formats> ,
+                                                                                         <http://www.semanticweb.org/ontologies/2023/SE/software-context/Endpoints> ,
+                                                                                         <http://www.semanticweb.org/ontologies/2023/SE/software-context/Error_Messages> ,
+                                                                                         <http://www.semanticweb.org/ontologies/2023/SE/software-context/Technology> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/testableThrough
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/testableThrough> rdf:type owl:ObjectProperty ;
+                                                                                 rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/External_Integrations> ;
+                                                                                 rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Environments> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/usedToDevelop
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/usedToDevelop> rdf:type owl:ObjectProperty ;
+                                                                               rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Programming_Considerations> ;
+                                                                               rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Codebase> ,
+                                                                                          <http://www.semanticweb.org/ontologies/2023/SE/software-context/Other_Systems> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/usesDependencies
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/usesDependencies> rdf:type owl:ObjectProperty ;
+                                                                                  rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Components> ;
+                                                                                  rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Dependencies> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/usesFrameworks
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/usesFrameworks> rdf:type owl:ObjectProperty ;
+                                                                                rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/API_Maturity> ,
+                                                                                            <http://www.semanticweb.org/ontologies/2023/SE/software-context/Codebase> ,
+                                                                                            <http://www.semanticweb.org/ontologies/2023/SE/software-context/Testing_Phase> ;
+                                                                                rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Frameworks> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/usesTestTypes
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/usesTestTypes> rdf:type owl:ObjectProperty ;
+                                                                               rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Testing_Phase> ;
+                                                                               rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Test_Types> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/usesTools
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/usesTools> rdf:type owl:ObjectProperty ;
+                                                                           rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Programming_Considerations> ,
+                                                                                       <http://www.semanticweb.org/ontologies/2023/SE/software-context/Testing_Phase> ;
+                                                                           rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Tools> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/usesUpToDate
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/usesUpToDate> rdf:type owl:ObjectProperty ;
+                                                                              rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Libraries> ;
+                                                                              rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Policy> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/validate
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/validate> rdf:type owl:ObjectProperty ;
+                                                                          rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Input_Validation> ;
+                                                                          rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/File_Uploads> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/wellDocumentIn
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/wellDocumentIn> rdf:type owl:ObjectProperty ;
+                                                                                rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/API_Maturity> ;
+                                                                                rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/API_Documentation> .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.NewOnto1.org/SecAOnto_V1#AccessControl
+<http://www.NewOnto1.org/SecAOnto_V1#AccessControl> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Countermeasure> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#ActiveAttack
+<http://www.NewOnto1.org/SecAOnto_V1#ActiveAttack> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Attack> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#AntimalwareSoftware
+<http://www.NewOnto1.org/SecAOnto_V1#AntimalwareSoftware> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#AccessControl> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Assessment
+<http://www.NewOnto1.org/SecAOnto_V1#Assessment> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security> ;
+                                                 rdfs:comment "\"Assessment, Test, Verification and Evaluation – Test is the dynamic activity aiming at to run a program or model in a controlled manner using some specific entries and verify whether the behavior is according to specifications in order to identify defects or ensure its reliability. There are various kinds of tests, e.g., Functional, Penetration, Fuzzing, Fault or Defect Injection, Exploratory, etc. Verification is the activity aiming at verifies whether a requirement is present, without a test of the functionality. There are various kinds of verification, e.g., Compliance (with rules or regulations), Formal Methods, Vulnerability Analysis, Reverse engineering, Social engineering, Business Rules, etc. The term Assessment is more generic and includes testing and verifying activities. Evaluation is considered synonymous of Assessment in this context.\"" .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#AssessmentCoverage
+<http://www.NewOnto1.org/SecAOnto_V1#AssessmentCoverage> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Assessment> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#AssessmentCriteria
+<http://www.NewOnto1.org/SecAOnto_V1#AssessmentCriteria> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Assessment> ;
+                                                         rdfs:comment "\"Assessment Criteria – Assessment criteria are rules that define how we will execute the assessment. Assessment criteria define requirements to be satisfied, namely: how to select assessment data; how to verify the quality of assessment activity; and how to define the sufficiency of requirements for the end of assessment activities. \"" .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#AssessmentDesign
+<http://www.NewOnto1.org/SecAOnto_V1#AssessmentDesign> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Assessment> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#AssessmentDimension
+<http://www.NewOnto1.org/SecAOnto_V1#AssessmentDimension> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Assessment> ;
+                                                          rdfs:comment """\"Assessment Dimension – Scope of assessment, i.e., define under which views the system must be evaluated. Assessment Dimensions are: Business Logic; System Architecture; Process; System in Runtime (Black Box); Source Code (White Box); and Operating Environment. 
+Assessment Dimension 1. Business Logic – This dimension aims to evaluate the system requirements, searching for vulnerable points or absences in the system specification that could be legitimately exploited. Business logic faults cannot be detected in code review. 
+Assessment Dimension 2. System Architecture – This dimension aims to evaluate the system design, searching for vulnerable points or absences that could cause the system to not operate properly (e.g.: vulnerable protocols, unsecure interoperability, mobility problems, etc. 
+Assessment Dimension 3. Process – This dimension aims to evaluate processes and procedures of system, searching for vulnerable points or absences that could interfere with correct operation of the system. Thus, this dimension is intended to assess the overall context, before and after the system, trying to identify points of process where the system is inserted but that are beyond the scope of software requirements. E.g.: Access authorization and attribution of profiles, schedules of use and operation, criteria for physical access to resources or facilities, etc. 
+Assessment Dimension 4. System in Runtime (Black Box) – This dimension aims to evaluate the system execution, searching for vulnerabilities or absences that could be exploited in the case of incorrect configuration or incorrect use, intentionally or not. 
+Assessment Dimension 5. Source Code (White Box) – This dimension aims to evaluate the system source code, searching for vulnerabilities or absences that could be exploited. E.g.: vulnerable libraries, incorrect algorithms, unsecure functions or fragile parameters. 
+Assessment Dimension 6. Operating Environment – This dimension aims to evaluate the system's operating environment, searching for vulnerabilities or absences that could be exploited. Operating environments are: Operating Systems, Support Systems and Network Infrastructure where the system will operate. For example: unsecure versions, protocols or configurations in operating systems or communications networks that will support the system under evaluation. 
+\"""" .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristics
+<http://www.NewOnto1.org/SecAOnto_V1#AssessmentHeuristics> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Assessment> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#AssessmentItem
+<http://www.NewOnto1.org/SecAOnto_V1#AssessmentItem> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#KnowledgeSource> ;
+                                                     rdfs:comment "\"Assessment Item – Assessment Items are assessment requirements, such as test cases, verification items, standard controls, aiming at to find defects or faults in SUT (System Under Test). Assessment Items has an expected result and a procedure (script) to execute them. \"" .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#AssessmentObjectives
+<http://www.NewOnto1.org/SecAOnto_V1#AssessmentObjectives> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Assessment> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#AsymmetricKey
+<http://www.NewOnto1.org/SecAOnto_V1#AsymmetricKey> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#EncryptionAlgorithm> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Attack
+<http://www.NewOnto1.org/SecAOnto_V1#Attack> rdf:type owl:Class .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Backup
+<http://www.NewOnto1.org/SecAOnto_V1#Backup> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Countermeasure> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#BiometricRecognition
+<http://www.NewOnto1.org/SecAOnto_V1#BiometricRecognition> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#LoginSystem> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#BruteForce
+<http://www.NewOnto1.org/SecAOnto_V1#BruteForce> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#ActiveAttack> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#BufferOverflow
+<http://www.NewOnto1.org/SecAOnto_V1#BufferOverflow> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#MalformedInput> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#BusinessRules
+<http://www.NewOnto1.org/SecAOnto_V1#BusinessRules> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Verification> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#ByHuman
+<http://www.NewOnto1.org/SecAOnto_V1#ByHuman> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#OperationDefect> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Calculus
+<http://www.NewOnto1.org/SecAOnto_V1#Calculus> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#DevelopmentDefect> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Certification
+<http://www.NewOnto1.org/SecAOnto_V1#Certification> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#ResultAnalysis> ;
+                                                    rdfs:comment "Certification relates to \"certify\", \"formal concession\", and submission to regulation\". Product: Certificate." .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#ChecksumAlgorithm
+<http://www.NewOnto1.org/SecAOnto_V1#ChecksumAlgorithm> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Cryptography> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#CodeInjection
+<http://www.NewOnto1.org/SecAOnto_V1#CodeInjection> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#MalformedInput> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Compliance
+<http://www.NewOnto1.org/SecAOnto_V1#Compliance> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Verification> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Control
+<http://www.NewOnto1.org/SecAOnto_V1#Control> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Defense> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Countermeasure
+<http://www.NewOnto1.org/SecAOnto_V1#Countermeasure> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Defense> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Cryptography
+<http://www.NewOnto1.org/SecAOnto_V1#Cryptography> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Countermeasure> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Defect
+<http://www.NewOnto1.org/SecAOnto_V1#Defect> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security> ;
+                                             rdfs:comment "\"Defect – It is a deficiency or lack in a step, process or in definition of data. Resident in the program, when executed, a defect may cause an error.\"" .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#DefectInjection
+<http://www.NewOnto1.org/SecAOnto_V1#DefectInjection> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Test> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Defense
+<http://www.NewOnto1.org/SecAOnto_V1#Defense> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#DefiningMaturity
+<http://www.NewOnto1.org/SecAOnto_V1#DefiningMaturity> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#AssessmentObjectives> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#DesignDefect
+<http://www.NewOnto1.org/SecAOnto_V1#DesignDefect> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#SecurityDefect> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#DevelopmentDefect
+<http://www.NewOnto1.org/SecAOnto_V1#DevelopmentDefect> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#SecurityDefect> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#EmailFilter
+<http://www.NewOnto1.org/SecAOnto_V1#EmailFilter> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#AccessControl> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#EncryptionAlgorithm
+<http://www.NewOnto1.org/SecAOnto_V1#EncryptionAlgorithm> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Cryptography> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Error
+<http://www.NewOnto1.org/SecAOnto_V1#Error> rdf:type owl:Class ;
+                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security> ;
+                                            rdfs:comment "\"Error – It is an inconsistent or unexpected condition of the program. It is an incorrect value or incorrect sequence in a given status of the program. It is caused by the execution of a defect. \"" .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#ExpectedResult
+<http://www.NewOnto1.org/SecAOnto_V1#ExpectedResult> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#AssessmentItem> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Exploratory
+<http://www.NewOnto1.org/SecAOnto_V1#Exploratory> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Test> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#ExternalProcesses
+<http://www.NewOnto1.org/SecAOnto_V1#ExternalProcesses> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#OperationDefect> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#FindingDefects
+<http://www.NewOnto1.org/SecAOnto_V1#FindingDefects> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#AssessmentObjectives> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Firewall
+<http://www.NewOnto1.org/SecAOnto_V1#Firewall> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#AccessControl> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#FlowControl
+<http://www.NewOnto1.org/SecAOnto_V1#FlowControl> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#DevelopmentDefect> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#FormalMethods
+<http://www.NewOnto1.org/SecAOnto_V1#FormalMethods> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Verification> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#FormatString
+<http://www.NewOnto1.org/SecAOnto_V1#FormatString> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#MalformedInput> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Functional
+<http://www.NewOnto1.org/SecAOnto_V1#Functional> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Test> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Functionality
+<http://www.NewOnto1.org/SecAOnto_V1#Functionality> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#DesignDefect> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Fuzzing
+<http://www.NewOnto1.org/SecAOnto_V1#Fuzzing> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Test> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Homologation
+<http://www.NewOnto1.org/SecAOnto_V1#Homologation> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#ResultAnalysis> ;
+                                                   rdfs:comment "Homologation relates to \"ratify\", \"affirm\", \"confirm\", \"validate\", \"verify\", \"examine\", \"check\" and \"approve\". Product: Report." .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#HoneyPot
+<http://www.NewOnto1.org/SecAOnto_V1#HoneyPot> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Countermeasure> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Interoperability
+<http://www.NewOnto1.org/SecAOnto_V1#Interoperability> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#DesignDefect> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#IntrusionDetectionSystem
+<http://www.NewOnto1.org/SecAOnto_V1#IntrusionDetectionSystem> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#AccessControl> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#IntrusionPreventionSystem
+<http://www.NewOnto1.org/SecAOnto_V1#IntrusionPreventionSystem> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#AccessControl> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#KeyManagement
+<http://www.NewOnto1.org/SecAOnto_V1#KeyManagement> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Countermeasure> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#KnowledgeSource
+<http://www.NewOnto1.org/SecAOnto_V1#KnowledgeSource> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Assessment> ;
+                                                      rdfs:comment "\"Knowledge Source – Knowledge Sources are documents, standards, Web sites, etc., which can be used in an assessment process to provide a set of assessment items. For example: Market Standards, Patterns, Methods, Checklists, Sets of Test Cases, etc.\"" .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Limit
+<http://www.NewOnto1.org/SecAOnto_V1#Limit> rdf:type owl:Class ;
+                                            rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#DevelopmentDefect> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#LoginSystem
+<http://www.NewOnto1.org/SecAOnto_V1#LoginSystem> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Countermeasure> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#MalformedInput
+<http://www.NewOnto1.org/SecAOnto_V1#MalformedInput> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#ActiveAttack> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#ManInTheMiddle
+<http://www.NewOnto1.org/SecAOnto_V1#ManInTheMiddle> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#PassiveAttack> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#MeasuringSecurity
+<http://www.NewOnto1.org/SecAOnto_V1#MeasuringSecurity> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#AssessmentObjectives> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Monitoring
+<http://www.NewOnto1.org/SecAOnto_V1#Monitoring> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Countermeasure> ;
+                                                 rdfs:comment "Monitoring includes \"Auditing\", \"Log Monitoring\", and \"Logging\"." .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#NetworkInfrastructure
+<http://www.NewOnto1.org/SecAOnto_V1#NetworkInfrastructure> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#ActiveAttack> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#OperationDefect
+<http://www.NewOnto1.org/SecAOnto_V1#OperationDefect> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#SecurityDefect> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#OperationalEnvironment
+<http://www.NewOnto1.org/SecAOnto_V1#OperationalEnvironment> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#DevelopmentDefect> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Output
+<http://www.NewOnto1.org/SecAOnto_V1#Output> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#DevelopmentDefect> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#PassiveAttack
+<http://www.NewOnto1.org/SecAOnto_V1#PassiveAttack> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Attack> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Penetration
+<http://www.NewOnto1.org/SecAOnto_V1#Penetration> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Test> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Performance
+<http://www.NewOnto1.org/SecAOnto_V1#Performance> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#DesignDefect> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Phishing
+<http://www.NewOnto1.org/SecAOnto_V1#Phishing> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#PassiveAttack> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Procedure
+<http://www.NewOnto1.org/SecAOnto_V1#Procedure> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#AssessmentItem> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#RaceCondition
+<http://www.NewOnto1.org/SecAOnto_V1#RaceCondition> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#DevelopmentDefect> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#ResultAnalysis
+<http://www.NewOnto1.org/SecAOnto_V1#ResultAnalysis> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Assessment> ;
+                                                     rdfs:comment "\"Result Analysis of Assessment – The process of result analysis of assessment can be divided in Homologation and Certification. Homologation relates to “ratify”, “affirm”, “confirm”, and “approve”. The products of the homologation are: Reports of Assessment, Analysis, and Testing. Generally, a homologation has the following characteristics: usually not disclosed; it is subject to appeal or recourse; it is tied to a specific version of system or software. Certification relates to “certify”, “formal concession”, and “submission to regulation”. The products of the certification are: compliance certificate with a standard; and formal statement by means of certificate or equivalent document. Generally, the certification has the following characteristics: usually disclosed; low likelihood of appeal or recourse; it is tied to a specific version of system or software, or also a period of time; may involve gaining prerogatives and rights. \"" .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#ReverseEngineering
+<http://www.NewOnto1.org/SecAOnto_V1#ReverseEngineering> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Verification> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Safeguard
+<http://www.NewOnto1.org/SecAOnto_V1#Safeguard> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Defense> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#SecureNetworkComunication
+<http://www.NewOnto1.org/SecAOnto_V1#SecureNetworkComunication> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Countermeasure> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#SecurityDefect
+<http://www.NewOnto1.org/SecAOnto_V1#SecurityDefect> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Defect> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#SecurityHardware
+<http://www.NewOnto1.org/SecAOnto_V1#SecurityHardware> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Countermeasure> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#SecurityProperty
+<http://www.NewOnto1.org/SecAOnto_V1#SecurityProperty> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#SideChannel
+<http://www.NewOnto1.org/SecAOnto_V1#SideChannel> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#PassiveAttack> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#SignatureAlgorithm
+<http://www.NewOnto1.org/SecAOnto_V1#SignatureAlgorithm> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Cryptography> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#SocialEngineering
+<http://www.NewOnto1.org/SecAOnto_V1#SocialEngineering> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Verification> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Spyware
+<http://www.NewOnto1.org/SecAOnto_V1#Spyware> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#PassiveAttack> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Steganography
+<http://www.NewOnto1.org/SecAOnto_V1#Steganography> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Cryptography> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#StressCondition
+<http://www.NewOnto1.org/SecAOnto_V1#StressCondition> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#DevelopmentDefect> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#SymmetricKey
+<http://www.NewOnto1.org/SecAOnto_V1#SymmetricKey> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#EncryptionAlgorithm> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#SystemMapping
+<http://www.NewOnto1.org/SecAOnto_V1#SystemMapping> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#PassiveAttack> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Test
+<http://www.NewOnto1.org/SecAOnto_V1#Test> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Assessment> ;
+                                           rdfs:comment "\"Assessment, Test, Verification and Evaluation – Test is the dynamic activity aiming at to run a program or model in a controlled manner using some specific entries and verify whether the behavior is according to specifications in order to identify defects or ensure its reliability. There are various kinds of tests, e.g., Functional, Penetration, Fuzzing, Fault or Defect Injection, Exploratory, etc. Verification is the activity aiming at verifies whether a requirement is present, without a test of the functionality. There are various kinds of verification, e.g., Compliance (with rules or regulations), Formal Methods, Vulnerability Analysis, Reverse engineering, Social engineering, Business Rules, etc. The term Assessment is more generic and includes testing and verifying activities. Evaluation is considered synonymous of Assessment in this context.\"" .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Threat
+<http://www.NewOnto1.org/SecAOnto_V1#Threat> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#TreatmentOfErrors
+<http://www.NewOnto1.org/SecAOnto_V1#TreatmentOfErrors> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#DevelopmentDefect> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Update
+<http://www.NewOnto1.org/SecAOnto_V1#Update> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#OperationDefect> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Validation
+<http://www.NewOnto1.org/SecAOnto_V1#Validation> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#DevelopmentDefect> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Verification
+<http://www.NewOnto1.org/SecAOnto_V1#Verification> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Assessment> ;
+                                                   rdfs:comment "\"Assessment, Test, Verification and Evaluation – Test is the dynamic activity aiming at to run a program or model in a controlled manner using some specific entries and verify whether the behavior is according to specifications in order to identify defects or ensure its reliability. There are various kinds of tests, e.g., Functional, Penetration, Fuzzing, Fault or Defect Injection, Exploratory, etc. Verification is the activity aiming at verifies whether a requirement is present, without a test of the functionality. There are various kinds of verification, e.g., Compliance (with rules or regulations), Formal Methods, Vulnerability Analysis, Reverse engineering, Social engineering, Business Rules, etc. The term Assessment is more generic and includes testing and verifying activities. Evaluation is considered synonymous of Assessment in this context.\"" .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#VerifyingCompliance
+<http://www.NewOnto1.org/SecAOnto_V1#VerifyingCompliance> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#AssessmentObjectives> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Vulnerability
+<http://www.NewOnto1.org/SecAOnto_V1#Vulnerability> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#VulnerabilityAnalysis
+<http://www.NewOnto1.org/SecAOnto_V1#VulnerabilityAnalysis> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Verification> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#VulnerabilityScanner
+<http://www.NewOnto1.org/SecAOnto_V1#VulnerabilityScanner> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://www.NewOnto1.org/SecAOnto_V1#Countermeasure> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Atomic_Service
+:Atomic_Service rdf:type owl:Class ;
+                rdfs:subClassOf :Service .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Available_Resources
+:Available_Resources rdf:type owl:Class ;
+                     rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Business_Service
+:Business_Service rdf:type owl:Class ;
+                  rdfs:subClassOf :Atomic_Service .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Composite_Service
+:Composite_Service rdf:type owl:Class ;
+                   rdfs:subClassOf :Service .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Customers
+:Customers rdf:type owl:Class ;
+           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Data_Service
+:Data_Service rdf:type owl:Class ;
+              rdfs:subClassOf :Atomic_Service .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Information_System
+:Information_System rdf:type owl:Class ;
+                    rdfs:subClassOf :Available_Resources .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Personel
+:Personel rdf:type owl:Class ;
+          rdfs:subClassOf :Available_Resources .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Product
+:Product rdf:type owl:Class ;
+         rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Service
+:Service rdf:type owl:Class ;
+         rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Service_Inventory
+:Service_Inventory rdf:type owl:Class ;
+                   rdfs:subClassOf :Service .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Utility_Service
+:Utility_Service rdf:type owl:Class ;
+                 rdfs:subClassOf :Atomic_Service .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context#Verification_Service
+:Verification_Service rdf:type owl:Class ;
+                      rdfs:subClassOf :Atomic_Service .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/API_Documentation
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/API_Documentation> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/API_Maturity
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/API_Maturity> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Quality_Factors> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Accesibility
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Accesibility> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Quality_Factors> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Accessibility
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Accessibility> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Usability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Adaptability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Adaptability> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Portability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Administrators
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Administrators> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/User_Types> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Algorithms
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Algorithms> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Single_Transaction_Optimization> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Analysability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Analysability> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Anonymous_Users
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Anonymous_Users> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/User_Types> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/App_Information
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/App_Information> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Accesibility> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Application_Server
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Application_Server> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/System_Processes> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Appropriateness_Recognizatibility
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Appropriateness_Recognizatibility> rdf:type owl:Class ;
+                                                                                                   rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Usability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Architechts
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Architechts> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Stakeholders> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Architechture_Style_Based
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Architechture_Style_Based> rdf:type owl:Class ;
+                                                                                           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Reliability_Model> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Architechtures_Principles
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Architechtures_Principles> rdf:type owl:Class ;
+                                                                                           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/API_Maturity> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Attack_Prevention_Measures
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Attack_Prevention_Measures> rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Authenticaion_Credentials
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Authenticaion_Credentials> rdf:type owl:Class ;
+                                                                                           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Authentication_Mechanisms> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Authenticated_Users
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Authenticated_Users> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/User_Types> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Authentication_Mechanisms
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Authentication_Mechanisms> rdf:type owl:Class ;
+                                                                                           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security_Architechture> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Automated_Testing
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Automated_Testing> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Automation_Characteristics> ,
+                                                                                                   <http://www.semanticweb.org/ontologies/2023/SE/software-context/Build_Automation> ,
+                                                                                                   <http://www.semanticweb.org/ontologies/2023/SE/software-context/Functional_Scalability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Automation_Characteristics
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Automation_Characteristics> rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Scalability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Availabilty
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Availabilty> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Backup_Server
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Backup_Server> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/System_Processes> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Backups
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Backups> rdf:type owl:Class ;
+                                                                         rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Stores> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Behaviour
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Behaviour> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainable_Architechture_Considerations> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Branches
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Branches> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Browser
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Browser> rdf:type owl:Class ;
+                                                                         rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/System_Processes> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Browser_local_cookies
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Browser_local_cookies> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Stores> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Browser_local_storage
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Browser_local_storage> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Stores> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Build_Automation
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Build_Automation> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Codebase> ,
+                                                                                                  <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Model
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Model> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Context> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Caching
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Caching> rdf:type owl:Class ;
+                                                                         rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Efficiency> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Central_Error_Handling_System
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Central_Error_Handling_System> rdf:type owl:Class ;
+                                                                                               rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Exception_Handling> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Certification_Scope
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Certification_Scope> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Codebase> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Code_Reviews
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Code_Reviews> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Quality_Assurance_Considerations> ;
+                                                                              owl:disjointWith <http://www.semanticweb.org/ontologies/2023/SE/software-context/Code_Standards> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Code_Standards
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Code_Standards> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Quality_Assurance_Considerations> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Codebase
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Codebase> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Coding_Standards
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Coding_Standards> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Programming_Considerations> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Coexistence
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Coexistence> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Compatibility_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Commit_Changes
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Commit_Changes> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Communication_Channels
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Communication_Channels> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security_Architechture> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Communication_Protocols
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Communication_Protocols> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Compatibility
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Compatibility> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Quality_Factors> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Compatibility_Model_Characteristics
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Compatibility_Model_Characteristics> rdf:type owl:Class ;
+                                                                                                     rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Compatibility> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Competitors
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Competitors> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Component_Reliability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Component_Reliability> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Failure_Based> ,
+                                                                                                       <http://www.semanticweb.org/ontologies/2023/SE/software-context/Timed_Based> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Component_Reliability_Model
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Component_Reliability_Model> rdf:type owl:Class ;
+                                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Model_Types> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Components
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Components> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainable_Architechture_Considerations> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Compression
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Compression> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Efficiency> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Computation_Side_Effects
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Computation_Side_Effects> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Single_Transaction_Optimization> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Confidence_Intervals
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Confidence_Intervals> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Metrics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Configuration_Management
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Configuration_Management> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Practices> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Configurations
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Configurations> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Stores> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Content_Delivery_Networks
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Content_Delivery_Networks> rdf:type owl:Class ;
+                                                                                           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Other_Systems> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Continuous_Integration
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Continuous_Integration> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Automation_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Corrections
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Corrections> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Credit_Card_Numbers
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Credit_Card_Numbers> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Sensitive_Data> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Critical_Componenets
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Critical_Componenets> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Errors> ;
+                                                                                      owl:disjointWith <http://www.semanticweb.org/ontologies/2023/SE/software-context/Non_Critical_Components> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Cryptography
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Cryptography> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Current_Challenges
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Current_Challenges> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Formats
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Formats> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Migration
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Migration> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Scalability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Scalability> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Efficiency> ,
+                                                                                                  <http://www.semanticweb.org/ontologies/2023/SE/software-context/Scalability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Scalability_Metrics
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Scalability_Metrics> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Storage_Handling
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Storage_Handling> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Stores
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Stores> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security_Architechture> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Structures
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Structures> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Single_Transaction_Optimization> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Database_Code
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Database_Code> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Codebase> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Database_Encryption
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Database_Encryption> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Storage_Handling> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Databases
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Databases> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Stores> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Definition_Of_Done
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Definition_Of_Done> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> ,
+                                                                                                    <http://www.semanticweb.org/ontologies/2023/SE/software-context/Methodology> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Demographics
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Demographics> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/App_Information> ,
+                                                                                              <http://www.semanticweb.org/ontologies/2023/SE/software-context/Userbase_Information> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Dependencies
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Dependencies> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Deployment
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Deployment> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Build_Automation> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Deployment_Process
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Deployment_Process> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Practices> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Design_Phase
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Design_Phase> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Cycle_Security> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Design_Standards
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Design_Standards> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Programming_Considerations> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Developers
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Developers> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf :Personel ,
+                                                                                            <http://www.semanticweb.org/ontologies/2023/SE/software-context/Stakeholders> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Cycle_Security
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Cycle_Security> rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Phase_Practices
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Phase_Practices> rdf:type owl:Class ;
+                                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Methodology> ;
+                                                                                             owl:disjointWith <http://www.semanticweb.org/ontologies/2023/SE/software-context/Release_Phase_Practices> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Practices
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Practices> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Quality_Factors> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Scalability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Scalability> rdf:type owl:Class ;
+                                                                                         rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Scalability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Documentation
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Documentation> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Scalability> ,
+                                                                                               <http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainable_Architechture_Considerations> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Efficiency
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Efficiency> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/API_Maturity> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Encryption_keys
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Encryption_keys> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Sensitive_Data> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/End_to_End
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/End_to_End> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Test_Types> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Endpoints
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Endpoints> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Environments
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Environments> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Practices> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Error_Handling
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Error_Handling> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/API_Maturity> ,
+                                                                                                <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Error_Messages
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Error_Messages> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Errors
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Errors> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Fault_Isolation> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Evaluation_Criteria
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Evaluation_Criteria> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Certification_Scope> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Exception_Handling
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Exception_Handling> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Fault_Isolation> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Exception_Tree
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Exception_Tree> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Exception_Handling> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/External
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/External> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/System_Communication> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/External_Communication_Metrics
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/External_Communication_Metrics> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/External> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/External_Integrations
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/External_Integrations> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Practices> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/External_Systems
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/External_Systems> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Codebase> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/External_Web_Services
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/External_Web_Services> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/IO> ,
+                                                                                                       <http://www.semanticweb.org/ontologies/2023/SE/software-context/Other_Systems> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Failover
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Failover> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability> ,
+                                                                                          <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Metrics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Failure_Based
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Failure_Based> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Failure_Data> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Failure_Data
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Failure_Data> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Metrics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Failure_Severity
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Failure_Severity> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Metrics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Failure_Strategy
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Failure_Strategy> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Metrics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Fault_Isolation
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Fault_Isolation> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Fault_Prevention
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Fault_Prevention> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Failure_Strategy> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Fault_Removal
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Fault_Removal> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Failure_Strategy> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Fault_Tolerance
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Fault_Tolerance> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Failure_Strategy> ,
+                                                                                                 <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Features
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Features> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Future_Plans> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/File_Uploads
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/File_Uploads> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Financial_Transactions
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Financial_Transactions> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Non_Repudiation_Functionality> ;
+                                                                                        owl:disjointWith <http://www.semanticweb.org/ontologies/2023/SE/software-context/Longin_Actions> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Frameworks
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Frameworks> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Functional_Appropriateness
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Functional_Appropriateness> rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Functional_Suitability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Functional_Completeness
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Functional_Completeness> rdf:type owl:Class ;
+                                                                                         rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Functional_Suitability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Functional_Correctness
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Functional_Correctness> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Functional_Suitability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Functional_Scalability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Functional_Scalability> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Scalability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Functional_Suitability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Functional_Suitability> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Quality_Factors> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Functional_Suitability_Model_Characteristics
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Functional_Suitability_Model_Characteristics> rdf:type owl:Class ;
+                                                                                                              rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Functional_Suitability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Functionality
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Functionality> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainable_Architechture_Considerations> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Future_Plans
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Future_Plans> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainable_Architechture_Considerations> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Goals
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Goals> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Purpose> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/HTTP_requests
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/HTTP_requests> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/IO> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Hardware
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Hardware> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Historical_Issues
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Historical_Issues> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/KPI> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Hotfixes
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Hotfixes> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/IDE
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/IDE> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Programming_Considerations> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/IO
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/IO> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security_Architechture> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Implementation_Changes
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Implementation_Changes> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Improvements> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Implementations
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Implementations> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Future_Plans> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Implemented_Modifications
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Implemented_Modifications> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Improvements
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Improvements> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Indespensable_Componenets
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Indespensable_Componenets> rdf:type owl:Class ;
+                                                                                           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Fault_Isolation> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Input_Validation
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Input_Validation> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Installability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Installability> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Portability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Integration
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Integration> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Practices> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Internal
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Internal> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/System_Communication> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Internal_Communication_Metrics
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Internal_Communication_Metrics> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Internal> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Interoperability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Interoperability> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Compatibility_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Isolation
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Isolation> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Efficiency> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/KPI
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/KPI> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/KPI_Metrics
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/KPI_Metrics> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Methodology> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Learnability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Learnability> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Usability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Libraries
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Libraries> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Codebase> ,
+                                                                                           <http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Practices> ,
+                                                                                           <http://www.semanticweb.org/ontologies/2023/SE/software-context/IO> ,
+                                                                                           <http://www.semanticweb.org/ontologies/2023/SE/software-context/Other_Systems> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Log_Files
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Log_Files> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Stores> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Logging
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Logging> rdf:type owl:Class ;
+                                                                         rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Error_Handling> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Longin_Actions
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Longin_Actions> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Non_Repudiation_Functionality> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainability> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Quality_Factors> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainability_Model_Characteristics
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainability_Model_Characteristics> rdf:type owl:Class ;
+                                                                                                       rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainable_Architechture_Considerations
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainable_Architechture_Considerations> rdf:type owl:Class ;
+                                                                                                           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Functional_Scalability> ,
+                                                                                                                           <http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Marketing
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Marketing> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Model> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Maturity
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Maturity> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Methodology
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Methodology> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Practices> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Model_Types
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Model_Types> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Aware_Architechture> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Modifiability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Modifiability> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Modularity
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Modularity> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Monitoring
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Monitoring> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Codebase> ,
+                                                                                            <http://www.semanticweb.org/ontologies/2023/SE/software-context/Deployment_Process> ,
+                                                                                            <http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Efficiency> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Network_Protection
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Network_Protection> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Storage_Handling> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Non_Critical_Components
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Non_Critical_Components> rdf:type owl:Class ;
+                                                                                         rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Errors> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Non_Functional
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Non_Functional> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Test_Types> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Non_Repudiation_Functionality
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Non_Repudiation_Functionality> rdf:type owl:Class ;
+                                                                                               rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security_Architechture> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Operability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Operability> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Usability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Optimization
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Optimization> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Efficiency> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Organization
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Organization> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> ,
+                                                                                              <http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Practices> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Other_Systems
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Other_Systems> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security_Architechture> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Passwords
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Passwords> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Authenticaion_Credentials> ,
+                                                                                           <http://www.semanticweb.org/ontologies/2023/SE/software-context/Sensitive_Data> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Path_Based
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Path_Based> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Reliability_Model> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Efficiency
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Efficiency> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Quality_Factors> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Impact
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Impact> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Transaction_Scalability> ;
+                                                                                    owl:disjointWith <http://www.semanticweb.org/ontologies/2023/SE/software-context/Scaling_Strategy> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Metrics
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Metrics> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Testing
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Testing> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Efficiency> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Permissions
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Permissions> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/User_Management> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Physical_Database_Security
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Physical_Database_Security> rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Storage_Handling> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Planning_Process_Considerations
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Planning_Process_Considerations> rdf:type owl:Class ;
+                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Scalability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Policy
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Policy> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Portability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Portability> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Quality_Factors> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Portability_Model_Characteristics
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Portability_Model_Characteristics> rdf:type owl:Class ;
+                                                                                                   rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Portability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Problem_Elimination
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Problem_Elimination> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Corrections> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Problem_Prevention_Measures
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Problem_Prevention_Measures> rdf:type owl:Class ;
+                                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Improvements> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Product_Owner
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Product_Owner> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Stakeholders> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Programming_Considerations
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Programming_Considerations> rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Practices> ,
+                                                                                                            <http://www.semanticweb.org/ontologies/2023/SE/software-context/IO> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Project_Management_Practices
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Project_Management_Practices> rdf:type owl:Class ;
+                                                                                              rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Project_Manager
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Project_Manager> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Stakeholders> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Quality_Assurance_Considerations
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Quality_Assurance_Considerations> rdf:type owl:Class ;
+                                                                                                  rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Scalability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Recoverability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Recoverability> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Recovery_Tests
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Recovery_Tests> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Failover> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Redundancy
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Redundancy> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Regression
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Regression> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Test_Types> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Release_Phase_Practices
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Release_Phase_Practices> rdf:type owl:Class ;
+                                                                                         rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Cycle_Security> ,
+                                                                                                         <http://www.semanticweb.org/ontologies/2023/SE/software-context/Methodology> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Quality_Factors> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Aware_Architechture
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Aware_Architechture> rdf:type owl:Class ;
+                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Metrics
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Metrics> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Model_Characteristics
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Model_Characteristics> rdf:type owl:Class ;
+                                                                                                   rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Testing
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Testing> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Replaceability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Replaceability> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Portability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Requirement_Changes
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Requirement_Changes> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Improvements> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Resource_Allocation
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Resource_Allocation> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Resource_Elasticity
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Resource_Elasticity> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Efficiency> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Resource_Intensive_Tasks
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Resource_Intensive_Tasks> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Efficiency> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Reusability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Reusability> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Runtime_Components
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Runtime_Components> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Internal> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/SLA_Metrics
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/SLA_Metrics> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Failover> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Sales
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Sales> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Model> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Scalability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Scalability> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Quality_Factors> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Scaling_Strategy
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Scaling_Strategy> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Transaction_Scalability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Security
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Security> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Quality_Factors> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Security_Architechture
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Security_Architechture> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Security_Measures
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Security_Measures> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Sensitive_Data
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Sensitive_Data> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security_Architechture> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Services
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Services> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/External> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Simulations
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Simulations> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability_Testing> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Single_Transaction_Optimization
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Single_Transaction_Optimization> rdf:type owl:Class ;
+                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Efficiency> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Site_statistics
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Site_statistics> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/IO> ,
+                                                                                                 <http://www.semanticweb.org/ontologies/2023/SE/software-context/Other_Systems> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Size
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Size> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Userbase_Information> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Context
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Context> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Purpose
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Purpose> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Quality_Factors
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Quality_Factors> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Context> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Reliability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Reliability> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Failure_Based> ,
+                                                                                                      <http://www.semanticweb.org/ontologies/2023/SE/software-context/Timed_Based> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Reliability_Model
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Reliability_Model> rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Model_Types> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Stability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Stability> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/API_Maturity> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Stakeholders
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Stakeholders> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/State_Based
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/State_Based> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Reliability_Model> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Strategic_Roadmap
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Strategic_Roadmap> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Structure
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Structure> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Planning_Process_Considerations> ;
+                                                                           owl:disjointWith <http://www.semanticweb.org/ontologies/2023/SE/software-context/Technical_Debt> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/System_Communication
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/System_Communication> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Efficiency> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/System_Functionality
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/System_Functionality> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/System_Processes
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/System_Processes> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security_Architechture> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Teams
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Teams> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Organization> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Technical_Debt
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Technical_Debt> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Planning_Process_Considerations> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Technology
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Technology> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Test_Code
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Test_Code> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Codebase> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Test_Configuration
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Test_Configuration> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Codebase> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Test_Environments
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Test_Environments> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Test_Maturity
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Test_Maturity> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Functional_Scalability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Test_Types
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Test_Types> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Testability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Testability> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Maintainability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Testing_Criteria
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Testing_Criteria> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Testing_Phase> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Testing_Phase
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Testing_Phase> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Cycle_Security> ,
+                                                                                               <http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Practices> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Tests
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Tests> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Failover> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Threat_Mitigation
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Threat_Mitigation> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Timed_Based
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Timed_Based> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Failure_Data> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Tools
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Tools> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Transaction_Handling
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Transaction_Handling> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Reliability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Transaction_Increase
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Transaction_Increase> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Impact> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Transaction_Scalability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Transaction_Scalability> rdf:type owl:Class ;
+                                                                                         rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Efficiency> ,
+                                                                                                         <http://www.semanticweb.org/ontologies/2023/SE/software-context/Scalability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Transition_Probability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Transition_Probability> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Failure_Based> ,
+                                                                                                        <http://www.semanticweb.org/ontologies/2023/SE/software-context/Timed_Based> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Unit
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Unit> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Test_Types> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Usability
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Usability> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Quality_Factors> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Usability_Model_Characteristics
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Usability_Model_Characteristics> rdf:type owl:Class ;
+                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Usability> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Usage_Measurements
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Usage_Measurements> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/App_Information> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/User_Error_Protection
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/User_Error_Protection> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Usability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/User_Feedback
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/User_Feedback> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/App_Information> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/User_Interface_Aesthetics
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/User_Interface_Aesthetics> rdf:type owl:Class ;
+                                                                                           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Usability_Model_Characteristics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/User_Management
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/User_Management> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Security_Architechture> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/User_Portals
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/User_Portals> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Userbase_Information> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/User_Roles
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/User_Roles> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Userbase_Information> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/User_Types
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/User_Types> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/User_Management> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Userbase_Information
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Userbase_Information> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Usernames
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Usernames> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Authenticaion_Credentials> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Users
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Users> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Stakeholders> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Version_Control
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Version_Control> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Configuration_Management> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Web_Server
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Web_Server> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/System_Processes> .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.NewOnto1.org/SecAOnto_V1#AES
+<http://www.NewOnto1.org/SecAOnto_V1#AES> rdf:type owl:NamedIndividual ,
+                                                   <http://www.NewOnto1.org/SecAOnto_V1#SymmetricKey> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Auditability
+<http://www.NewOnto1.org/SecAOnto_V1#Auditability> rdf:type owl:NamedIndividual ,
+                                                            <http://www.NewOnto1.org/SecAOnto_V1#SecurityProperty> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Authenticity
+<http://www.NewOnto1.org/SecAOnto_V1#Authenticity> rdf:type owl:NamedIndividual ,
+                                                            <http://www.NewOnto1.org/SecAOnto_V1#SecurityProperty> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Availability
+<http://www.NewOnto1.org/SecAOnto_V1#Availability> rdf:type owl:NamedIndividual ,
+                                                            <http://www.NewOnto1.org/SecAOnto_V1#SecurityProperty> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#BlackBox
+<http://www.NewOnto1.org/SecAOnto_V1#BlackBox> rdf:type owl:NamedIndividual ,
+                                                        <http://www.NewOnto1.org/SecAOnto_V1#AssessmentDimension> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Blowfish
+<http://www.NewOnto1.org/SecAOnto_V1#Blowfish> rdf:type owl:NamedIndividual ,
+                                                        <http://www.NewOnto1.org/SecAOnto_V1#SymmetricKey> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#BusinessLogic
+<http://www.NewOnto1.org/SecAOnto_V1#BusinessLogic> rdf:type owl:NamedIndividual ,
+                                                             <http://www.NewOnto1.org/SecAOnto_V1#AssessmentDimension> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Confidentiality
+<http://www.NewOnto1.org/SecAOnto_V1#Confidentiality> rdf:type owl:NamedIndividual ,
+                                                               <http://www.NewOnto1.org/SecAOnto_V1#SecurityProperty> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#DES
+<http://www.NewOnto1.org/SecAOnto_V1#DES> rdf:type owl:NamedIndividual ,
+                                                   <http://www.NewOnto1.org/SecAOnto_V1#SymmetricKey> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#DNSSEC
+<http://www.NewOnto1.org/SecAOnto_V1#DNSSEC> rdf:type owl:NamedIndividual ,
+                                                      <http://www.NewOnto1.org/SecAOnto_V1#SecureNetworkComunication> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#DSA
+<http://www.NewOnto1.org/SecAOnto_V1#DSA> rdf:type owl:NamedIndividual ,
+                                                   <http://www.NewOnto1.org/SecAOnto_V1#SignatureAlgorithm> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#DiffieHellman-KeyExchangeProtocol
+<http://www.NewOnto1.org/SecAOnto_V1#DiffieHellman-KeyExchangeProtocol> rdf:type owl:NamedIndividual ,
+                                                                                 <http://www.NewOnto1.org/SecAOnto_V1#AsymmetricKey> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#ECDSA
+<http://www.NewOnto1.org/SecAOnto_V1#ECDSA> rdf:type owl:NamedIndividual ,
+                                                     <http://www.NewOnto1.org/SecAOnto_V1#SignatureAlgorithm> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#ElGamal
+<http://www.NewOnto1.org/SecAOnto_V1#ElGamal> rdf:type owl:NamedIndividual ,
+                                                       <http://www.NewOnto1.org/SecAOnto_V1#AsymmetricKey> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#FacialRecognition
+<http://www.NewOnto1.org/SecAOnto_V1#FacialRecognition> rdf:type owl:NamedIndividual ,
+                                                                 <http://www.NewOnto1.org/SecAOnto_V1#BiometricRecognition> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#FingerprintRecognition
+<http://www.NewOnto1.org/SecAOnto_V1#FingerprintRecognition> rdf:type owl:NamedIndividual ,
+                                                                      <http://www.NewOnto1.org/SecAOnto_V1#BiometricRecognition> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#HTTPS
+<http://www.NewOnto1.org/SecAOnto_V1#HTTPS> rdf:type owl:NamedIndividual ,
+                                                     <http://www.NewOnto1.org/SecAOnto_V1#SecureNetworkComunication> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#IPSEC
+<http://www.NewOnto1.org/SecAOnto_V1#IPSEC> rdf:type owl:NamedIndividual ,
+                                                     <http://www.NewOnto1.org/SecAOnto_V1#SecureNetworkComunication> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Integrity
+<http://www.NewOnto1.org/SecAOnto_V1#Integrity> rdf:type owl:NamedIndividual ,
+                                                         <http://www.NewOnto1.org/SecAOnto_V1#SecurityProperty> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#IrisRecognition
+<http://www.NewOnto1.org/SecAOnto_V1#IrisRecognition> rdf:type owl:NamedIndividual ,
+                                                               <http://www.NewOnto1.org/SecAOnto_V1#BiometricRecognition> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Keylogger
+<http://www.NewOnto1.org/SecAOnto_V1#Keylogger> rdf:type owl:NamedIndividual ,
+                                                         <http://www.NewOnto1.org/SecAOnto_V1#Spyware> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Legality
+<http://www.NewOnto1.org/SecAOnto_V1#Legality> rdf:type owl:NamedIndividual ,
+                                                        <http://www.NewOnto1.org/SecAOnto_V1#SecurityProperty> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#MD5
+<http://www.NewOnto1.org/SecAOnto_V1#MD5> rdf:type owl:NamedIndividual ,
+                                                   <http://www.NewOnto1.org/SecAOnto_V1#ChecksumAlgorithm> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#NAT
+<http://www.NewOnto1.org/SecAOnto_V1#NAT> rdf:type owl:NamedIndividual ,
+                                                   <http://www.NewOnto1.org/SecAOnto_V1#SecureNetworkComunication> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Non-Repudiation
+<http://www.NewOnto1.org/SecAOnto_V1#Non-Repudiation> rdf:type owl:NamedIndividual ,
+                                                               <http://www.NewOnto1.org/SecAOnto_V1#SecurityProperty> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Non-Retroactivity
+<http://www.NewOnto1.org/SecAOnto_V1#Non-Retroactivity> rdf:type owl:NamedIndividual ,
+                                                                 <http://www.NewOnto1.org/SecAOnto_V1#SecurityProperty> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#OperatingEnvironment
+<http://www.NewOnto1.org/SecAOnto_V1#OperatingEnvironment> rdf:type owl:NamedIndividual ,
+                                                                    <http://www.NewOnto1.org/SecAOnto_V1#AssessmentDimension> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#PGP
+<http://www.NewOnto1.org/SecAOnto_V1#PGP> rdf:type owl:NamedIndividual ,
+                                                   <http://www.NewOnto1.org/SecAOnto_V1#SecureNetworkComunication> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#PHP-HTMLInjection
+<http://www.NewOnto1.org/SecAOnto_V1#PHP-HTMLInjection> rdf:type owl:NamedIndividual ,
+                                                                 <http://www.NewOnto1.org/SecAOnto_V1#CodeInjection> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#PowerMonitoring
+<http://www.NewOnto1.org/SecAOnto_V1#PowerMonitoring> rdf:type owl:NamedIndividual ,
+                                                               <http://www.NewOnto1.org/SecAOnto_V1#SideChannel> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Privacy
+<http://www.NewOnto1.org/SecAOnto_V1#Privacy> rdf:type owl:NamedIndividual ,
+                                                       <http://www.NewOnto1.org/SecAOnto_V1#SecurityProperty> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Process
+<http://www.NewOnto1.org/SecAOnto_V1#Process> rdf:type owl:NamedIndividual ,
+                                                       <http://www.NewOnto1.org/SecAOnto_V1#AssessmentDimension> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#RC4
+<http://www.NewOnto1.org/SecAOnto_V1#RC4> rdf:type owl:NamedIndividual ,
+                                                   <http://www.NewOnto1.org/SecAOnto_V1#SymmetricKey> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#RSA
+<http://www.NewOnto1.org/SecAOnto_V1#RSA> rdf:type owl:NamedIndividual ,
+                                                   <http://www.NewOnto1.org/SecAOnto_V1#AsymmetricKey> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#RadiationMonitoring
+<http://www.NewOnto1.org/SecAOnto_V1#RadiationMonitoring> rdf:type owl:NamedIndividual ,
+                                                                   <http://www.NewOnto1.org/SecAOnto_V1#SideChannel> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Resilience
+<http://www.NewOnto1.org/SecAOnto_V1#Resilience> rdf:type owl:NamedIndividual ,
+                                                          <http://www.NewOnto1.org/SecAOnto_V1#SecurityProperty> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#RetinaRecognition
+<http://www.NewOnto1.org/SecAOnto_V1#RetinaRecognition> rdf:type owl:NamedIndividual ,
+                                                                 <http://www.NewOnto1.org/SecAOnto_V1#BiometricRecognition> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#S-HTTP
+<http://www.NewOnto1.org/SecAOnto_V1#S-HTTP> rdf:type owl:NamedIndividual ,
+                                                      <http://www.NewOnto1.org/SecAOnto_V1#SecureNetworkComunication> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#S-MIME
+<http://www.NewOnto1.org/SecAOnto_V1#S-MIME> rdf:type owl:NamedIndividual ,
+                                                      <http://www.NewOnto1.org/SecAOnto_V1#SecureNetworkComunication> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#SHA1
+<http://www.NewOnto1.org/SecAOnto_V1#SHA1> rdf:type owl:NamedIndividual ,
+                                                    <http://www.NewOnto1.org/SecAOnto_V1#ChecksumAlgorithm> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#SHA256
+<http://www.NewOnto1.org/SecAOnto_V1#SHA256> rdf:type owl:NamedIndividual ,
+                                                      <http://www.NewOnto1.org/SecAOnto_V1#ChecksumAlgorithm> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#SHA512
+<http://www.NewOnto1.org/SecAOnto_V1#SHA512> rdf:type owl:NamedIndividual ,
+                                                      <http://www.NewOnto1.org/SecAOnto_V1#ChecksumAlgorithm> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#SQLInjection
+<http://www.NewOnto1.org/SecAOnto_V1#SQLInjection> rdf:type owl:NamedIndividual ,
+                                                            <http://www.NewOnto1.org/SecAOnto_V1#CodeInjection> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#SSH
+<http://www.NewOnto1.org/SecAOnto_V1#SSH> rdf:type owl:NamedIndividual ,
+                                                   <http://www.NewOnto1.org/SecAOnto_V1#SecureNetworkComunication> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#SSL
+<http://www.NewOnto1.org/SecAOnto_V1#SSL> rdf:type owl:NamedIndividual ,
+                                                   <http://www.NewOnto1.org/SecAOnto_V1#SecureNetworkComunication> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#ShellInjection
+<http://www.NewOnto1.org/SecAOnto_V1#ShellInjection> rdf:type owl:NamedIndividual ,
+                                                              <http://www.NewOnto1.org/SecAOnto_V1#CodeInjection> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Skipjack
+<http://www.NewOnto1.org/SecAOnto_V1#Skipjack> rdf:type owl:NamedIndividual ,
+                                                        <http://www.NewOnto1.org/SecAOnto_V1#SymmetricKey> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#SystemArchitecture
+<http://www.NewOnto1.org/SecAOnto_V1#SystemArchitecture> rdf:type owl:NamedIndividual ,
+                                                                  <http://www.NewOnto1.org/SecAOnto_V1#AssessmentDimension> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#Traceability
+<http://www.NewOnto1.org/SecAOnto_V1#Traceability> rdf:type owl:NamedIndividual ,
+                                                            <http://www.NewOnto1.org/SecAOnto_V1#SecurityProperty> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#TripleDES
+<http://www.NewOnto1.org/SecAOnto_V1#TripleDES> rdf:type owl:NamedIndividual ,
+                                                         <http://www.NewOnto1.org/SecAOnto_V1#SymmetricKey> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#VPN
+<http://www.NewOnto1.org/SecAOnto_V1#VPN> rdf:type owl:NamedIndividual ,
+                                                   <http://www.NewOnto1.org/SecAOnto_V1#SecureNetworkComunication> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#VoiceRecognition
+<http://www.NewOnto1.org/SecAOnto_V1#VoiceRecognition> rdf:type owl:NamedIndividual ,
+                                                                <http://www.NewOnto1.org/SecAOnto_V1#BiometricRecognition> .
+
+
+###  http://www.NewOnto1.org/SecAOnto_V1#WhiteBox
+<http://www.NewOnto1.org/SecAOnto_V1#WhiteBox> rdf:type owl:NamedIndividual ,
+                                                        <http://www.NewOnto1.org/SecAOnto_V1#AssessmentDimension> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Architechture_Documentation
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Architechture_Documentation> rdf:type owl:NamedIndividual ,
+                                                                                                      <http://www.semanticweb.org/ontologies/2023/SE/software-context/Documentation> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Capacity
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Capacity> rdf:type owl:NamedIndividual ,
+                                                                                   <http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Metrics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Computer_Resource_Utilization
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Computer_Resource_Utilization> rdf:type owl:NamedIndividual ,
+                                                                                                        <http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Metrics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_per_Request
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_per_Request> rdf:type owl:NamedIndividual ,
+                                                                                           <http://www.semanticweb.org/ontologies/2023/SE/software-context/Internal_Communication_Metrics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_per_call
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_per_call> rdf:type owl:NamedIndividual ,
+                                                                                        <http://www.semanticweb.org/ontologies/2023/SE/software-context/External_Communication_Metrics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/End_to_End
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/End_to_End> rdf:type owl:NamedIndividual ,
+                                                                                     <http://www.semanticweb.org/ontologies/2023/SE/software-context/Test_Types> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Maximum_Size
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Maximum_Size> rdf:type owl:NamedIndividual ,
+                                                                                       <http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Scalability_Metrics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Maximum_Volume
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Maximum_Volume> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Scalability_Metrics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Non_Functional
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Non_Functional> rdf:type owl:NamedIndividual ,
+                                                                                         <http://www.semanticweb.org/ontologies/2023/SE/software-context/Test_Types> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Non_Functional_Requirements_Documentation
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Non_Functional_Requirements_Documentation> rdf:type owl:NamedIndividual ,
+                                                                                                                    <http://www.semanticweb.org/ontologies/2023/SE/software-context/Documentation> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Number_of_users
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Number_of_users> rdf:type owl:NamedIndividual ,
+                                                                                          <http://www.semanticweb.org/ontologies/2023/SE/software-context/KPI> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Recovery
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Recovery> rdf:type owl:NamedIndividual ,
+                                                                                   <http://www.semanticweb.org/ontologies/2023/SE/software-context/Tests> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Regression
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Regression> rdf:type owl:NamedIndividual ,
+                                                                                     <http://www.semanticweb.org/ontologies/2023/SE/software-context/Test_Types> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Response_Time
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Response_Time> rdf:type owl:NamedIndividual ,
+                                                                                        <http://www.semanticweb.org/ontologies/2023/SE/software-context/External_Communication_Metrics> ,
+                                                                                        <http://www.semanticweb.org/ontologies/2023/SE/software-context/Performance_Metrics> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Source_Code_Documentation
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Source_Code_Documentation> rdf:type owl:NamedIndividual ,
+                                                                                                    <http://www.semanticweb.org/ontologies/2023/SE/software-context/Documentation> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/System_Documentation
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/System_Documentation> rdf:type owl:NamedIndividual ,
+                                                                                               <http://www.semanticweb.org/ontologies/2023/SE/software-context/Documentation> .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Unit
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Unit> rdf:type owl:NamedIndividual ,
+                                                                               <http://www.semanticweb.org/ontologies/2023/SE/software-context/Test_Types> .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://www.semanticweb.org/ontologies/2023/SE/software-context/Algorithms>
+                <http://www.semanticweb.org/ontologies/2023/SE/software-context/Computation_Side_Effects>
+                <http://www.semanticweb.org/ontologies/2023/SE/software-context/Data_Structures>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://www.semanticweb.org/ontologies/2023/SE/software-context/Application_Server>
+                <http://www.semanticweb.org/ontologies/2023/SE/software-context/Backup_Server>
+                <http://www.semanticweb.org/ontologies/2023/SE/software-context/Browser>
+                <http://www.semanticweb.org/ontologies/2023/SE/software-context/Web_Server>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://www.semanticweb.org/ontologies/2023/SE/software-context/Automation_Characteristics>
+                <http://www.semanticweb.org/ontologies/2023/SE/software-context/Documentation>
+                <http://www.semanticweb.org/ontologies/2023/SE/software-context/Planning_Process_Considerations>
+                <http://www.semanticweb.org/ontologies/2023/SE/software-context/Quality_Assurance_Considerations>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://www.semanticweb.org/ontologies/2023/SE/software-context/Database_Encryption>
+                <http://www.semanticweb.org/ontologies/2023/SE/software-context/Network_Protection>
+                <http://www.semanticweb.org/ontologies/2023/SE/software-context/Physical_Database_Security>
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi
