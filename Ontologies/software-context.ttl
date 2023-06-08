@@ -1,0 +1,1692 @@
+@base <http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/> .
+@prefix : <http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/has_relation
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/API_Documentation
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/API_Maturity
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Accesibility
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Administrators
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Algorithms
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Anonymous_Users
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Application
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Application_Server
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Architechts
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Architechture
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Architechture_Documentation
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Architechtures_Principles
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Attack_Prevention_Measures
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Authenticaion_Credentials
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Authenticated_Users
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Authentication_Mechanisms
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Automated_Testing
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Automation
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Backip
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Backup_Server
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Behaviour
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Browser
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Browser_local_cookies
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Browser_local_storage
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Build_Automation
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Business_Model
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Business_Process
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Central_Error_Handling_System
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Certification_Scope
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Challenges
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Code_Reviews
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Code_Standards
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Codebase
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Coding_Standards
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Communication_Channels
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Communication_Protocols
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Competitors
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Components
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Computation_Side_Effects
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Computer_Resource_Utilization
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Configuration
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Configuration_Management
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Connections
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Content_Delivery_Networks
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Continuous_Integration
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Credit_Card_Numbers
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Critical_Componenets
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Cryptography
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Data_Formats
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Data_Migration
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Data_Scalability
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Data_Storage_Handling
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Data_Stores
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Data_Structures
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Data_per_Call
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Data_per_Request
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Database_Code
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Database_Encryption
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Databases
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Dedicated_Hardware
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Definition_Of_Done
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Demographics
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Dependencies
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Deployment
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Deployment_Process
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Design
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Design_Standards
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Developers
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Development
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Development_Cycle_Security
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Development_Practices
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Development_Scalability
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Documentation
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Efficiency
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Encryption_keys
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/End_to_End
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Endpoints
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Environment_Provisioning
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Environments
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Error_Handling
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Error_Messages
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Errors
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Evaluation_Criteria
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Exception_Handling
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Exception_Tree
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/External
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/External_Integrations
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/External_Systems
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/External_Web_Services
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Failover
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Fault_Isolation
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Features
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Felxibility
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/File_Uploads
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Financial_Transactions
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Frameworks
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Framewroks
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Functional_Scalability
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Functionality
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Future_Plans
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Goals
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/HTTP_requests
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Historical_Issues
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Hotfixes
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/IDE
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/IO
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Implementations
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Indespensable_Componenets
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Input_Validation
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Integration
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Internal
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Isolation
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/KPI
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Libraries
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Log_Files
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Logging
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Longin_Actions
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Maintainability
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Marketing
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Maximum_Size
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Maximum_Volume
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Monitoring
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Network_Protection
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Non_Critical_Components
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Non_Functional
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Non_Functional_Requirements_Documentation
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Non_Repudiation_Functionality
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Number_of_users
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Organization
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Other_Systems
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Passwords
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Performance_Efficiency
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Performance_Impact
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Performance_Testing
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Permissions
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Physical_Database_Security
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Planning_Process
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Practices
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Product_Owner
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Programming
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Project_Management_Practices
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Project_Manager
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Quality_Assurance
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Recovery
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Redundancy
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Regression
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Release
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Reliability
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Reliability_Testing
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Resource_Elasticity
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Resource_Intensive_Tasks
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Response_Time
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Response_Times
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Runtime_Componenets
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/SLA_Metrics
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Sales
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Scalability
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Scaling_Strategy
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Security
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Security_Architechture
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Sensitive_Data
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Services
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Simulations
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Single_Transaction_Optimization
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Site_statistics
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Size
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Software_Context
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Software_Purpose
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Software_Quality
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Source_Code_Documentation
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Stability
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Stakeholders
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Strategic_Roadmap
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Structure
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/System_Communication
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/System_Documentation
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/System_Functionality
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/System_Processes
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Team_Organization
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Teams
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Technical_Debt
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Technology
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Test_Code
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Test_Configuration
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Test_Environments
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Test_Maturity
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Testing
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Testing_Criteria
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Tests
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Threat_Mitigation
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Tools
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Transaction_Handling
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Transaction_Increase
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Transaction_Scalability
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Transparency
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Unit
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Usage_Measurements
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/User_Feedback
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/User_Management
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/User_Portals
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/User_Roles
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/User_Types
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Userbase
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Usernames
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Users
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Version_Control
+# 
+# http://www.semanticweb.org/athulrajnambiar/ontologies/2023/4/software-context/Web_Server
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi
+
+<../software-context> a owl:Ontology;
+  rdfs:comment "This is an ontoloy about Software Context"@en .
+
+:has_relation a owl:AnnotationProperty .
+
+:API_Documentation a owl:Class;
+  rdfs:subClassOf :API_Maturity .
+
+:API_Maturity a owl:Class;
+  rdfs:subClassOf :Software_Quality .
+
+:Accesibility a owl:Class;
+  rdfs:subClassOf :Software_Quality .
+
+:Administrators a owl:Class;
+  rdfs:subClassOf :User_Types .
+
+:Algorithms a owl:Class;
+  rdfs:subClassOf :Single_Transaction_Optimization .
+
+:Anonymous_Users a owl:Class;
+  rdfs:subClassOf :User_Types .
+
+:Application a owl:Class;
+  rdfs:subClassOf :Accesibility .
+
+:Application_Server a owl:Class;
+  rdfs:subClassOf :System_Processes .
+
+:Architechts a owl:Class;
+  rdfs:subClassOf :Stakeholders .
+
+:Architechture a owl:Class;
+  rdfs:subClassOf :Functional_Scalability, :Maintainability .
+
+:Architechture_Documentation a owl:Class;
+  rdfs:subClassOf :Documentation .
+
+:Architechtures_Principles a owl:Class;
+  rdfs:subClassOf :API_Maturity .
+
+:Attack_Prevention_Measures a owl:Class .
+
+:Authenticaion_Credentials a owl:Class;
+  rdfs:subClassOf :Authentication_Mechanisms .
+
+:Authenticated_Users a owl:Class;
+  rdfs:subClassOf :User_Types .
+
+:Authentication_Mechanisms a owl:Class;
+  rdfs:subClassOf :Security_Architechture .
+
+:Automated_Testing a owl:Class;
+  rdfs:subClassOf :Automation, :Build_Automation, :Functional_Scalability;
+  owl:disjointWith :Continuous_Integration .
+
+:Automation a owl:Class;
+  rdfs:subClassOf :Development_Scalability .
+
+:Backip a owl:Class;
+  rdfs:subClassOf :Data_Stores .
+
+:Backup_Server a owl:Class;
+  rdfs:subClassOf :System_Processes .
+
+:Behaviour a owl:Class;
+  rdfs:subClassOf :Architechture .
+
+:Browser a owl:Class;
+  rdfs:subClassOf :System_Processes .
+
+:Browser_local_cookies a owl:Class;
+  rdfs:subClassOf :Data_Stores .
+
+:Browser_local_storage a owl:Class;
+  rdfs:subClassOf :Data_Stores .
+
+:Build_Automation a owl:Class;
+  rdfs:subClassOf :Codebase, :Reliability .
+
+:Business_Model a owl:Class;
+  rdfs:subClassOf :Business_Process .
+
+:Business_Process a owl:Class;
+  rdfs:subClassOf :Software_Context .
+
+:Central_Error_Handling_System a owl:Class;
+  rdfs:subClassOf :Exception_Handling;
+  owl:disjointWith :Exception_Tree .
+
+:Certification_Scope a owl:Class;
+  rdfs:subClassOf :Codebase .
+
+:Challenges a owl:Class;
+  rdfs:subClassOf :Maintainability .
+
+:Code_Reviews a owl:Class;
+  rdfs:subClassOf :Quality_Assurance;
+  owl:disjointWith :Code_Standards .
+
+:Code_Standards a owl:Class;
+  rdfs:subClassOf :Quality_Assurance .
+
+:Codebase a owl:Class;
+  rdfs:subClassOf :Maintainability .
+
+:Coding_Standards a owl:Class;
+  rdfs:subClassOf :Programming .
+
+:Communication_Channels a owl:Class;
+  rdfs:subClassOf :API_Maturity, :Security_Architechture .
+
+:Communication_Protocols a owl:Class;
+  rdfs:subClassOf :Security;
+  owl:disjointWith :Security_Architechture .
+
+:Competitors a owl:Class;
+  rdfs:subClassOf :Business_Process .
+
+:Components a owl:Class;
+  rdfs:subClassOf :Architechture .
+
+:Computation_Side_Effects a owl:Class;
+  rdfs:subClassOf :Single_Transaction_Optimization .
+
+:Computer_Resource_Utilization a owl:Class;
+  rdfs:subClassOf :Monitoring;
+  owl:disjointWith :Response_Times .
+
+:Configuration a owl:Class;
+  rdfs:subClassOf :Data_Stores .
+
+:Configuration_Management a owl:Class;
+  rdfs:subClassOf :Development_Practices .
+
+:Connections a owl:Class;
+  rdfs:subClassOf :Communication_Channels, :Communication_Protocols .
+
+:Content_Delivery_Networks a owl:Class;
+  rdfs:subClassOf :Other_Systems .
+
+:Continuous_Integration a owl:Class;
+  rdfs:subClassOf :Automation .
+
+:Credit_Card_Numbers a owl:Class;
+  rdfs:subClassOf :Sensitive_Data .
+
+:Critical_Componenets a owl:Class;
+  rdfs:subClassOf :Errors;
+  owl:disjointWith :Non_Critical_Components .
+
+:Cryptography a owl:Class;
+  rdfs:subClassOf :Security .
+
+:Data_Formats a owl:Class;
+  rdfs:subClassOf :API_Maturity .
+
+:Data_Migration a owl:Class;
+  rdfs:subClassOf :Deployment_Process .
+
+:Data_Scalability a owl:Class;
+  rdfs:subClassOf :Performance_Efficiency, :Scalability .
+
+:Data_Storage_Handling a owl:Class;
+  rdfs:subClassOf :Security .
+
+:Data_Stores a owl:Class;
+  rdfs:subClassOf :Security_Architechture .
+
+:Data_Structures a owl:Class;
+  rdfs:subClassOf :Single_Transaction_Optimization .
+
+:Data_per_Call a owl:Class;
+  rdfs:subClassOf :External .
+
+:Data_per_Request a owl:Class;
+  rdfs:subClassOf :Internal;
+  owl:disjointWith :Runtime_Componenets .
+
+:Database_Code a owl:Class;
+  rdfs:subClassOf :Codebase .
+
+:Database_Encryption a owl:Class;
+  rdfs:subClassOf :Data_Storage_Handling .
+
+:Databases a owl:Class;
+  rdfs:subClassOf :Data_Stores .
+
+:Dedicated_Hardware a owl:Class;
+  rdfs:subClassOf :Isolation .
+
+:Definition_Of_Done a owl:Class;
+  rdfs:subClassOf :Team_Organization .
+
+:Demographics a owl:Class;
+  rdfs:subClassOf :Application, :Userbase .
+
+:Dependencies a owl:Class;
+  rdfs:subClassOf :Components .
+
+:Deployment a owl:Class;
+  rdfs:subClassOf :Build_Automation .
+
+:Deployment_Process a owl:Class;
+  rdfs:subClassOf :Development_Practices .
+
+:Design a owl:Class;
+  rdfs:subClassOf :Development_Cycle_Security .
+
+:Design_Standards a owl:Class;
+  rdfs:subClassOf :Programming .
+
+:Developers a owl:Class;
+  rdfs:subClassOf :Organization, :Stakeholders .
+
+:Development a owl:Class;
+  rdfs:subClassOf :Practices;
+  owl:disjointWith :Release .
+
+:Development_Cycle_Security a owl:Class;
+  rdfs:subClassOf :Security .
+
+:Development_Practices a owl:Class;
+  rdfs:subClassOf :Software_Quality .
+
+:Development_Scalability a owl:Class;
+  rdfs:subClassOf :Scalability .
+
+:Documentation a owl:Class;
+  rdfs:subClassOf :Architechture, :Development_Scalability .
+
+:Efficiency a owl:Class;
+  rdfs:subClassOf :API_Maturity .
+
+:Encryption_keys a owl:Class;
+  rdfs:subClassOf :Sensitive_Data .
+
+:End_to_End a owl:Class;
+  rdfs:subClassOf :Testing .
+
+:Endpoints a owl:Class;
+  rdfs:subClassOf :API_Maturity .
+
+:Environment_Provisioning a owl:Class;
+  rdfs:subClassOf :Environments .
+
+:Environments a owl:Class;
+  rdfs:subClassOf :Development_Practices .
+
+:Error_Handling a owl:Class;
+  rdfs:subClassOf :API_Maturity, :Security .
+
+:Error_Messages a owl:Class;
+  rdfs:subClassOf :API_Maturity .
+
+:Errors a owl:Class;
+  rdfs:subClassOf :Fault_Isolation .
+
+:Evaluation_Criteria a owl:Class;
+  rdfs:subClassOf :Certification_Scope .
+
+:Exception_Handling a owl:Class;
+  rdfs:subClassOf :Fault_Isolation .
+
+:Exception_Tree a owl:Class;
+  rdfs:subClassOf :Exception_Handling .
+
+:External a owl:Class;
+  rdfs:subClassOf :System_Communication;
+  owl:disjointWith :Internal .
+
+:External_Integrations a owl:Class;
+  rdfs:subClassOf :Environments .
+
+:External_Systems a owl:Class;
+  rdfs:subClassOf :Codebase .
+
+:External_Web_Services a owl:Class;
+  rdfs:subClassOf :IO, :Other_Systems .
+
+:Failover a owl:Class;
+  rdfs:subClassOf :Reliability .
+
+:Fault_Isolation a owl:Class;
+  rdfs:subClassOf :Reliability .
+
+:Features a owl:Class;
+  rdfs:subClassOf :Future_Plans;
+  owl:disjointWith :Implementations .
+
+:Felxibility a owl:Class;
+  rdfs:subClassOf :API_Maturity .
+
+:File_Uploads a owl:Class;
+  rdfs:subClassOf :Input_Validation .
+
+:Financial_Transactions a owl:Class;
+  rdfs:subClassOf :Non_Repudiation_Functionality;
+  owl:disjointWith :Longin_Actions .
+
+:Frameworks a owl:Class;
+  rdfs:subClassOf :Codebase, :Testing .
+
+:Framewroks a owl:Class;
+  rdfs:subClassOf :API_Maturity .
+
+:Functional_Scalability a owl:Class;
+  rdfs:subClassOf :Scalability .
+
+:Functionality a owl:Class;
+  rdfs:subClassOf :Architechture .
+
+:Future_Plans a owl:Class;
+  rdfs:subClassOf :Architechture .
+
+:Goals a owl:Class;
+  rdfs:subClassOf :Software_Purpose .
+
+:HTTP_requests a owl:Class;
+  rdfs:subClassOf :IO .
+
+:Historical_Issues a owl:Class;
+  rdfs:subClassOf :KPI;
+  owl:disjointWith :Number_of_users .
+
+:Hotfixes a owl:Class;
+  rdfs:subClassOf :Deployment_Process .
+
+:IDE a owl:Class;
+  rdfs:subClassOf :Programming .
+
+:IO a owl:Class;
+  rdfs:subClassOf :Security_Architechture .
+
+:Implementations a owl:Class;
+  rdfs:subClassOf :Future_Plans .
+
+:Indespensable_Componenets a owl:Class;
+  rdfs:subClassOf :Fault_Isolation .
+
+:Input_Validation a owl:Class;
+  rdfs:subClassOf :Security .
+
+:Integration a owl:Class;
+  rdfs:subClassOf :Development_Practices .
+
+:Internal a owl:Class;
+  rdfs:subClassOf :System_Communication .
+
+:Isolation a owl:Class;
+  rdfs:subClassOf :Performance_Efficiency .
+
+:KPI a owl:Class;
+  rdfs:subClassOf :Business_Process, :Team_Organization .
+
+:Libraries a owl:Class;
+  rdfs:subClassOf :Codebase, :Development_Practices, :IO, :Other_Systems .
+
+:Log_Files a owl:Class;
+  rdfs:subClassOf :Data_Stores .
+
+:Logging a owl:Class;
+  rdfs:subClassOf :Error_Handling .
+
+:Longin_Actions a owl:Class;
+  rdfs:subClassOf :Non_Repudiation_Functionality .
+
+:Maintainability a owl:Class;
+  rdfs:subClassOf :Historical_Issues, :Software_Quality .
+
+:Marketing a owl:Class;
+  rdfs:subClassOf :Business_Model .
+
+:Maximum_Size a owl:Class;
+  rdfs:subClassOf :Data_Scalability;
+  owl:disjointWith :Maximum_Volume .
+
+:Maximum_Volume a owl:Class;
+  rdfs:subClassOf :Data_Scalability .
+
+:Monitoring a owl:Class;
+  rdfs:subClassOf :Codebase, :Deployment_Process, :Performance_Efficiency .
+
+:Network_Protection a owl:Class;
+  rdfs:subClassOf :Data_Storage_Handling .
+
+:Non_Critical_Components a owl:Class;
+  rdfs:subClassOf :Errors .
+
+:Non_Functional a owl:Class;
+  rdfs:subClassOf :Testing .
+
+:Non_Functional_Requirements_Documentation a owl:Class;
+  rdfs:subClassOf :Documentation .
+
+:Non_Repudiation_Functionality a owl:Class;
+  rdfs:subClassOf :Security_Architechture .
+
+:Number_of_users a owl:Class;
+  rdfs:subClassOf :KPI .
+
+:Organization a owl:Class;
+  rdfs:subClassOf :Business_Process .
+
+:Other_Systems a owl:Class;
+  rdfs:subClassOf :Security_Architechture .
+
+:Passwords a owl:Class;
+  rdfs:subClassOf :Authenticaion_Credentials, :Sensitive_Data;
+  owl:disjointWith :Usernames .
+
+:Performance_Efficiency a owl:Class;
+  rdfs:subClassOf :Historical_Issues, :Software_Quality .
+
+:Performance_Impact a owl:Class;
+  rdfs:subClassOf :Transaction_Scalability;
+  owl:disjointWith :Scaling_Strategy .
+
+:Performance_Testing a owl:Class;
+  rdfs:subClassOf :Performance_Efficiency .
+
+:Permissions a owl:Class;
+  rdfs:subClassOf :User_Management .
+
+:Physical_Database_Security a owl:Class;
+  rdfs:subClassOf :Data_Storage_Handling .
+
+:Planning_Process a owl:Class;
+  rdfs:subClassOf :Development_Scalability .
+
+:Practices a owl:Class;
+  rdfs:subClassOf :Team_Organization .
+
+:Product_Owner a owl:Class;
+  rdfs:subClassOf :Stakeholders .
+
+:Programming a owl:Class;
+  rdfs:subClassOf :Development_Practices .
+
+:Project_Management_Practices a owl:Class;
+  rdfs:subClassOf :Business_Process .
+
+:Project_Manager a owl:Class;
+  rdfs:subClassOf :Stakeholders .
+
+:Quality_Assurance a owl:Class;
+  rdfs:subClassOf :Development_Scalability .
+
+:Recovery a owl:Class;
+  rdfs:subClassOf :Tests .
+
+:Redundancy a owl:Class;
+  rdfs:subClassOf :Reliability .
+
+:Regression a owl:Class;
+  rdfs:subClassOf :Testing .
+
+:Release a owl:Class;
+  rdfs:subClassOf :Development_Cycle_Security, :Practices .
+
+:Reliability a owl:Class;
+  rdfs:subClassOf :Historical_Issues, :Software_Quality .
+
+:Reliability_Testing a owl:Class;
+  rdfs:subClassOf :Reliability .
+
+:Resource_Elasticity a owl:Class;
+  rdfs:subClassOf :Performance_Efficiency .
+
+:Resource_Intensive_Tasks a owl:Class;
+  rdfs:subClassOf :Performance_Efficiency .
+
+:Response_Time a owl:Class;
+  rdfs:subClassOf :External .
+
+:Response_Times a owl:Class;
+  rdfs:subClassOf :Monitoring .
+
+:Runtime_Componenets a owl:Class;
+  rdfs:subClassOf :Internal .
+
+:SLA_Metrics a owl:Class;
+  rdfs:subClassOf :Failover;
+  owl:disjointWith :Tests .
+
+:Sales a owl:Class;
+  rdfs:subClassOf :Business_Model .
+
+:Scalability a owl:Class;
+  rdfs:subClassOf :Historical_Issues, :Software_Quality .
+
+:Scaling_Strategy a owl:Class;
+  rdfs:subClassOf :Transaction_Scalability .
+
+:Security a owl:Class;
+  rdfs:subClassOf :Historical_Issues, :Software_Quality .
+
+:Security_Architechture a owl:Class;
+  rdfs:subClassOf :Security .
+
+:Sensitive_Data a owl:Class;
+  rdfs:subClassOf :Security_Architechture .
+
+:Services a owl:Class;
+  rdfs:subClassOf :External .
+
+:Simulations a owl:Class;
+  rdfs:subClassOf :Reliability_Testing .
+
+:Single_Transaction_Optimization a owl:Class;
+  rdfs:subClassOf :Performance_Efficiency .
+
+:Site_statistics a owl:Class;
+  rdfs:subClassOf :IO, :Other_Systems .
+
+:Size a owl:Class;
+  rdfs:subClassOf :Userbase .
+
+:Software_Context a owl:Class .
+
+:Software_Purpose a owl:Class;
+  rdfs:subClassOf :Business_Process .
+
+:Software_Quality a owl:Class;
+  rdfs:subClassOf :Software_Context .
+
+:Source_Code_Documentation a owl:Class;
+  rdfs:subClassOf :Documentation .
+
+:Stability a owl:Class;
+  rdfs:subClassOf :API_Maturity .
+
+:Stakeholders a owl:Class;
+  rdfs:subClassOf :Business_Process .
+
+:Strategic_Roadmap a owl:Class;
+  rdfs:subClassOf :Business_Process .
+
+:Structure a owl:Class;
+  rdfs:subClassOf :Planning_Process;
+  owl:disjointWith :Technical_Debt .
+
+:System_Communication a owl:Class;
+  rdfs:subClassOf :Performance_Efficiency .
+
+:System_Documentation a owl:Class;
+  rdfs:subClassOf :Documentation .
+
+:System_Functionality a owl:Class;
+  rdfs:subClassOf :Maintainability .
+
+:System_Processes a owl:Class;
+  rdfs:subClassOf :Security_Architechture .
+
+:Team_Organization a owl:Class;
+  rdfs:subClassOf :Development_Practices .
+
+:Teams a owl:Class;
+  rdfs:subClassOf :Organization .
+
+:Technical_Debt a owl:Class;
+  rdfs:subClassOf :Planning_Process .
+
+:Technology a owl:Class;
+  rdfs:subClassOf :API_Maturity .
+
+:Test_Code a owl:Class;
+  rdfs:subClassOf :Codebase .
+
+:Test_Configuration a owl:Class;
+  rdfs:subClassOf :Codebase .
+
+:Test_Environments a owl:Class;
+  rdfs:subClassOf :Environments .
+
+:Test_Maturity a owl:Class;
+  rdfs:subClassOf :Functional_Scalability .
+
+:Testing a owl:Class;
+  rdfs:subClassOf :Development_Cycle_Security, :Development_Practices .
+
+:Testing_Criteria a owl:Class;
+  rdfs:subClassOf :Testing .
+
+:Tests a owl:Class;
+  rdfs:subClassOf :Failover .
+
+:Threat_Mitigation a owl:Class;
+  rdfs:subClassOf :Security .
+
+:Tools a owl:Class;
+  rdfs:subClassOf :Programming, :Testing .
+
+:Transaction_Handling a owl:Class;
+  rdfs:subClassOf :Reliability .
+
+:Transaction_Increase a owl:Class;
+  rdfs:subClassOf :Performance_Impact .
+
+:Transaction_Scalability a owl:Class;
+  rdfs:subClassOf :Performance_Efficiency, :Scalability .
+
+:Transparency a owl:Class;
+  rdfs:subClassOf :API_Maturity .
+
+:Unit a owl:Class;
+  rdfs:subClassOf :Testing .
+
+:Usage_Measurements a owl:Class;
+  rdfs:subClassOf :Application .
+
+:User_Feedback a owl:Class;
+  rdfs:subClassOf :Application .
+
+:User_Management a owl:Class;
+  rdfs:subClassOf :Security_Architechture .
+
+:User_Portals a owl:Class;
+  rdfs:subClassOf :Userbase .
+
+:User_Roles a owl:Class;
+  rdfs:subClassOf :Userbase .
+
+:User_Types a owl:Class;
+  rdfs:subClassOf :User_Management .
+
+:Userbase a owl:Class;
+  rdfs:subClassOf :Business_Process .
+
+:Usernames a owl:Class;
+  rdfs:subClassOf :Authenticaion_Credentials .
+
+:Users a owl:Class;
+  rdfs:subClassOf :Stakeholders .
+
+:Version_Control a owl:Class;
+  rdfs:subClassOf :Configuration_Management .
+
+:Web_Server a owl:Class;
+  rdfs:subClassOf :System_Processes .
+
+_:genid1 a owl:AllDisjointClasses;
+  owl:members _:genid14 .
+
+_:genid14 a rdf:List;
+  rdf:first :API_Documentation;
+  rdf:rest _:genid13 .
+
+_:genid13 a rdf:List;
+  rdf:first :Architechtures_Principles;
+  rdf:rest _:genid12 .
+
+_:genid12 a rdf:List;
+  rdf:first :Communication_Channels;
+  rdf:rest _:genid11 .
+
+_:genid11 a rdf:List;
+  rdf:first :Data_Formats;
+  rdf:rest _:genid10 .
+
+_:genid10 a rdf:List;
+  rdf:first :Efficiency;
+  rdf:rest _:genid9 .
+
+_:genid9 a rdf:List;
+  rdf:first :Endpoints;
+  rdf:rest _:genid8 .
+
+_:genid8 a rdf:List;
+  rdf:first :Error_Handling;
+  rdf:rest _:genid7 .
+
+_:genid7 a rdf:List;
+  rdf:first :Error_Messages;
+  rdf:rest _:genid6 .
+
+_:genid6 a rdf:List;
+  rdf:first :Felxibility;
+  rdf:rest _:genid5 .
+
+_:genid5 a rdf:List;
+  rdf:first :Framewroks;
+  rdf:rest _:genid4 .
+
+_:genid4 a rdf:List;
+  rdf:first :Stability;
+  rdf:rest _:genid3 .
+
+_:genid3 a rdf:List;
+  rdf:first :Technology;
+  rdf:rest _:genid2 .
+
+_:genid2 a rdf:List;
+  rdf:first :Transparency;
+  rdf:rest rdf:nil .
+
+_:genid15 a owl:AllDisjointClasses;
+  owl:members _:genid18 .
+
+_:genid18 a rdf:List;
+  rdf:first :Administrators;
+  rdf:rest _:genid17 .
+
+_:genid17 a rdf:List;
+  rdf:first :Anonymous_Users;
+  rdf:rest _:genid16 .
+
+_:genid16 a rdf:List;
+  rdf:first :Authenticated_Users;
+  rdf:rest rdf:nil .
+
+_:genid19 a owl:AllDisjointClasses;
+  owl:members _:genid22 .
+
+_:genid22 a rdf:List;
+  rdf:first :Algorithms;
+  rdf:rest _:genid21 .
+
+_:genid21 a rdf:List;
+  rdf:first :Computation_Side_Effects;
+  rdf:rest _:genid20 .
+
+_:genid20 a rdf:List;
+  rdf:first :Data_Structures;
+  rdf:rest rdf:nil .
+
+_:genid23 a owl:AllDisjointClasses;
+  owl:members _:genid27 .
+
+_:genid27 a rdf:List;
+  rdf:first :Application_Server;
+  rdf:rest _:genid26 .
+
+_:genid26 a rdf:List;
+  rdf:first :Backup_Server;
+  rdf:rest _:genid25 .
+
+_:genid25 a rdf:List;
+  rdf:first :Browser;
+  rdf:rest _:genid24 .
+
+_:genid24 a rdf:List;
+  rdf:first :Web_Server;
+  rdf:rest rdf:nil .
+
+_:genid28 a owl:AllDisjointClasses;
+  owl:members _:genid31 .
+
+_:genid31 a rdf:List;
+  rdf:first :Architechture;
+  rdf:rest _:genid30 .
+
+_:genid30 a rdf:List;
+  rdf:first :Automated_Testing;
+  rdf:rest _:genid29 .
+
+_:genid29 a rdf:List;
+  rdf:first :Test_Maturity;
+  rdf:rest rdf:nil .
+
+_:genid32 a owl:AllDisjointClasses;
+  owl:members _:genid36 .
+
+_:genid36 a rdf:List;
+  rdf:first :Architechture;
+  rdf:rest _:genid35 .
+
+_:genid35 a rdf:List;
+  rdf:first :Challenges;
+  rdf:rest _:genid34 .
+
+_:genid34 a rdf:List;
+  rdf:first :Codebase;
+  rdf:rest _:genid33 .
+
+_:genid33 a rdf:List;
+  rdf:first :System_Functionality;
+  rdf:rest rdf:nil .
+
+_:genid37 a owl:AllDisjointClasses;
+  owl:members _:genid41 .
+
+_:genid41 a rdf:List;
+  rdf:first :Architechture_Documentation;
+  rdf:rest _:genid40 .
+
+_:genid40 a rdf:List;
+  rdf:first :Non_Functional_Requirements_Documentation;
+  rdf:rest _:genid39 .
+
+_:genid39 a rdf:List;
+  rdf:first :Source_Code_Documentation;
+  rdf:rest _:genid38 .
+
+_:genid38 a rdf:List;
+  rdf:first :System_Documentation;
+  rdf:rest rdf:nil .
+
+_:genid42 a owl:AllDisjointClasses;
+  owl:members _:genid50 .
+
+_:genid50 a rdf:List;
+  rdf:first :Attack_Prevention_Measures;
+  rdf:rest _:genid49 .
+
+_:genid49 a rdf:List;
+  rdf:first :Communication_Protocols;
+  rdf:rest _:genid48 .
+
+_:genid48 a rdf:List;
+  rdf:first :Cryptography;
+  rdf:rest _:genid47 .
+
+_:genid47 a rdf:List;
+  rdf:first :Data_Storage_Handling;
+  rdf:rest _:genid46 .
+
+_:genid46 a rdf:List;
+  rdf:first :Development_Cycle_Security;
+  rdf:rest _:genid45 .
+
+_:genid45 a rdf:List;
+  rdf:first :Error_Handling;
+  rdf:rest _:genid44 .
+
+_:genid44 a rdf:List;
+  rdf:first :Input_Validation;
+  rdf:rest _:genid43 .
+
+_:genid43 a rdf:List;
+  rdf:first :Security_Architechture;
+  rdf:rest rdf:nil .
+
+_:genid51 a owl:AllDisjointClasses;
+  owl:members _:genid60 .
+
+_:genid60 a rdf:List;
+  rdf:first :Authentication_Mechanisms;
+  rdf:rest _:genid59 .
+
+_:genid59 a rdf:List;
+  rdf:first :Communication_Channels;
+  rdf:rest _:genid58 .
+
+_:genid58 a rdf:List;
+  rdf:first :Data_Stores;
+  rdf:rest _:genid57 .
+
+_:genid57 a rdf:List;
+  rdf:first :IO;
+  rdf:rest _:genid56 .
+
+_:genid56 a rdf:List;
+  rdf:first :Non_Repudiation_Functionality;
+  rdf:rest _:genid55 .
+
+_:genid55 a rdf:List;
+  rdf:first :Other_Systems;
+  rdf:rest _:genid54 .
+
+_:genid54 a rdf:List;
+  rdf:first :Sensitive_Data;
+  rdf:rest _:genid53 .
+
+_:genid53 a rdf:List;
+  rdf:first :System_Processes;
+  rdf:rest _:genid52 .
+
+_:genid52 a rdf:List;
+  rdf:first :User_Types;
+  rdf:rest rdf:nil .
+
+_:genid61 a owl:AllDisjointClasses;
+  owl:members _:genid65 .
+
+_:genid65 a rdf:List;
+  rdf:first :Automation;
+  rdf:rest _:genid64 .
+
+_:genid64 a rdf:List;
+  rdf:first :Documentation;
+  rdf:rest _:genid63 .
+
+_:genid63 a rdf:List;
+  rdf:first :Planning_Process;
+  rdf:rest _:genid62 .
+
+_:genid62 a rdf:List;
+  rdf:first :Quality_Assurance;
+  rdf:rest rdf:nil .
+
+_:genid66 a owl:AllDisjointClasses;
+  owl:members _:genid72 .
+
+_:genid72 a rdf:List;
+  rdf:first :Backip;
+  rdf:rest _:genid71 .
+
+_:genid71 a rdf:List;
+  rdf:first :Browser_local_cookies;
+  rdf:rest _:genid70 .
+
+_:genid70 a rdf:List;
+  rdf:first :Browser_local_storage;
+  rdf:rest _:genid69 .
+
+_:genid69 a rdf:List;
+  rdf:first :Configuration;
+  rdf:rest _:genid68 .
+
+_:genid68 a rdf:List;
+  rdf:first :Databases;
+  rdf:rest _:genid67 .
+
+_:genid67 a rdf:List;
+  rdf:first :Log_Files;
+  rdf:rest rdf:nil .
+
+_:genid73 a owl:AllDisjointClasses;
+  owl:members _:genid78 .
+
+_:genid78 a rdf:List;
+  rdf:first :Behaviour;
+  rdf:rest _:genid77 .
+
+_:genid77 a rdf:List;
+  rdf:first :Components;
+  rdf:rest _:genid76 .
+
+_:genid76 a rdf:List;
+  rdf:first :Documentation;
+  rdf:rest _:genid75 .
+
+_:genid75 a rdf:List;
+  rdf:first :Functionality;
+  rdf:rest _:genid74 .
+
+_:genid74 a rdf:List;
+  rdf:first :Future_Plans;
+  rdf:rest rdf:nil .
+
+_:genid79 a owl:AllDisjointClasses;
+  owl:members _:genid85 .
+
+_:genid85 a rdf:List;
+  rdf:first :Build_Automation;
+  rdf:rest _:genid84 .
+
+_:genid84 a rdf:List;
+  rdf:first :Failover;
+  rdf:rest _:genid83 .
+
+_:genid83 a rdf:List;
+  rdf:first :Fault_Isolation;
+  rdf:rest _:genid82 .
+
+_:genid82 a rdf:List;
+  rdf:first :Redundancy;
+  rdf:rest _:genid81 .
+
+_:genid81 a rdf:List;
+  rdf:first :Reliability_Testing;
+  rdf:rest _:genid80 .
+
+_:genid80 a rdf:List;
+  rdf:first :Transaction_Handling;
+  rdf:rest rdf:nil .
+
+_:genid86 a owl:AllDisjointClasses;
+  owl:members _:genid90 .
+
+_:genid90 a rdf:List;
+  rdf:first :Coding_Standards;
+  rdf:rest _:genid89 .
+
+_:genid89 a rdf:List;
+  rdf:first :Design_Standards;
+  rdf:rest _:genid88 .
+
+_:genid88 a rdf:List;
+  rdf:first :IDE;
+  rdf:rest _:genid87 .
+
+_:genid87 a rdf:List;
+  rdf:first :Tools;
+  rdf:rest rdf:nil .
+
+_:genid91 a owl:AllDisjointClasses;
+  owl:members _:genid94 .
+
+_:genid94 a rdf:List;
+  rdf:first :Credit_Card_Numbers;
+  rdf:rest _:genid93 .
+
+_:genid93 a rdf:List;
+  rdf:first :Encryption_keys;
+  rdf:rest _:genid92 .
+
+_:genid92 a rdf:List;
+  rdf:first :Passwords;
+  rdf:rest rdf:nil .
+
+_:genid95 a owl:AllDisjointClasses;
+  owl:members _:genid98 .
+
+_:genid98 a rdf:List;
+  rdf:first :Data_Migration;
+  rdf:rest _:genid97 .
+
+_:genid97 a rdf:List;
+  rdf:first :Hotfixes;
+  rdf:rest _:genid96 .
+
+_:genid96 a rdf:List;
+  rdf:first :Monitoring;
+  rdf:rest rdf:nil .
+
+_:genid99 a owl:AllDisjointClasses;
+  owl:members _:genid103 .
+
+_:genid103 a rdf:List;
+  rdf:first :Data_Scalability;
+  rdf:rest _:genid102 .
+
+_:genid102 a rdf:List;
+  rdf:first :Development_Scalability;
+  rdf:rest _:genid101 .
+
+_:genid101 a rdf:List;
+  rdf:first :Functional_Scalability;
+  rdf:rest _:genid100 .
+
+_:genid100 a rdf:List;
+  rdf:first :Transaction_Scalability;
+  rdf:rest rdf:nil .
+
+_:genid104 a owl:AllDisjointClasses;
+  owl:members _:genid107 .
+
+_:genid107 a rdf:List;
+  rdf:first :Data_Scalability;
+  rdf:rest _:genid106 .
+
+_:genid106 a rdf:List;
+  rdf:first :Functional_Scalability;
+  rdf:rest _:genid105 .
+
+_:genid105 a rdf:List;
+  rdf:first :Transaction_Scalability;
+  rdf:rest rdf:nil .
+
+_:genid108 a owl:AllDisjointClasses;
+  owl:members _:genid117 .
+
+_:genid117 a rdf:List;
+  rdf:first :Data_Scalability;
+  rdf:rest _:genid116 .
+
+_:genid116 a rdf:List;
+  rdf:first :Isolation;
+  rdf:rest _:genid115 .
+
+_:genid115 a rdf:List;
+  rdf:first :Monitoring;
+  rdf:rest _:genid114 .
+
+_:genid114 a rdf:List;
+  rdf:first :Performance_Testing;
+  rdf:rest _:genid113 .
+
+_:genid113 a rdf:List;
+  rdf:first :Resource_Elasticity;
+  rdf:rest _:genid112 .
+
+_:genid112 a rdf:List;
+  rdf:first :Resource_Intensive_Tasks;
+  rdf:rest _:genid111 .
+
+_:genid111 a rdf:List;
+  rdf:first :Single_Transaction_Optimization;
+  rdf:rest _:genid110 .
+
+_:genid110 a rdf:List;
+  rdf:first :System_Communication;
+  rdf:rest _:genid109 .
+
+_:genid109 a rdf:List;
+  rdf:first :Transaction_Scalability;
+  rdf:rest rdf:nil .
+
+_:genid118 a owl:AllDisjointClasses;
+  owl:members _:genid121 .
+
+_:genid121 a rdf:List;
+  rdf:first :Data_per_Call;
+  rdf:rest _:genid120 .
+
+_:genid120 a rdf:List;
+  rdf:first :Response_Time;
+  rdf:rest _:genid119 .
+
+_:genid119 a rdf:List;
+  rdf:first :Services;
+  rdf:rest rdf:nil .
+
+_:genid122 a owl:AllDisjointClasses;
+  owl:members _:genid125 .
+
+_:genid125 a rdf:List;
+  rdf:first :Database_Encryption;
+  rdf:rest _:genid124 .
+
+_:genid124 a rdf:List;
+  rdf:first :Network_Protection;
+  rdf:rest _:genid123 .
+
+_:genid123 a rdf:List;
+  rdf:first :Physical_Database_Security;
+  rdf:rest rdf:nil .
+
+_:genid126 a owl:AllDisjointClasses;
+  owl:members _:genid129 .
+
+_:genid129 a rdf:List;
+  rdf:first :Definition_Of_Done;
+  rdf:rest _:genid128 .
+
+_:genid128 a rdf:List;
+  rdf:first :KPI;
+  rdf:rest _:genid127 .
+
+_:genid127 a rdf:List;
+  rdf:first :Practices;
+  rdf:rest rdf:nil .
+
+_:genid130 a owl:AllDisjointClasses;
+  owl:members _:genid133 .
+
+_:genid133 a rdf:List;
+  rdf:first :Demographics;
+  rdf:rest _:genid132 .
+
+_:genid132 a rdf:List;
+  rdf:first :Usage_Measurements;
+  rdf:rest _:genid131 .
+
+_:genid131 a rdf:List;
+  rdf:first :User_Feedback;
+  rdf:rest rdf:nil .
+
+_:genid134 a owl:AllDisjointClasses;
+  owl:members _:genid138 .
+
+_:genid138 a rdf:List;
+  rdf:first :Deployment_Process;
+  rdf:rest _:genid137 .
+
+_:genid137 a rdf:List;
+  rdf:first :Integration;
+  rdf:rest _:genid136 .
+
+_:genid136 a rdf:List;
+  rdf:first :Libraries;
+  rdf:rest _:genid135 .
+
+_:genid135 a rdf:List;
+  rdf:first :Team_Organization;
+  rdf:rest rdf:nil .
+
+_:genid139 a owl:AllDisjointClasses;
+  owl:members _:genid142 .
+
+_:genid142 a rdf:List;
+  rdf:first :Design;
+  rdf:rest _:genid141 .
+
+_:genid141 a rdf:List;
+  rdf:first :Release;
+  rdf:rest _:genid140 .
+
+_:genid140 a rdf:List;
+  rdf:first :Testing;
+  rdf:rest rdf:nil .
+
+_:genid143 a owl:AllDisjointClasses;
+  owl:members _:genid146 .
+
+_:genid146 a rdf:List;
+  rdf:first :Environment_Provisioning;
+  rdf:rest _:genid145 .
+
+_:genid145 a rdf:List;
+  rdf:first :External_Integrations;
+  rdf:rest _:genid144 .
+
+_:genid144 a rdf:List;
+  rdf:first :Test_Environments;
+  rdf:rest rdf:nil .
+
+_:genid147 a owl:AllDisjointClasses;
+  owl:members _:genid150 .
+
+_:genid150 a rdf:List;
+  rdf:first :Errors;
+  rdf:rest _:genid149 .
+
+_:genid149 a rdf:List;
+  rdf:first :Exception_Handling;
+  rdf:rest _:genid148 .
+
+_:genid148 a rdf:List;
+  rdf:first :Indespensable_Componenets;
+  rdf:rest rdf:nil .
