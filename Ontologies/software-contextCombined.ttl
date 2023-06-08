@@ -159,7 +159,8 @@
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context/canDirectlyAffect
 <http://www.semanticweb.org/ontologies/2023/SE/software-context/canDirectlyAffect> rdf:type owl:ObjectProperty ;
-                                                                                   rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Competitors> ,
+                                                                                   rdfs:domain :Available_Resources ,
+                                                                                               <http://www.semanticweb.org/ontologies/2023/SE/software-context/Competitors> ,
                                                                                                <http://www.semanticweb.org/ontologies/2023/SE/software-context/KPI> ,
                                                                                                <http://www.semanticweb.org/ontologies/2023/SE/software-context/Project_Management_Practices> ,
                                                                                                <http://www.semanticweb.org/ontologies/2023/SE/software-context/Software_Purpose> ,
