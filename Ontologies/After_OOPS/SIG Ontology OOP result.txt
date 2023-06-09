@@ -1,0 +1,334 @@
+It is obvious that not all the pitfalls are equally important; their impact in the ontology will depend on multiple factors. For this reason, each pitfall has an importance level attached indicating how important it is. We have identified three levels:
+
+Critical Critical : It is crucial to correct the pitfall. Otherwise, it could affect the ontology consistency, reasoning, applicability, etc.
+Important Important : Though not critical for ontology function, it is important to correct this type of pitfall.
+Minor Minor : It is not really a problem, but by correcting it we will make the ontology nicer.
+[Expand All] | [Collapse All]
+
+Results for P04: Creating unconnected ontology elements.1 case | Minor Minor
+Ontology elements (classes, object properties and datatype properties) are created isolated, with no relation to the rest of the ontology.
+
+• This pitfall appears in the following elements:
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Context
+Results for P08: Missing annotations.235 cases | Minor Minor
+This pitfall consists in creating an ontology element and failing to provide human readable annotations attached to it. Consequently, ontology elements lack annotation properties that label them (e.g. rdfs:label, lemon:LexicalEntry, skos:prefLabel or skos:altLabel) or that define them (e.g. rdfs:comment or dc:description). This pitfall is related to the guidelines provided in [5].
+
+• The following elements have no rdfs:label defined:
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maintainable_Architechture_Considerations
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Stability
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Quality_Assurance_Considerations
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Dependencies
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Database_Code
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Strategic_Roadmap
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Teams
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Goals
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Isolation
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/KPI_Metrics
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Storage_Handling
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Developers
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Errors
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Communication_Protocols
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Architechts
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Environments
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/External
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Non_Repudiation_Functionality
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Metrics
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Logging
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Functional_Scalability
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Longin_Actions
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Functionality
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Exception_Tree
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Project_Management_Practices
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Frameworks
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/KPI
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Testing_Phase
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Usernames
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Phase_Practices
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Portals
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/IO
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Purpose
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Structure
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Size
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Tests
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Components
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Architechtures_Principles
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Scalability
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Hardware
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Site_statistics
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Certification_Scope
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Libraries
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Physical_Database_Security
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Migration
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Web_Server
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Caching
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Demographics
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/External_Web_Services
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Technology
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Runtime_Components
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Internal_Communication_Metrics
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Code_Reviews
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Context
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Planning_Process_Considerations
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Browser_local_storage
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Error_Messages
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Critical_Componenets
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/System_Communication
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Efficiency
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Reliability_Testing
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Hotfixes
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Codebase
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Types
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Code
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Quality_Factors
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Efficiency
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Sensitive_Data
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Transaction_Scalability
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Integration
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Configurations
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Indespensable_Componenets
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Threat_Mitigation
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Compression
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Code_Standards
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Roles
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Build_Automation
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Methodology
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Feedback
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Environments
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Marketing
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Anonymous_Users
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Definition_Of_Done
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Passwords
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Administrators
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Resource_Elasticity
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security_Architechture
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Application_Server
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Scaling_Strategy
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Failover
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/API_Maturity
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Monitoring
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Stakeholders
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Tools
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Technical_Debt
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Content_Delivery_Networks
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Continuous_Integration
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Fault_Isolation
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Usage_Measurements
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Impact
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Browser_local_cookies
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Stores
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Features
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Policy
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/External_Communication_Metrics
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Historical_Issues
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Error_Handling
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/SLA_Metrics
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Design_Standards
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Authenticated_Users
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Communication_Channels
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Project_Manager
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/System_Processes
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Deployment
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Credit_Card_Numbers
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Services
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Encryption_keys
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Practices
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Network_Protection
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Organization
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Cryptography
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Release_Phase_Practices
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Transaction_Handling
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Endpoints
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/App_Information
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Permissions
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Design_Phase
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Model
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Accesibility
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Internal
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Redundancy
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Evaluation_Criteria
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Computation_Side_Effects
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security_Measures
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/External_Systems
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Central_Error_Handling_System
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Version_Control
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Scalability
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Automation_Characteristics
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Users
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Programming_Considerations
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Optimization
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Reliability
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Commit_Changes
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/IDE
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Exception_Handling
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Algorithms
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Structures
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Product_Owner
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Current_Challenges
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Scalability_Metrics
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Resource_Intensive_Tasks
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Configuration_Management
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Databases
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Single_Transaction_Optimization
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Formats
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Testing
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Authenticaion_Credentials
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Userbase_Information
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Resource_Allocation
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Process
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Testing_Criteria
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Backup_Server
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Implementations
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Input_Validation
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Non_Critical_Components
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Simulations
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Branches
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Other_Systems
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/External_Integrations
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Configuration
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maintainability
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Financial_Transactions
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/System_Functionality
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Database_Encryption
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Competitors
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Cycle_Security
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/File_Uploads
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Coding_Standards
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Automated_Testing
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Authentication_Mechanisms
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Behaviour
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Management
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Maturity
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Sales
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Types
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Transaction_Increase
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Attack_Prevention_Measures
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Backups
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Scalability
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/HTTP_requests
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Future_Plans
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Log_Files
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Documentation
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/API_Documentation
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Browser
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Deployment_Process
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/validate
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesTools
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/percentageDedicatedFor
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/setsGoals
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/safelyPlansForCorrect
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/automatedProvisioning
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesDependencies
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/isTransparent
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/testableThrough
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesUpToDate
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/regularlyIntegrateFor
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/intergatedWith
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/recordedThrough
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/providesCriteriaFor
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesFrameworks
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/informsAbout
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/organizationStructureImpacts
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/measures
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesTestTypes
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/standardizes
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/automates
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/interactWith
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/incorporates
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/definesRequirements
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/protectedBy
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/issuesRelatedTo
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/controlledApplicationOf
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/addresses
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/usedToDevelop
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/affectsEaseOfReliabilityFixes
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/isFlexible
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/relatedTo
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/easilyCreates
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/wellDocumentIn
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/appliesEasilyUsable
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/commitRegularlyFor
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/canDirectlyAffect
+Results for P13: Inverse relationships not explicitly declared.36 cases | Minor Minor
+This pitfall appears when any relationship (except for those that are defined as symmetric properties using owl:SymmetricProperty) does not have an inverse relationship (owl:inverseOf) defined within the ontology.
+
+• OOPS! has the following suggestions for the relationships without inverse:
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/isTransparent could be inverse of http://www.semanticweb.org/ontologies/2023/SE/software-context2/isFlexible
+
+• Sorry, OOPS! has no suggestions for the following relationships without inverse:
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/validate
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesTools
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/percentageDedicatedFor
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/setsGoals
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/safelyPlansForCorrect
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/automatedProvisioning
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesDependencies
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/testableThrough
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesUpToDate
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/regularlyIntegrateFor
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/intergatedWith
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/recordedThrough
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/providesCriteriaFor
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesFrameworks
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/informsAbout
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/organizationStructureImpacts
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/measures
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesTestTypes
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/standardizes
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/automates
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/incorporates
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/definesRequirements
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/protectedBy
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/issuesRelatedTo
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/controlledApplicationOf
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/addresses
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/usedToDevelop
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/affectsEaseOfReliabilityFixes
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/relatedTo
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/easilyCreates
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/wellDocumentIn
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/appliesEasilyUsable
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/commitRegularlyFor
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/canDirectlyAffect
+Results for P19: Defining multiple domains or ranges in properties.7 cases | Critical Critical
+The domain or range (or both) of a property (relationships and attributes) is defined by stating more than one rdfs:domain or rdfs:range statements. In OWL multiple rdfs:domain or rdfs:range axioms are allowed, but they are interpreted as conjunction, being, therefore, equivalent to the construct owl:intersectionOf. This pitfall is related to the common error that appears when defining domains and ranges described in [7].
+
+• This pitfall appears in the following elements:
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/canDirectlyAffect
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/appliesEasilyUsable
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/usedToDevelop
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/incorporates
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/standardizes
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesFrameworks
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesTools
+Results for P21: Using a miscellaneous class.1 case | Minor Minor
+This pitfall refers to the creation of a class with the only goal of classifying the instances that do not belong to any of its sibling classes (classes with which the miscellaneous problematic class shares a common direct ancestor).
+
+• This pitfall appears in the following elements:
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Other_Systems
+Results for P22: Using different naming conventions in the ontology.ontology* | Minor Minor
+The ontology elements are not named following the same convention (for example CamelCase or use of delimiters as "-" or "_") . Some notions about naming conventions are provided in [2].
+
+*This pitfall applies to the ontology in general instead of specific elements.
+
+Results for P28: Defining wrong symmetric relationships.1 case | Critical Critical
+A relationship is defined as symmetric, using owl:SymmetricProperty, when the relationship is not necessarily symmetric.
+
+• This pitfall appears in the following elements:
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/interactWith
+Results for P30: Equivalent classes not explicitly declared.1 case | Important Important
+This pitfall consists in missing the definition of equivalent classes (owl:equivalentClass) in case of duplicated concepts. When an ontology reuses terms from other ontologies, classes that have the same meaning should be defined as equivalent in order to benefit the interoperability between both ontologies.
+
+• The following classes might be equivalent:
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security_Measures, http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security
+Results for P41: No license declared.ontology* | Important Important
+The ontology metadata omits information about the license that applies to the ontology.
+
+*This pitfall applies to the ontology in general instead of specific elements.
+
+SUGGESTION: symmetric or transitive object properties.4 cases
+The domain and range axioms are equal for each of the following object properties. Could they be symmetric or transitive?
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/automatedProvisioning
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/isTransparent
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/definesRequirements
+› http://www.semanticweb.org/ontologies/2023/SE/software-context2/isFlexible

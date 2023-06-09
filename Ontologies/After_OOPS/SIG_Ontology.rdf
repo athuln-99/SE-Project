@@ -1,0 +1,2099 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2023/SE/software-context2/"
+     xml:base="http://www.semanticweb.org/ontologies/2023/SE/software-context2/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2">
+        <rdfs:comment xml:lang="en">This is an ontoloy about Software Context</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/addresses -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/addresses">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maintainability"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Current_Challenges"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/affectsEaseOfReliabilityFixes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/affectsEaseOfReliabilityFixes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maintainable_Architechture_Considerations"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Reliability"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/appliesEasilyUsable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/appliesEasilyUsable">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/API_Maturity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Frameworks"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Tools"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/automatedProvisioning -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/automatedProvisioning">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Environments"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Environments"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/automates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/automates">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Deployment_Process"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Migration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/canDirectlyAffect -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/canDirectlyAffect">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Competitors"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/KPI"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Project_Management_Practices"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Purpose"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Stakeholders"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Strategic_Roadmap"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Userbase_Information"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Model"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/commitRegularlyFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/commitRegularlyFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Commit_Changes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Configuration_Management"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/controlledApplicationOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/controlledApplicationOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Deployment_Process"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Hotfixes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/definesRequirements -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/definesRequirements">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Definition_Of_Done"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Definition_Of_Done"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/easilyCreates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/easilyCreates">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Environments"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Environments"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/incorporates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/incorporates">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Integration"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Automation_Characteristics"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Build_Automation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/informsAbout -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/informsAbout">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Strategic_Roadmap"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Resource_Allocation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/interactWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/interactWith">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Developers"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Teams"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/intergatedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/intergatedWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maintainable_Architechture_Considerations"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security_Architechture"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/isFlexible -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/isFlexible">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/API_Maturity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/API_Maturity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/isTransparent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/isTransparent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/API_Maturity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/API_Maturity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/issuesRelatedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/issuesRelatedTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Historical_Issues"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Quality_Factors"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/measures -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/measures">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Scalability"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Scalability_Metrics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/organizationStructureImpacts -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/organizationStructureImpacts">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Organization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Resource_Allocation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/percentageDedicatedFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/percentageDedicatedFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Hardware"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Isolation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/protectedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/protectedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Communication_Protocols"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/providesCriteriaFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/providesCriteriaFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Definition_Of_Done"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Practices"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/recordedThrough -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/recordedThrough">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Metrics"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Monitoring"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/regularlyIntegrateFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/regularlyIntegrateFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Branches"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Configuration_Management"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/relatedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/relatedTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Historical_Issues"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Quality_Factors"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/safelyPlansForCorrect -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/safelyPlansForCorrect">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Project_Management_Practices"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Resource_Allocation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/setsGoals -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/setsGoals">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Strategic_Roadmap"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Goals"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/standardizes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/standardizes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/API_Maturity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Architechtures_Principles"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Communication_Protocols"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Formats"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Endpoints"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Error_Messages"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Technology"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/testableThrough -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/testableThrough">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/External_Integrations"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Environments"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/usedToDevelop -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/usedToDevelop">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Programming_Considerations"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Codebase"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Other_Systems"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesDependencies -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesDependencies">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Components"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Dependencies"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesFrameworks -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesFrameworks">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/API_Maturity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Codebase"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Testing_Phase"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Frameworks"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesTestTypes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesTestTypes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Testing_Phase"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Types"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesTools -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesTools">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Programming_Considerations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Testing_Phase"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Tools"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesUpToDate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesUpToDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Libraries"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Policy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/validate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/validate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Input_Validation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/File_Uploads"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/wellDocumentIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/wellDocumentIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/API_Maturity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/API_Documentation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/API_Documentation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/API_Documentation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/API_Maturity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/API_Maturity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Quality_Factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Accesibility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Accesibility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Quality_Factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Administrators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Administrators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Algorithms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Algorithms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Single_Transaction_Optimization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Anonymous_Users -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Anonymous_Users">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/App_Information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/App_Information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Accesibility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Application_Server -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Application_Server">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/System_Processes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Architechts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Architechts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Stakeholders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Architechtures_Principles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Architechtures_Principles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/API_Maturity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Attack_Prevention_Measures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Attack_Prevention_Measures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Authenticaion_Credentials -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Authenticaion_Credentials">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Authentication_Mechanisms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Authenticated_Users -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Authenticated_Users">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Authentication_Mechanisms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Authentication_Mechanisms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security_Architechture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Automated_Testing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Automated_Testing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Automation_Characteristics"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Build_Automation"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Functional_Scalability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Automation_Characteristics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Automation_Characteristics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Scalability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Backup_Server -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Backup_Server">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/System_Processes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Backups -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Backups">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Stores"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Behaviour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Behaviour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maintainable_Architechture_Considerations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Branches -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Branches"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Browser -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Browser">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/System_Processes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Browser_local_cookies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Browser_local_cookies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Stores"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Browser_local_storage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Browser_local_storage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Stores"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Build_Automation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Build_Automation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Codebase"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Reliability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Model -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Model">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Context"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Caching -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Caching">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Efficiency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Central_Error_Handling_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Central_Error_Handling_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Exception_Handling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Certification_Scope -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Certification_Scope">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Codebase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Code_Reviews -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Code_Reviews">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Quality_Assurance_Considerations"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Code_Standards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Code_Standards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Code_Standards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Quality_Assurance_Considerations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Codebase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Codebase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maintainability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Coding_Standards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Coding_Standards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Programming_Considerations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Commit_Changes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Commit_Changes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Communication_Channels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Communication_Channels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security_Architechture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Communication_Protocols -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Communication_Protocols"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Competitors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Competitors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Components -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Components">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maintainable_Architechture_Considerations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Compression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Compression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Efficiency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Computation_Side_Effects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Computation_Side_Effects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Single_Transaction_Optimization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Configuration_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Configuration_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Practices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Configurations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Configurations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Stores"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Content_Delivery_Networks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Content_Delivery_Networks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Other_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Continuous_Integration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Continuous_Integration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Automation_Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Credit_Card_Numbers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Credit_Card_Numbers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Sensitive_Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Critical_Componenets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Critical_Componenets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Errors"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Non_Critical_Components"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Cryptography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Cryptography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Current_Challenges -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Current_Challenges"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Formats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Formats"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Migration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Migration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Scalability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Scalability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Efficiency"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Scalability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Scalability_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Scalability_Metrics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Storage_Handling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Storage_Handling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Stores -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Stores">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security_Architechture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Structures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Structures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Single_Transaction_Optimization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Database_Code -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Database_Code">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Codebase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Database_Encryption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Database_Encryption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Storage_Handling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Databases -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Databases">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Stores"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Definition_Of_Done -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Definition_Of_Done">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Process"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Methodology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Demographics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Demographics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/App_Information"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Userbase_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Dependencies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Dependencies"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Deployment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Deployment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Build_Automation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Deployment_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Deployment_Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Practices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Design_Phase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Design_Phase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Cycle_Security"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Design_Standards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Design_Standards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Programming_Considerations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Developers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Developers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Organization"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Stakeholders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Cycle_Security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Cycle_Security">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Phase_Practices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Phase_Practices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Methodology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Release_Phase_Practices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Practices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Practices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Quality_Factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Scalability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Scalability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Scalability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Documentation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Documentation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Scalability"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maintainable_Architechture_Considerations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Efficiency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Efficiency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/API_Maturity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Encryption_keys -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Encryption_keys">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Sensitive_Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Endpoints -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Endpoints"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Environments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Environments">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Practices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Error_Handling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Error_Handling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/API_Maturity"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Error_Messages -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Error_Messages"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Errors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Errors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Fault_Isolation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Evaluation_Criteria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Evaluation_Criteria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Certification_Scope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Exception_Handling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Exception_Handling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Fault_Isolation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Exception_Tree -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Exception_Tree">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Exception_Handling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/External -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/External">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/System_Communication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/External_Communication_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/External_Communication_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/External"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/External_Integrations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/External_Integrations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Practices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/External_Systems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/External_Systems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Codebase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/External_Web_Services -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/External_Web_Services">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/IO"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Other_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Failover -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Failover">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Reliability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Fault_Isolation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Fault_Isolation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Reliability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Features -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Features">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Future_Plans"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/File_Uploads -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/File_Uploads"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Financial_Transactions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Financial_Transactions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Non_Repudiation_Functionality"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Longin_Actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Frameworks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Frameworks"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Functional_Scalability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Functional_Scalability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Scalability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Functionality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Functionality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maintainable_Architechture_Considerations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Future_Plans -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Future_Plans">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maintainable_Architechture_Considerations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Goals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Goals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Purpose"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/HTTP_requests -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/HTTP_requests">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/IO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Hardware -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Hardware"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Historical_Issues -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Historical_Issues">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/KPI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Hotfixes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Hotfixes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/IDE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/IDE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Programming_Considerations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/IO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/IO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security_Architechture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Implementations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Implementations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Future_Plans"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Indespensable_Componenets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Indespensable_Componenets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Fault_Isolation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Input_Validation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Input_Validation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Integration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Integration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Practices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Internal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Internal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/System_Communication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Internal_Communication_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Internal_Communication_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Internal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Isolation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Isolation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Efficiency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/KPI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/KPI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/KPI_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/KPI_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Methodology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Libraries -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Libraries">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Codebase"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Practices"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/IO"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Other_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Log_Files -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Log_Files">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Stores"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Logging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Logging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Error_Handling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Longin_Actions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Longin_Actions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Non_Repudiation_Functionality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maintainability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maintainability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Quality_Factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maintainable_Architechture_Considerations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maintainable_Architechture_Considerations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Functional_Scalability"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maintainability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Marketing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Marketing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Methodology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Methodology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Practices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Monitoring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Monitoring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Codebase"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Deployment_Process"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Efficiency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Network_Protection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Network_Protection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Storage_Handling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Non_Critical_Components -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Non_Critical_Components">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Errors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Non_Repudiation_Functionality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Non_Repudiation_Functionality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security_Architechture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Optimization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Optimization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Efficiency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Organization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Process"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Practices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Other_Systems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Other_Systems">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security_Architechture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Passwords -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Passwords">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Authenticaion_Credentials"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Sensitive_Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Efficiency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Efficiency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Quality_Factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Transaction_Scalability"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Scaling_Strategy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Metrics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Testing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Testing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Efficiency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Permissions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Permissions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Physical_Database_Security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Physical_Database_Security">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Storage_Handling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Planning_Process_Considerations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Planning_Process_Considerations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Scalability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Policy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Policy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Product_Owner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Product_Owner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Stakeholders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Programming_Considerations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Programming_Considerations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Practices"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/IO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Project_Management_Practices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Project_Management_Practices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Project_Manager -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Project_Manager">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Stakeholders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Quality_Assurance_Considerations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Quality_Assurance_Considerations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Scalability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Redundancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Redundancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Reliability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Release_Phase_Practices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Release_Phase_Practices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Cycle_Security"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Methodology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Reliability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Reliability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Quality_Factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Reliability_Testing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Reliability_Testing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Reliability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Resource_Allocation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Resource_Allocation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Resource_Elasticity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Resource_Elasticity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Efficiency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Resource_Intensive_Tasks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Resource_Intensive_Tasks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Efficiency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Runtime_Components -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Runtime_Components">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Internal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/SLA_Metrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/SLA_Metrics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Failover"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Sales -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Sales">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Scalability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Scalability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Quality_Factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Scaling_Strategy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Scaling_Strategy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Transaction_Scalability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Quality_Factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security_Architechture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security_Architechture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security_Measures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security_Measures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Sensitive_Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Sensitive_Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security_Architechture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Services -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Services">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/External"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Simulations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Simulations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Reliability_Testing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Single_Transaction_Optimization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Single_Transaction_Optimization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Efficiency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Site_statistics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Site_statistics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/IO"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Other_Systems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Userbase_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Context -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Context"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Purpose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Purpose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Quality_Factors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Quality_Factors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Software_Context"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Stability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Stability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/API_Maturity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Stakeholders -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Stakeholders">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Strategic_Roadmap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Strategic_Roadmap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Structure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Structure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Planning_Process_Considerations"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Technical_Debt"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/System_Communication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/System_Communication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Efficiency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/System_Functionality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/System_Functionality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maintainability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/System_Processes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/System_Processes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security_Architechture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Teams -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Teams">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Technical_Debt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Technical_Debt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Planning_Process_Considerations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Technology"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Code -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Code">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Codebase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Configuration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Configuration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Codebase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Environments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Environments"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Maturity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Maturity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Functional_Scalability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Types -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Types"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Testing_Criteria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Testing_Criteria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Testing_Phase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Testing_Phase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Testing_Phase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Cycle_Security"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Practices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Tests -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Tests">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Failover"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Threat_Mitigation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Threat_Mitigation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Tools -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Tools"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Transaction_Handling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Transaction_Handling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Reliability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Transaction_Increase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Transaction_Increase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Impact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Transaction_Scalability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Transaction_Scalability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Efficiency"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Scalability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Usage_Measurements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Usage_Measurements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/App_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Feedback -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Feedback">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/App_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security_Architechture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Portals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Portals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Userbase_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Roles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Roles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Userbase_Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Types -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Types">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/User_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Userbase_Information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Userbase_Information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Business_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Usernames -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Usernames">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Authenticaion_Credentials"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Users -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Users">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Stakeholders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Version_Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Version_Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Configuration_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Web_Server -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Web_Server">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/System_Processes"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Architechture_Documentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Architechture_Documentation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Computer_Resource_Utilization -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Computer_Resource_Utilization">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Metrics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_per_Request -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_per_Request">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Internal_Communication_Metrics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_per_call -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_per_call">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/External_Communication_Metrics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/End_to_End -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/End_to_End">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maximum_Size -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maximum_Size">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Scalability_Metrics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maximum_Volume -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Maximum_Volume">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Data_Scalability_Metrics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Non_Functional -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Non_Functional">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Non_Functional_Requirements_Documentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Non_Functional_Requirements_Documentation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Number_of_users -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Number_of_users">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/KPI"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Recovery -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Recovery">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Tests"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Regression -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Regression">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Response_Time -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Response_Time">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/External_Communication_Metrics"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Performance_Metrics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Source_Code_Documentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Source_Code_Documentation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/System_Documentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/System_Documentation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2023/SE/software-context2/Unit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Unit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/SE/software-context2/Test_Types"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

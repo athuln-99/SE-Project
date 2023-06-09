@@ -25,15 +25,33 @@
                                rdfs:range :Reliability .
 
 
-###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/appliesEasilyUsable
-:appliesEasilyUsable rdf:type owl:ObjectProperty ;
-                     rdfs:domain :API_Maturity ;
-                     rdfs:range :Frameworks ,
-                                :Tools .
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/apiUsesFrameworks
+:apiUsesFrameworks rdf:type owl:ObjectProperty ;
+                   rdfs:domain :API_Maturity ;
+                   rdfs:range :Frameworks .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/appliesEasilyUsableFrameworks
+:appliesEasilyUsableFrameworks rdf:type owl:ObjectProperty ;
+                               rdfs:domain :API_Maturity ;
+                               rdfs:range :Frameworks .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/appliesEasilyUsableTools
+:appliesEasilyUsableTools rdf:type owl:ObjectProperty ;
+                          rdfs:domain :API_Maturity ;
+                          rdfs:range :Tools .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/arePartOf
+:arePartOf rdf:type owl:ObjectProperty ;
+           rdfs:domain :Developers ;
+           rdfs:range :Teams .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/automatedProvisioning
-:automatedProvisioning rdf:type owl:ObjectProperty ;
+:automatedProvisioning rdf:type owl:ObjectProperty ,
+                                owl:SymmetricProperty ;
                        rdfs:domain :Environments ;
                        rdfs:range :Environments .
 
@@ -44,22 +62,22 @@
            rdfs:range :Data_Migration .
 
 
-###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/canDirectlyAffect
-:canDirectlyAffect rdf:type owl:ObjectProperty ;
-                   rdfs:domain :Competitors ,
-                               :KPI ,
-                               :Project_Management_Practices ,
-                               :Software_Purpose ,
-                               :Stakeholders ,
-                               :Strategic_Roadmap ,
-                               :Userbase_Information ;
-                   rdfs:range :Business_Model .
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/codeUsesFrameworks
+:codeUsesFrameworks rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Codebase ;
+                    rdfs:range :Frameworks .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/commitRegularlyFor
 :commitRegularlyFor rdf:type owl:ObjectProperty ;
                     rdfs:domain :Commit_Changes ;
                     rdfs:range :Configuration_Management .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/competitorsAffect
+:competitorsAffect rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Competitors ;
+                   rdfs:range :Business_Model .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/controlledApplicationOf
@@ -69,7 +87,8 @@
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/definesRequirements
-:definesRequirements rdf:type owl:ObjectProperty ;
+:definesRequirements rdf:type owl:ObjectProperty ,
+                              owl:SymmetricProperty ;
                      rdfs:domain :Definition_Of_Done ;
                      rdfs:range :Definition_Of_Done .
 
@@ -80,24 +99,22 @@
                rdfs:range :Test_Environments .
 
 
-###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/incorporates
-:incorporates rdf:type owl:ObjectProperty ;
-              rdfs:domain :Integration ;
-              rdfs:range :Automation_Characteristics ,
-                         :Build_Automation .
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/incorperatesBuild
+:incorperatesBuild rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Integration ;
+                   rdfs:range :Build_Automation .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/incorperatesCharacteristics
+:incorperatesCharacteristics rdf:type owl:ObjectProperty ;
+                             rdfs:domain :Integration ;
+                             rdfs:range :Automation_Characteristics .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/informsAbout
 :informsAbout rdf:type owl:ObjectProperty ;
               rdfs:domain :Strategic_Roadmap ;
               rdfs:range :Resource_Allocation .
-
-
-###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/interactWith
-:interactWith rdf:type owl:ObjectProperty ,
-                       owl:SymmetricProperty ;
-              rdfs:domain :Developers ;
-              rdfs:range :Teams .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/intergatedWith
@@ -107,13 +124,15 @@
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/isFlexible
-:isFlexible rdf:type owl:ObjectProperty ;
+:isFlexible rdf:type owl:ObjectProperty ,
+                     owl:SymmetricProperty ;
             rdfs:domain :API_Maturity ;
             rdfs:range :API_Maturity .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/isTransparent
-:isTransparent rdf:type owl:ObjectProperty ;
+:isTransparent rdf:type owl:ObjectProperty ,
+                        owl:SymmetricProperty ;
                rdfs:domain :API_Maturity ;
                rdfs:range :API_Maturity .
 
@@ -122,6 +141,12 @@
 :issuesRelatedTo rdf:type owl:ObjectProperty ;
                  rdfs:domain :Historical_Issues ;
                  rdfs:range :Software_Quality_Factors .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/kpiAffects
+:kpiAffects rdf:type owl:ObjectProperty ;
+            rdfs:domain :KPI ;
+            rdfs:range :Business_Model .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/measures
@@ -136,10 +161,22 @@
                               rdfs:range :Resource_Allocation .
 
 
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/pConsiderationsAffectsToolsUsed
+:pConsiderationsAffectsToolsUsed rdf:type owl:ObjectProperty ;
+                                 rdfs:domain :Programming_Considerations ;
+                                 rdfs:range :Tools .
+
+
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/percentageDedicatedFor
 :percentageDedicatedFor rdf:type owl:ObjectProperty ;
                         rdfs:domain :Hardware ;
                         rdfs:range :Isolation .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/pmPracticesAffect
+:pmPracticesAffect rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Project_Management_Practices ;
+                   rdfs:range :Business_Model .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/protectedBy
@@ -172,6 +209,12 @@
            rdfs:range :Software_Quality_Factors .
 
 
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/roadmapAffects
+:roadmapAffects rdf:type owl:ObjectProperty ;
+                rdfs:domain :Strategic_Roadmap ;
+                rdfs:range :Business_Model .
+
+
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/safelyPlansForCorrect
 :safelyPlansForCorrect rdf:type owl:ObjectProperty ;
                        rdfs:domain :Project_Management_Practices ;
@@ -184,15 +227,52 @@
            rdfs:range :Goals .
 
 
-###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/standardizes
-:standardizes rdf:type owl:ObjectProperty ;
-              rdfs:domain :API_Maturity ;
-              rdfs:range :Architechtures_Principles ,
-                         :Communication_Protocols ,
-                         :Data_Formats ,
-                         :Endpoints ,
-                         :Error_Messages ,
-                         :Technology .
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/softwarePurposeAffects
+:softwarePurposeAffects rdf:type owl:ObjectProperty ;
+                        rdfs:domain :Software_Purpose ;
+                        rdfs:range :Business_Model .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/stakeholderDecisionsAffect
+:stakeholderDecisionsAffect rdf:type owl:ObjectProperty ;
+                            rdfs:domain :Stakeholders ;
+                            rdfs:range :Business_Model .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/standardizesArchitechturePrinciples
+:standardizesArchitechturePrinciples rdf:type owl:ObjectProperty ;
+                                     rdfs:domain :API_Maturity ;
+                                     rdfs:range :Architechtures_Principles .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/standardizesComProtocols
+:standardizesComProtocols rdf:type owl:ObjectProperty ;
+                          rdfs:domain :API_Maturity ;
+                          rdfs:range :Communication_Protocols .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/standardizesDataFormats
+:standardizesDataFormats rdf:type owl:ObjectProperty ;
+                         rdfs:domain :API_Maturity ;
+                         rdfs:range :Data_Formats .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/standardizesEndpoint
+:standardizesEndpoint rdf:type owl:ObjectProperty ;
+                      rdfs:domain :API_Maturity ;
+                      rdfs:range :Endpoints .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/standardizesErrorMessages
+:standardizesErrorMessages rdf:type owl:ObjectProperty ;
+                           rdfs:domain :API_Maturity ;
+                           rdfs:range :Error_Messages .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/standardizesTechnology
+:standardizesTechnology rdf:type owl:ObjectProperty ;
+                        rdfs:domain :API_Maturity ;
+                        rdfs:range :Technology .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/testableThrough
@@ -201,11 +281,34 @@
                  rdfs:range :Environments .
 
 
-###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/usedToDevelop
-:usedToDevelop rdf:type owl:ObjectProperty ;
-               rdfs:domain :Programming_Considerations ;
-               rdfs:range :Codebase ,
-                          :Other_Systems .
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/testingUsesFrameworks
+:testingUsesFrameworks rdf:type owl:ObjectProperty ;
+                       rdfs:domain :Testing_Phase ;
+                       rdfs:range :Frameworks .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/testingUsesTools
+:testingUsesTools rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Testing_Phase ;
+                  rdfs:range :Tools .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/usedToDevelopCodebase
+:usedToDevelopCodebase rdf:type owl:ObjectProperty ;
+                       rdfs:domain :Programming_Considerations ;
+                       rdfs:range :Codebase .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/usedToDevelopOtherSystems
+:usedToDevelopOtherSystems rdf:type owl:ObjectProperty ;
+                           rdfs:domain :Programming_Considerations ;
+                           rdfs:range :Other_Systems .
+
+
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/userbaseAffects
+:userbaseAffects rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Userbase_Information ;
+                 rdfs:range :Business_Model .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesDependencies
@@ -214,25 +317,10 @@
                   rdfs:range :Dependencies .
 
 
-###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesFrameworks
-:usesFrameworks rdf:type owl:ObjectProperty ;
-                rdfs:domain :API_Maturity ,
-                            :Codebase ,
-                            :Testing_Phase ;
-                rdfs:range :Frameworks .
-
-
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesTestTypes
 :usesTestTypes rdf:type owl:ObjectProperty ;
                rdfs:domain :Testing_Phase ;
                rdfs:range :Test_Types .
-
-
-###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesTools
-:usesTools rdf:type owl:ObjectProperty ;
-           rdfs:domain :Programming_Considerations ,
-                       :Testing_Phase ;
-           rdfs:range :Tools .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/usesUpToDate
@@ -888,6 +976,11 @@
                               :Development_Practices .
 
 
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Other_Measures
+:Other_Measures rdf:type owl:Class ;
+                rdfs:subClassOf :Security .
+
+
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Other_Systems
 :Other_Systems rdf:type owl:Class ;
                rdfs:subClassOf :Security_Architechture .
@@ -1033,11 +1126,6 @@
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security_Architechture
 :Security_Architechture rdf:type owl:Class ;
                         rdfs:subClassOf :Security .
-
-
-###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Security_Measures
-:Security_Measures rdf:type owl:Class ;
-                   rdfs:subClassOf :Security .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Sensitive_Data
