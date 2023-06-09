@@ -302,7 +302,7 @@
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/usedToDevelopOtherSystems
 :usedToDevelopOtherSystems rdf:type owl:ObjectProperty ;
                            rdfs:domain :Programming_Considerations ;
-                           rdfs:range :Other_Systems .
+                           rdfs:range :Interacting_Systems .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/userbaseAffects
@@ -557,7 +557,7 @@
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Content_Delivery_Networks
 :Content_Delivery_Networks rdf:type owl:Class ;
-                           rdfs:subClassOf :Other_Systems .
+                           rdfs:subClassOf :Interacting_Systems .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Continuous_Integration
@@ -774,7 +774,7 @@
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/External_Web_Services
 :External_Web_Services rdf:type owl:Class ;
                        rdfs:subClassOf :IO ,
-                                       :Other_Systems .
+                                       :Interacting_Systems .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Failover
@@ -874,6 +874,11 @@
              rdfs:subClassOf :Development_Practices .
 
 
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Interacting_Systems
+:Interacting_Systems rdf:type owl:Class ;
+                     rdfs:subClassOf :Security_Architechture .
+
+
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Internal
 :Internal rdf:type owl:Class ;
           rdfs:subClassOf :System_Communication .
@@ -904,7 +909,7 @@
            rdfs:subClassOf :Codebase ,
                            :Development_Practices ,
                            :IO ,
-                           :Other_Systems .
+                           :Interacting_Systems .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Log_Files
@@ -979,11 +984,6 @@
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Other_Measures
 :Other_Measures rdf:type owl:Class ;
                 rdfs:subClassOf :Security .
-
-
-###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Other_Systems
-:Other_Systems rdf:type owl:Class ;
-               rdfs:subClassOf :Security_Architechture .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Passwords
@@ -1151,7 +1151,7 @@
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Site_statistics
 :Site_statistics rdf:type owl:Class ;
                  rdfs:subClassOf :IO ,
-                                 :Other_Systems .
+                                 :Interacting_Systems .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Size
