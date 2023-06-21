@@ -1,0 +1,75 @@
+Salesforce
+Microsoft
+Intuit
+Veeva Systems
+Oracle
+Cvent
+Druva
+Box
+Google Workspace
+Zendesk
+RingCentral
+GoToConnect
+Avangate
+Teem
+Pipeliner CRM
+Meistertask
+Travelperk
+Practical Ignition
+Anaplan
+Domo
+DocuSign
+Slack
+Twilio
+GitHub
+GoToMeeting
+Cisco
+Personio
+ADP
+Clearlake Capital
+Workday
+ServiceNow
+Workable
+Namely
+Apptio
+GoodData
+Tableau
+New Relic
+NapoleonCat
+FreshBooks
+Paychex
+Xero
+2Checkout
+Spendesk
+Bill.com
+Vista Equity Partners
+Zuora
+Coupa Software
+Skyword
+Mobiniti
+Intercom
+Mailchimp
+Aurea
+Act-On Software
+Marketo
+NextRoll
+HubSpot
+Adobe Creative Cloud
+Bitnami
+Blackbaud
+Splunk
+Amazon Web Services (AWS) SaaS
+MuleSoft
+Atlassian
+Okta
+Proofpoint
+KnowBe4
+Rapid7
+Veracode
+CodeSignal
+ServiceMax
+SurveyMonkey
+Blackboard
+Eloomi
+Grammarly
+Kahoot!
