@@ -1,0 +1,10 @@
+https://apidocs.nextroll.com/index.html
+https://developers.nextroll.com/
+https://www.nextroll.com/terms
+https://security.nextroll.com/
+https://www.nextroll.com/terms/archived
+https://tech.nextroll.com/blog/frontend/2015/12/21/gulp-react-docs.html
+https://www.linkedin.com/in/castanedaeddie
+https://tech.nextroll.com/blog/frontend/2015/11/12/rollup-react-and-npm-at-adroll.html
+https://www.adroll.com/
+https://help.adroll.com/hc/en-us/articles/213546497-Tax-Documents

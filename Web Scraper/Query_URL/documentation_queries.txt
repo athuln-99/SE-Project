@@ -1,0 +1,5 @@
+documents
+documentation
+case study
+whitepaper
+report

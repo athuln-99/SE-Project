@@ -1,0 +1,10 @@
+https://aws.amazon.com/blogs/apn/forrester-tei-the-partner-opportunity-for-building-saas-on-amazon-web-services/
+https://docs.aws.amazon.com/marketplace/latest/userguide/saas-products.html
+https://aws.amazon.com/security/
+https://docs.aws.amazon.com/marketplace/latest/userguide/metering-for-usage.html
+https://aws.amazon.com/compliance/
+https://docs.aws.amazon.com/marketplace/latest/userguide/Reporting.html
+https://www.workiva.com/partners/amazon-web-services
+https://docs.aws.amazon.com/marketplace/latest/userguide/private-offers-overview.html
+https://sustainability.aboutamazon.com/environment/the-cloud
+https://docs.aws.amazon.com/marketplace/latest/userguide/what-is-marketplace.html

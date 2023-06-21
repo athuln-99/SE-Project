@@ -1,0 +1,10 @@
+https://test.documentation.analyze.proofpoint.com/
+https://help.proofpoint.com/Threat_Insight_Dashboard/API_Documentation
+https://www.proofpoint.com/us/products/email-protection/essentials
+https://secureshare.proofpoint.com/share/help/proofpoint-share-faq.html
+https://www.proofpoint.com/us/support/technical-support-offerings
+https://threatintel.proofpoint.com/
+https://www.proofpoint.com/us/blog/threat-insight/onenote-documents-increasingly-used-to-deliver-malware
+https://proofpointcommunities.force.com/community/s/article/Threat-Response-Access-documentation-for-PTR-and-Threat-Response-Auto-Pull-TRAP
+https://www.proofpoint.com/us/legal/trust/dpa-and-other-important-documents
+https://prod.docs.oit.proofpoint.com/about_the_product_documentation/about_the_observeit_documentation.htm

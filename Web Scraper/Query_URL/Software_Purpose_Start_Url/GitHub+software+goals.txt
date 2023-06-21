@@ -1,0 +1,10 @@
+https://github.com/topics/sustainable-development-goals
+https://docs.github.com/en/issues/tracking-your-work-with-issues/planning-and-tracking-work-for-your-team-or-project
+https://en.wikipedia.org/wiki/Git
+https://github.com/otaheri/GOAL
+https://docs.github.com/en/enterprise-server@3.4/code-security/adopting-github-advanced-security-at-scale/phase-1-align-on-your-rollout-strategy-and-goals
+https://blog.hubspot.com/website/what-is-github-used-for
+https://resources.github.com/innersource/fundamentals/
+https://gist.github.com/jaimelr/bc710dcb17bcd8bde8b16bcc1e837225
+https://github.blog/2023-01-31-skilling-for-the-future-how-github-is-advancing-diversity-equity-and-inclusion-within-open-source-communities/
+https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git

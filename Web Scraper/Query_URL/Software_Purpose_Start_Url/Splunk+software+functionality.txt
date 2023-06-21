@@ -1,0 +1,10 @@
+https://docs.splunk.com/Documentation/Splunk/9.0.5/Admin/TypesofSplunklicenses
+https://www.splunk.com/en_us/data-insider/what-is-siem.html
+https://docs.splunk.com/Documentation/Splunk/9.0.5/ReleaseNotes/MeetSplunk
+https://www.splunk.com/en_us/products/splunk-enterprise-features.html
+https://www.fortinet.com/resources/cyberglossary/what-is-splunk
+https://community.splunk.com/t5/Installation/Need-pricing-and-feature-comparison-details/m-p/547339
+https://www.tutorialspoint.com/splunk/splunk_overview.htm
+https://www.bluevoyant.com/knowledge-center/splunk-enterprise-architecture-features-and-capabilities
+https://dev.splunk.com/enterprise/docs/devtools/customsearchcommands
+https://lantern.splunk.com/Splunk_Success_Framework/People_Management/People_management_overview

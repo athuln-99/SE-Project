@@ -1,0 +1,10 @@
+https://www.servicenow.com/
+https://docs.servicenow.com/en-US/bundle/utah-it-asset-management/page/product/software-asset-management2/concept/c_SoftwareAssetMgmt.html
+https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/resource-center/data-sheet/ds-software-spend-detection-and-overlapping-software.pdf
+https://docs.servicenow.com/en-US/bundle/utah-release-notes/page/release-notes/it-asset-management/software-asset-management-rn.html
+https://www.servicenow.com/community/cmdb-blog/support-for-removed-software-functionality-in-service-graph/ba-p/2274937
+https://docs.servicenow.com/en-US/bundle/utah-it-asset-management/page/product/software-asset-management2/concept/overlapping-software.html
+https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0954619
+https://docs.servicenow.com/en-US/bundle/utah-it-asset-management/page/product/software-asset-management2/concept/it-asset-management.html
+https://www.techtarget.com/searchitoperations/definition/ServiceNow
+https://docs.servicenow.com/bundle/rome-servicenow-platform/page/product/orchestration/concept/c_ClientSoftwareDistribution.html

@@ -1,0 +1,10 @@
+http://inductiveautomation.com/resources/article/21-cfr-part-11-compliance-with-inductive-automations-ignition-platform
+https://forum.inductiveautomation.com/t/14-myths-about-historians-sql-databases/8242
+http://inductiveautomation.com/resources/article/scalable-scada-deploying-ignition-in-any-architecture
+https://intersog.com/white-papers/
+https://inductiveautomation.com/resources/article/ignition-server-sizing-and-architecture-guide
+https://files.drivve.com/download/attachment/5904/eu/CVID_32080.Image_7_Whitepaper_ENG_Technology_Specifications.pdf
+http://inductiveautomation.com/resources/icc/2022/water-and-wastewater-exploring-the-next-generation-of-remote-telemetry-monitoring
+https://www.vertech.com/resources/white-papers
+http://pages.inductiveautomation.com/rs/966-TUX-261/images/IgnitionSecurityHardeningGuide_9-13-17.pdf
+https://www.smartvault.com/supercharge-your-practice-with-right-tools/

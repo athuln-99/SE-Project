@@ -1,0 +1,10 @@
+https://docs.veracode.com/r/All_Documentation_and_Videos
+https://www.veracode.com/
+https://docs.veracode.com/
+https://www.veracode.com/security
+https://community.veracode.com/s/knowledgeitem/veracode-for-aws-codestar-MCRCLLQAPJVJBFFIYWOJ74QRQ42I
+https://learn.microsoft.com/en-us/azure/active-directory/saas-apps/veracode-tutorial
+https://community.veracode.com/s/topic/0TO34000000PlPYGA0/veracode-software-composition-analysis
+https://docs.servicenow.com/en-US/bundle/utah-security-management/page/product/secops-integration-vr/veracode/concept/veracode-vuln-integration.html
+https://github.com/veracode/Veracode-Community-Projects
+https://www.linkedin.com/in/legodoug

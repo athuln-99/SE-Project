@@ -1,0 +1,10 @@
+https://www.cisco.com/c/en/us/support/index.html
+https://software.cisco.com/
+https://www.cisco.com/c/en/us/td/docs/general/whatsnew/whatsnew.html
+https://community.cisco.com/t5/service-providers-knowledge-base/ios-xr-release-strategy-and-deployment-suggestion/ta-p/3165422
+https://www.cisco.com/c/en/us/td/docs/ios/12_2/dial/command/reference/drfabout.html
+https://www.cisco.com/c/en_in/support/index.html
+https://www.cisco.com/c/en/us/support/all-products.html
+https://www.cisco.com/c/en/us/td/docs/ios/ios_xe/preface/aboutios_xe.html
+https://www.cisco.com/
+https://www.cisco.com/en/US/docs/ios_xr_sw/Beta_R3.5/bt35abou.pdf

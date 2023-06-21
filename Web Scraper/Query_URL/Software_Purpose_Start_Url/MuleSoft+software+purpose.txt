@@ -1,0 +1,10 @@
+https://www.mulesoft.com/
+https://www.salesforce.com/blog/what-is-mulesoft/
+https://www.mulesoft.com/resources/esb/what-mule-esb
+https://blogs.mulesoft.com/learn-apis/api-led-connectivity/what-are-apis-how-do-apis-work/
+https://www.mulesoft.com/resources/api/what-is-an-api
+https://en.wikipedia.org/wiki/Mule_(software)
+https://developer.mulesoft.com/
+https://www.techtarget.com/searchcloudcomputing/definition/MuleSoft
+https://en.wikipedia.org/wiki/MuleSoft
+https://docs.mulesoft.com/mule-runtime/4.4/hardware-and-software-requirements

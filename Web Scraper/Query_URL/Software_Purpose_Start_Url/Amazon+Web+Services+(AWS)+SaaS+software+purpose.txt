@@ -1,0 +1,10 @@
+https://aws.amazon.com/what-is/saas/
+https://docs.aws.amazon.com/marketplace/latest/userguide/saas-products.html
+https://aws.amazon.com/solutions/saas/
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
+https://aws.amazon.com/lambda/
+https://www.techtarget.com/searchaws/definition/Amazon-Web-Services
+https://aws.amazon.com/blogs/apn/architecting-successful-saas-understanding-cloud-based-software-as-a-service-models/
+https://www.investopedia.com/articles/investing/011316/what-amazon-web-services-and-why-it-so-successful.asp
+https://newsroom.ibm.com/2022-05-11-IBM-Signs-Strategic-Collaboration-Agreement-with-Amazon-Web-Services-to-Deliver-IBM-Software-as-a-Service-on-AWS
+https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/

@@ -50,7 +50,7 @@ def web_scrape_google(search_query):
         print("Long description:", long_description)
         print("URL:", link, "\n")
 
-        file_path = f"Query_URL/{query}.txt"
+        file_path = f"Query_URL/Software_Purpose_Start_Url/{query}.txt"
         with open(file_path, 'w') as file:
             # Write each URL to a new line in the file
             for url in url_list:
@@ -105,5 +105,31 @@ def web_scrape_page():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
+    file_path = 'Query_URL/saas_companies.txt'  # Replace with the actual file path
+    with open(file_path, 'r') as file:
+        company_list = file.read().splitlines()
+
+    file_path = 'Query_URL/purpose_synonyms.txt'  # Replace with the actual file path
+    with open(file_path, 'r') as file:
+        synonyms_list = file.read().splitlines()
+
+    file_path = 'Query_URL/documentation_queries.txt'  # Replace with the actual file path
+    with open(file_path, 'r') as file:
+        documentation_queries = file.read().splitlines()
+
+    for q in documentation_queries:
+        query = random.choice(company_list)+"+"+q
+        query = query.replace(" ", "+")
+        web_scrape_google(query)
+        print(query)
+
+    # for q in synonyms_list:
+    #     for i in range(10):
+    #         query = random.choice(company_list)+"+software+"+q
+    #         query = query.replace(" ", "+")
+    #         print(query)
+    #         web_scrape_google(query)
+
+
     # web_scrape_google("grammarly+software+purpose")
-    web_scrape_page()
+    #web_scrape_page()

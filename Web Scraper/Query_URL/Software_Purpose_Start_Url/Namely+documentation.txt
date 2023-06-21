@@ -1,0 +1,10 @@
+https://developers.namely.com/
+https://library.namely.com/
+https://www.namely.com/implementation-documents/
+https://developers.namely.com/docs/namely-api
+https://www.okta.com/integrations/namely/
+https://community.namely.com/s/article/Mineral-Benefits-Document-Creator-User-Guide
+https://blog.namely.com/documenting-performance-issues
+https://community.namely.com/s/article/Tax-Document-Access-on-Employee-Profile
+https://tray.io/documentation/connectors/service/namely/
+https://duo.com/docs/dag-namely

@@ -1,0 +1,10 @@
+https://www.cisco.com/c/en/us/solutions/enterprise-networks/software-defined-access/white-paper-listing.html
+https://blogs.cisco.com/tag/white-paper
+https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9000/nb-06-cat-9k-stack-wp-cte-en.html
+https://www.cisco.com/c/en/us/products/collateral/hyperconverged-infrastructure/hyperflex-hx-series/hyperflex-hx-data-platform-wp.html
+https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/white-paper-c11-738605.html
+https://www.cisco.com/c/dam/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/asr9000-swe-user-whitepaper.pdf
+https://www.cisco.com/c/en/us/td/docs/dcn/whitepapers/cisco-application-centric-infrastructure-design-guide.html
+https://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/smart-software-manager-satellite/white-paper-c11-743812.html
+https://www.cisco.com/c/en/us/solutions/collateral/executive-perspectives/annual-internet-report/white-paper-c11-741490.html
+https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9000/white-paper-c11-742388.html

@@ -1,0 +1,10 @@
+https://docs.mulesoft.com/general/
+https://www.mulesoft.com/
+https://docs.mulesoft.com/mule-runtime/4.4/
+https://www.mulesoft.com/resources/api/guidelines-api-documentation
+https://developer.mulesoft.com/
+https://help.mulesoft.com/s/article/General-Considerations-when-Using-Antivirus-Software-with-Standalone-Mule-Runtime
+https://docs.bmc.com/docs/iPaaS/mulesoft-connectors-1118401153.html
+https://blogs.mulesoft.com/automation/intelligent-document-processing/
+https://www.tutorialspoint.com/mulesoft/index.htm
+https://www.salesforce.com/company/legal/trust-and-compliance-documentation/

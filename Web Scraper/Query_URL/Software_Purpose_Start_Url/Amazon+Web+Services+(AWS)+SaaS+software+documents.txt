@@ -1,0 +1,10 @@
+https://docs.aws.amazon.com/marketplace/latest/userguide/saas-guidelines.html
+https://aws.amazon.com/s3/
+https://docs.aws.amazon.com/
+https://aws.amazon.com/lambda/
+https://d1.awsstatic.com/whitepapers/aws-overview.pdf
+https://aws.amazon.com/agreement/
+https://aws.amazon.com/security/
+https://aws.amazon.com/compliance/shared-responsibility-model/
+https://aws.amazon.com/
+https://aws.amazon.com/workdocs/

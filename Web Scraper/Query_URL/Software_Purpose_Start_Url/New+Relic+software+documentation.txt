@@ -1,0 +1,10 @@
+https://newrelic.com/
+https://docs.newrelic.com/docs/infrastructure/infrastructure-monitoring/get-started/get-started-infrastructure-monitoring/
+https://developer.newrelic.com/
+https://docs.newrelic.com/docs/licenses/license-information/distributed-licenses/new-relic-agent-software-notice/
+https://github.com/newrelic/newrelic-cli
+https://docs.newrelic.com/docs/new-relic-solutions/get-started/intro-new-relic/
+https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic.html?lang=en
+https://docs.newrelic.com/introduction-apm/
+https://opensource.newrelic.com/oss-category/
+https://docs.newrelic.com/docs/apm/agents/java-agent/getting-started/introduction-new-relic-java/

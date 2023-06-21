@@ -1,0 +1,10 @@
+https://www.adma.com.au/resources/marketo-whitepaper
+https://nation.marketo.com/t5/product-discussions/triggering-emails-based-off-whitepaper-downloads/td-p/148727
+https://developers.marketo.com/javascript-api/web-personalization/custom-data-events/
+https://nation.marketo.com/t5/product-discussions/how-to-use-marketo-forms-to-track-performance-of-different/td-p/112598
+https://developers.marketo.com/wp-content/uploads/2021/04/Marketo-CRM-Synchronization-Architecture_2021_Whitepaper.pdf
+https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe_marketo_data_protection_overview.pdf
+https://www.net-results.com/blog/marketo-competitors-how-do-they-stack-up/
+https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe_Bizible_Security_Overview.pdf
+https://chapmanbright.com/resources/whitepapers/
+https://www.merkle.com/thought-leadership/white-papers/orchestrating-b2b-experience-marketo-engage

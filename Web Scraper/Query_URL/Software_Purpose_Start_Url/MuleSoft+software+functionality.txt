@@ -1,0 +1,10 @@
+https://www.mulesoft.com/
+https://docs.mulesoft.com/mule-runtime/4.4/hardware-and-software-requirements
+https://www.mulesoft.com/platform/anypoint-platform-features
+https://blogs.mulesoft.com/learn-apis/api-led-connectivity/what-are-apis-how-do-apis-work/
+https://developer.mulesoft.com/
+https://www.getapp.com/operations-management-software/a/mulesoft-composer-1/
+https://www.g2.com/products/mulesoft-anypoint-platform/features
+https://cyntexa.com/blog/what-is-mulesoft-features-certifications-integration-with-salesforce/
+https://help.mulesoft.com/s/question/0D52T00004mXWeqSAG/unable-to-install-anypoint-devkit-with-studio-712
+https://www.salesforce.com/blog/what-is-mulesoft/

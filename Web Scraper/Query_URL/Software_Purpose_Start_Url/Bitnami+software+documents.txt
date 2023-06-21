@@ -1,0 +1,10 @@
+https://bitnami.com/
+https://docs.bitnami.com/general/apps/mediawiki/
+https://bitnami.com/stack/redmine
+https://docs.bitnami.com/general/apps/
+https://bitnami.com/stacks/document-management
+https://docs.bitnami.com/general/apps/jenkins/
+https://github.com/bitnami-labs/sealed-secrets
+https://docs.bitnami.com/general/apps/redmine/
+https://lightsail.aws.amazon.com/ls/docs/en/articles/compare-options-choose-lightsail-instance-image
+https://docs.bitnami.com/aws/infrastructure/mean/
