@@ -1,0 +1,14 @@
+https://aws.amazon.com/solutions/case-studies/adp-appsync-case-study/
+https://aws.amazon.com/blogs/apn/building-with-cells-high-availability-and-disaster-recovery-strategies-for-globally-distributed-enterprise-platforms/
+
+https://aws.amazon.com/cloud-adoption-framework/
+https://docs.aws.amazon.com/prescriptive-guidance/latest/application-portfolio-assessment-guide/directional-business-case.html
+https://aws.amazon.com/solutions/case-studies/thomson-reuters/
+https://aws.amazon.com/solutions/case-studies/finra-data-validation/
+https://aws.amazon.com/solutions/case-studies/autodesk-serverless/
+https://aws.amazon.com/solutions/case-studies/purple-technology-case-study/
+
+https://help.blackboard.com/sites/default/files/documents/2018-05/Blackboard_GDPR_White_Paper.pdf
+
+https://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/smart-software-manager-satellite/white-paper-c11-743812.html
+https://www.cisco.com/c/en/us/products/collateral/conferencing/webex-meeting-center/white-paper-c11-737588.html

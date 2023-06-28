@@ -1,0 +1,10 @@
+https://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/smart-software-manager-satellite/white-paper-c11-743812.html
+https://meraki.cisco.com/products/systems-manager/
+https://www.cisco.com/c/en/us/products/collateral/conferencing/webex-meeting-center/white-paper-c11-737588.html
+https://content.cisco.com/chapter.sjs?uri=/searchable/chapter/www.cisco.com/c/en/us/td/docs/wireless/technology/wlsm/technical/reference/wlsm_wp.html.xml
+https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9000/nb-06-cat-9k-stack-wp-cte-en.html
+https://www.linkedin.com/in/jerryhsusc
+https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/white-paper-c11-738605.html
+https://meraki.cisco.com/lib/pdf/meraki_datasheet_sm.pdf
+https://www.cisco.com/
+https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/asa-static-ip-tunnels/

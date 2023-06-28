@@ -1,0 +1,10 @@
+https://learn.microsoft.com/en-us/sql/relational-databases/diagnose-resolve-latch-contention?view=sql-server-ver16
+https://www.microsoft.com/en-us/research/uploads/prod/2019/05/socrates.pdf
+https://learn.microsoft.com/en-us/azure/azure-sql/database/dtu-benchmark
+https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/whitepaper/vsan/vmware-virtual-san-performance-with-microsoft-sql-server-white-paper.pdf
+https://learn.microsoft.com/en-us/azure/azure-sql/database/service-tiers-dtu
+https://www.microsoft.com/en-us/research/uploads/prod/2019/06/p700-antonopoulos.pdf
+https://azure.microsoft.com/en-us/pricing/details/managed-disks/
+https://cloudblogs.microsoft.com/windowsserver/2016/09/28/windows-server-2016-hyper-v-large-scale-vm-performance-for-in-memory-transaction-processing/
+https://i.dell.com/sites/doccontent/business/large-business/en/Documents/BP1046_OLTP_IO_Profile_Study.pdf
+https://dl.dell.com/manuals/all-products/esuprt_software/esuprt_it_ops_datcentr_mgmt/s-solution-resources_white-papers88_en-us.pdf

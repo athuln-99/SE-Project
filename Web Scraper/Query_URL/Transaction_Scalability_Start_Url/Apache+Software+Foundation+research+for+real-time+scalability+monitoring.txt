@@ -1,0 +1,10 @@
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6477571/
+https://www.ibm.com/cloud/blog/hadoop-vs-spark
+https://www.databricks.com/company/newsroom/press-releases/databricks-scalable-cloud-infrastructure-enables-ipass-to-analyze-and-monitor-wi-fi-in-near-real-time
+https://www.mdpi.com/1424-8220/18/9/2946
+https://www.confluent.io/learn/apache-kafka-benefits-and-use-cases/
+https://www.nature.com/articles/s41467-021-26040-1
+https://journalofbigdata.springeropen.com/articles/10.1186/s40537-022-00672-6
+https://cloud.google.com/products/operations
+https://hevodata.com/learn/mapreduce-vs-spark/
+https://azure.microsoft.com/en-us/products/monitor

@@ -1,0 +1,10 @@
+https://bitnami.com/
+https://www.linkedin.com/company/bitnami
+https://en.wikipedia.org/wiki/Bitnami
+https://docs.bitnami.com/azure/faq/get-started/create-ad-user/
+https://blog.bitnami.com/2014/10/bitnami-open-source-leaders-interview_28.html
+https://docs.bitnami.com/kubernetes/faq/administration/understand-helm-chart/
+https://www.zoominfo.com/c/bitnami/353685300
+https://hub.docker.com/u/zcube
+https://github.com/bitnami/charts/issues/1279
+https://techcrunch.com/tag/bitnami/

@@ -1,0 +1,10 @@
+https://business.adobe.com/products/marketo/adobe-marketo.html
+https://experienceleague.adobe.com/docs/marketo/using/product-docs/email-marketing/email-programs/email-program-data/use-the-email-program-dashboard.html?lang=en
+https://documents.marketo.com/legal/cookies/
+https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/understanding-the-salesforce-sync.html?lang=en
+https://nation.marketo.com/t5/product-discussions/how-can-you-find-the-demographics-of-the-people-that-are-opening/td-p/164553
+https://www.adobe.com/privacy/policy.html
+https://nation.marketo.com/t5/knowledgebase/tkb-p/support_solutions-documents/label-name/analytics%20reporting
+https://fivetran.com/docs/applications/marketo
+https://nation.marketo.com/t5/product-blogs/marketo-success-series-lead-scoring/ba-p/309849
+https://www.qualtrics.com/support/integrations/marketo-integration/marketo-integration-overview/

@@ -1,0 +1,10 @@
+https://www.rapid7.com/customers/discovery-inc/
+https://www.domo.com/customers/rapid7
+https://www.rapid7.com/blog/post/2020/08/28/how-three-insightvm-customers-scaled-their-vulnerability-management-programs-with-rapid7/
+https://docs.rapid7.com/insightappsec/api-use-cases/
+https://www.rapid7.com/products/insightcloudsec/
+https://www.gong.io/case-studies/how-rapid7-secured-an-increase-in-win-rates-using-gong/
+https://www.rapid7.com/globalassets/external/docs/Hacking-IoT-A-Case-Study-on-Baby-Monitor-Exposures-and-Vulnerabilities.pdf
+https://www.casestudies.com/vendor/rapid7
+https://www.techvalidate.com/product-research/insightIDR/case-studies/49A-929-B08
+https://aws.amazon.com/financial-services/partner-solutions/rapid7/

@@ -1,0 +1,10 @@
+https://www.cisco.com/c/en/us/solutions/collateral/enterprise-networks/software-defined-access/solution-overview-c22-739012.html
+https://www.cisco.com/en/US/docs/ios-xml/ios/sec_usr_aaa/configuration/15-0m/sec-cfg-authorizatn.html
+https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_usr_aaa/configuration/xe-16/sec-usr-aaa-xe-16-book/sec-cfg-authorizatn.html
+https://www.cisco.com/c/en/us/support/docs/ip/access-lists/13608-21.html
+https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_usr_8021x/configuration/xe-3se/3850/sec-user-8021x-xe-3se-3850-book/config-ieee-802x-pba.html
+https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-asa-ftd-vp-authz-N2GckjN6.html
+https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipmulti_pim/configuration/xe-16/imc-pim-xe-16-book/ip6-mcast-use-auth-prof-supp.html
+https://www.cisco.com/c/en/us/solutions/collateral/enterprise-networks/software-defined-access/nb-09-sda-faq-cte-en.html
+https://www.cisco.com/c/en/us/support/docs/security-vpn/terminal-access-controller-access-control-system-tacacs-/10384-security.html
+https://www.cisco.com/c/en/us/support/docs/switches/catalyst-9500-series-switches/214484-cisco-smart-licensing-troubleshooting.html

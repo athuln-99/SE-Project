@@ -1,0 +1,10 @@
+https://www.tableau.com/blog/using-gantt-charts-tableau-manage-project-72429
+https://help.tableau.com/current/blueprint/en-us/bp_project_team_roles_responsibilities.htm
+https://www.tableau.com/solutions/exchange/accelerators
+https://help.tableau.com/current/online/en-us/permissions.htm
+https://technologyadvice.com/blog/information-technology/how-to-use-tableau-for-project-management/
+https://help.tableau.com/current/server/en-us/projects.htm
+https://community.tableau.com/s/question/0D54T00000C5d71SAB/reporting-from-relational-database
+https://www.linkedin.com/company/tableau-software/
+https://thedigitalprojectmanager.com/tools/best-reporting-tools/
+https://kb.tableau.com/articles/howto/refreshing-a-data-source-published-by-another-user

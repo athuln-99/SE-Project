@@ -1,5 +1,5 @@
-documents
+
 documentation
 case study
-whitepaper
+white paper
 report

@@ -1,0 +1,10 @@
+https://help.gooddata.com/doc/enterprise/en/workspace-and-user-administration/managing-users-in-workspaces/user-roles/
+https://community.gooddata.com/dashboards-and-reports-56/data-permissions-variable-filters-and-user-permissions-and-custom-roles-in-general-589
+https://help.gooddata.com/doc/enterprise/en/workspace-and-user-administration/managing-users-in-workspaces/user-roles/user-roles-permissions/
+https://www.gooddata.com/company/careers/
+https://www.montecarlodata.com/blog-what-good-data-product-managers-do-and-why-you-probably-need-one/
+https://www.gooddata.com/developers/cloud-native/doc/1.7/administration/permissions/
+https://support.gooddata.com/hc/en-us/articles/115004770027-June-3-2017
+https://www.gooddata.com/blog/what-multitenancy/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4619636/
+https://www.gooddata.com/blog/creating-robust-ssh-with-hashicorp-vault-certificates/

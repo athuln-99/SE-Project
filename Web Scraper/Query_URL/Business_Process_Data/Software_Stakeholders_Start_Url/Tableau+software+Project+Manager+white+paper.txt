@@ -1,0 +1,10 @@
+https://www.tableau.com/learn/whitepapers
+https://community.tableau.com/s/question/0D54T00000C5PXeSAN/tableau-server-10-scalability-white-paper-available
+https://www.tableau.com/learn/whitepapers/disaster-recovery-tableau-server
+https://help.tableau.com/current/online/en-us/to_security.htm
+https://www.tableau.com/learn/whitepapers/tableau-server-high-availability-delivering-mission-critical-analytics-scale
+https://help.tableau.com/current/offline/en-us/tableau_blueprint.pdf
+https://www.tableau.com/learn/whitepapers/secure-development-tableau-online
+https://help.tableau.com/current/server/en-us/rls_bestpractices.htm
+https://www.tableau.com/learn/whitepapers/google-bigquery-tableau-best-practices
+https://www.qualtrics.com/support/conjoint-project/getting-started-conjoints/getting-started-choice-based/conjoint-analysis-white-paper/

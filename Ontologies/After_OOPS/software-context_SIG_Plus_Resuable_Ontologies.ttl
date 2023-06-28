@@ -344,7 +344,7 @@
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context/organizationStructureImpacts
 <http://www.semanticweb.org/ontologies/2023/SE/software-context/organizationStructureImpacts> rdf:type owl:ObjectProperty ;
-                                                                                              rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Organization> ;
+                                                                                              rdfs:domain <http://www.semanticweb.org/ontologies/2023/SE/software-context/Internal_Organization> ;
                                                                                               rdfs:range <http://www.semanticweb.org/ontologies/2023/SE/software-context/Resource_Allocation> .
 
 
@@ -1483,7 +1483,6 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Developers
 <http://www.semanticweb.org/ontologies/2023/SE/software-context/Developers> rdf:type owl:Class ;
                                                                             rdfs:subClassOf :Personel ,
-                                                                                            <http://www.semanticweb.org/ontologies/2023/SE/software-context/Organization> ,
                                                                                             <http://www.semanticweb.org/ontologies/2023/SE/software-context/Stakeholders> .
 
 
@@ -1791,6 +1790,12 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Internal> .
 
 
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Internal_Organization
+<http://www.semanticweb.org/ontologies/2023/SE/software-context/Internal_Organization> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> ,
+                                                                                                       <http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Practices> .
+
+
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Interoperability
 <http://www.semanticweb.org/ontologies/2023/SE/software-context/Interoperability> rdf:type owl:Class ;
                                                                                   rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Compatibility_Model_Characteristics> .
@@ -1920,12 +1925,6 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Optimization
 <http://www.semanticweb.org/ontologies/2023/SE/software-context/Optimization> rdf:type owl:Class ;
                                                                               rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Efficiency> .
-
-
-###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Organization
-<http://www.semanticweb.org/ontologies/2023/SE/software-context/Organization> rdf:type owl:Class ;
-                                                                              rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> ,
-                                                                                              <http://www.semanticweb.org/ontologies/2023/SE/software-context/Development_Practices> .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Passwords
@@ -2202,7 +2201,7 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Stakeholders
 <http://www.semanticweb.org/ontologies/2023/SE/software-context/Stakeholders> rdf:type owl:Class ;
-                                                                              rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Business_Process> .
+                                                                              rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Internal_Organization> .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context/State_Based
@@ -2238,7 +2237,7 @@ Assessment Dimension 6. Operating Environment – This dimension aims to evaluat
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Teams
 <http://www.semanticweb.org/ontologies/2023/SE/software-context/Teams> rdf:type owl:Class ;
-                                                                       rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Organization> .
+                                                                       rdfs:subClassOf <http://www.semanticweb.org/ontologies/2023/SE/software-context/Internal_Organization> .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context/Technical_Debt

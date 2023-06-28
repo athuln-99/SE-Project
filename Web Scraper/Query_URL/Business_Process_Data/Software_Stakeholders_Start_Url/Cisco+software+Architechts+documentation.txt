@@ -1,0 +1,10 @@
+https://www.cisco.com/c/en/us/td/docs/ios/12_2sb/feature/guide/ht_ssi.html
+https://documentation.meraki.com/Architectures_and_Best_Practices/Cisco_Meraki_Best_Practice_Design/Meraki_Cloud_Architecture
+https://www.cisco.com/c/en/us/support/cloud-systems-management/dna-center/products-user-guide-list.html
+https://developer.cisco.com/docs/sonic/#!sonic-architecture
+https://www.cisco.com/c/en/us/support/index.html
+https://community.cisco.com/t5/other-network-architecture/how-to-make-technical-documentation-of-network/td-p/3842570
+https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/cisco-sda-design-guide.html
+https://portal.nutanix.com/page/documents/solutions/details?targetId=BP-2052-Cisco-ACI:BP-2052-Cisco-ACI
+https://literature.rockwellautomation.com/idc/groups/literature/documents/td/enet-td010_-en-p.pdf
+https://meraki.cisco.com/products/systems-manager/

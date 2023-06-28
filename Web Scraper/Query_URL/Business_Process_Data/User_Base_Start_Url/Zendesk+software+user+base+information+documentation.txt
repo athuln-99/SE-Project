@@ -1,0 +1,10 @@
+https://www.zendesk.com/service/help-center/knowledge-base-software/
+https://developer.zendesk.com/api-reference/
+https://www.zendesk.com/service/help-center/internal-knowledge-base/
+https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-and-editing-articles-in-the-knowledge-base
+https://www.zendesk.com/service/help-center/client-portal/
+https://support.zendesk.com/hc/en-us/articles/4408821238938-Best-practices-for-creating-an-internal-knowledge-base
+https://www.zendesk.com/trust-center/
+https://support.zendesk.com/hc/en-us/articles/4408837969946-Setting-up-the-Zendesk-Support-for-Jira-integration
+https://digitalfleet.zendesk.com/hc/en-us/articles/5530393919379-Troubleshooting-Based-On-Hardware-Dashboard-Information
+https://support.zendesk.com/hc/en-us/articles/4408844161050-How-product-docs-are-produced-at-Zendesk

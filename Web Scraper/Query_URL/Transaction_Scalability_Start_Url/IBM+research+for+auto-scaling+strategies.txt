@@ -1,0 +1,10 @@
+https://research.ibm.com/publications/proactive-container-auto-scaling-for-cloud-native-machine-learning-services
+https://www.ibm.com/cloud/blog/how-to-migrate-auto-scaling-policies-for-cloud-foundry-apps
+https://arxiv.org/pdf/2005.14410
+https://www.ibm.com/cloud/blog/autoscale-applications-in-the-ibm-cloud-foundry-enterprise-environment
+https://www.g2.com/categories/auto-scaling
+https://www.cs.stonybrook.edu/about-us/News/IBM-Faculty-Award-Anshul-Gandhi
+https://www.forbes.com/sites/moorinsights/2022/08/08/ibm-research-rolls-out-a-comprehensive-ai-and-ml-edge-research-strategy-anchored-by-enterprise-partnerships-and-use-cases/
+https://ca.linkedin.com/in/marcos-assuncao-4b2b0617
+https://dl.acm.org/doi/abs/10.1007/s10586-021-03265-9
+https://ibm.github.io/cloud-enterprise-examples/deploy-vsi/content-overview/

@@ -1,0 +1,10 @@
+https://www.hyperledger.org/learn/publications/blockchain-performance-metrics
+https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/how-aws-pricing-works.pdf
+https://www.cisco.com/c/en/us/solutions/collateral/executive-perspectives/annual-internet-report/white-paper-c11-741490.html
+https://learn.microsoft.com/en-us/azure/storage/blobs/monitor-blob-storage-reference
+https://www.smu.edu/-/media/Site/Cox/Executive-Education/PDF/White-Papers/Mind-Garden-White-Paper--TransformationalLeadership.pdf
+https://www3.weforum.org/docs/WEF_IBC_Measuring_Stakeholder_Capitalism_Report_2020.pdf
+https://bettervu.com/solutions/workforce-planning
+https://wso2.com/whitepapers/capacity-planning-for-application-design-part-1/
+https://www.oracle.com/a/ocom/docs/engineered-systems/exadata/exadata-x9m-2-ds.pdf
+https://celestia.org/glossary/transaction-throughput/

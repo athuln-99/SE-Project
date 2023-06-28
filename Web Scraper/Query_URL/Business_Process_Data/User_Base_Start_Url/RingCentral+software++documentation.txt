@@ -1,0 +1,10 @@
+https://support.ringcentral.com/network-and-system-requirements/network-requirements/network-requirements-MVP.html
+https://developers.ringcentral.com/
+https://support.ringcentral.com/app.html
+https://assets.ringcentral.com/us/guide/interoperability-guide/grandstream-GRP260X.pdf
+https://www.ringcentral.com/us/en/blog/best-file-sharing-app/
+https://netstorage.ringcentral.com/guides/rc_for_desktop_user_guide.pdf
+https://www.ringcentral.com/file-sharing.html
+https://github.com/ringcentral/ringcentral-embeddable
+https://www.ringcentral.com/fax/features/how-it-works.html
+https://community.ringcentral.com/questions/90778/scan-to-fax-missing-on-the-latest-ringcentral-app.html

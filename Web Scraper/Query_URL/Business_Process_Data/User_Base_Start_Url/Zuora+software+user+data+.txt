@@ -1,0 +1,10 @@
+https://www.zuora.com/
+https://knowledgecenter.zuora.com/Zuora_Central_Platform/Reporting/D_Data_Sources_and_Exports/C_Data_Source_Reference/Account_Data_Source
+https://www.zuora.com/privacy-statement/
+https://knowledgecenter.zuora.com/Zephr/A_Zephr_user_guide/D_Identity/Users/Export_User_Data
+https://www.zuora.com/products/revenue/
+https://knowledgecenter.zuora.com/Zuora_Central_Platform/Zuora_Secure_Data_Share_for_Snowflake/Use_Zuora_Secure_Data_Share_for_Snowflake_to_access_Zuora_data
+https://knowledgecenter.zuora.com/Zuora_Payments/Zuora_Collections/Get_Started_with_Collections/Use_Data_Query_to_report_on_Collections_features
+https://knowledgecenter.zuora.com/Zuora_Central_Platform/API/G_SOAP_API/AB_Getting_started_with_the__SOAP_API
+https://knowledgecenter.zuora.com/Zuora_Central_Platform/Query/Data_Query/A_Overview_of_Data_Query
+https://knowledgecenter.zuora.com/Zuora_Central_Platform/Reporting/D_Data_Sources_and_Exports/C_Data_Source_Reference

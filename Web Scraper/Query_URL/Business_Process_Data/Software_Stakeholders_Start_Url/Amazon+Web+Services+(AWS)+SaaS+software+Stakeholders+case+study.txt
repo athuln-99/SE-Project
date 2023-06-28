@@ -1,0 +1,10 @@
+https://aws.amazon.com/cloud-adoption-framework/
+https://docs.aws.amazon.com/prescriptive-guidance/latest/application-portfolio-assessment-guide/directional-business-case.html
+https://aws.amazon.com/financial-services/
+https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.pillar.operationalExcellence.en.html
+https://aws.amazon.com/lambda/resources/customer-case-studies/
+https://www.nclouds.com/case-studies/appify/
+https://aws.amazon.com/solutions/case-studies/purple-technology-case-study/
+https://www.cloudzero.com/blog/netflix-aws
+https://aws.amazon.com/health/solutions/medicalimaging/
+https://www.slideshare.net/AmazonWebServices/build-your-case-for-the-cloud-how-to-engage-stakeholders-across-your-business-87812668

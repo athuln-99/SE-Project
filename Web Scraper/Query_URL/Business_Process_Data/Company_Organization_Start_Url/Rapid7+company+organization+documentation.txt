@@ -1,0 +1,10 @@
+https://docs.rapid7.com/
+https://www.rapid7.com/
+https://docs.rapid7.com/insight/platform-settings
+https://help.rapid7.com/insightAccount/en-us/api/v1/docs.html
+https://www.rapid7.com/products/insightcloudsec/
+https://investors.rapid7.com/news/news-details/2023/Rapid7-Acquires-Minerva-Labs-to-Extend-Leading-Managed-Detection-and-Response-Service-with-Ransomware-Prevention-Technology/default.aspx
+https://dl.acm.org/doi/10.5555/776816.776847
+https://extensions.rapid7.com/extension/virustotal
+https://www.metasploit.com/
+https://extensions.rapid7.com/extension/salesforce

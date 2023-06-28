@@ -1,0 +1,10 @@
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216067
+https://ieeexplore.ieee.org/document/9119163
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6485711/
+https://ieeexplore.ieee.org/document/8590989
+https://journalofcloudcomputing.springeropen.com/articles/10.1186/s13677-019-0128-9
+https://research.google.com/pubs/archive/41688.pdf
+https://dl.acm.org/doi/10.1145/3573125
+https://www.sciencedirect.com/science/article/am/pii/S1389128619316019
+https://www.computer.org/csdl/journal/sc/2022/03/09119163/1kHUvYWkQAU
+http://staff.ustc.edu.cn/~zgm1993/papers/2022+INFOCOM+TRUST%20Real-Time%20Request%20Updating%20with%20Elastic%20Resource%20Provisioning%20in%20Clouds.pdf

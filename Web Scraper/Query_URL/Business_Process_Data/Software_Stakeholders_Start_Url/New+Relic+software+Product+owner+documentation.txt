@@ -1,0 +1,10 @@
+https://docs.newrelic.com/docs/accounts/original-accounts-billing/original-users-roles/users-roles-original-user-model/
+https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic.html?lang=en
+https://docs.newrelic.com/docs/apm/agents/java-agent/getting-started/introduction-new-relic-java/
+https://newrelic.com/press-release/20151112-0
+https://registry.terraform.io/providers/newrelic/newrelic/latest/docs
+https://newrelic.com/resources/white-papers/getting-started-with-new-relic-apm
+https://developer.newrelic.com/terms/
+https://newrelic.com/blog/best-practices/on-call-and-incident-response-new-relic-best-practices
+https://r-martins.github.io/m1docs/cloud/project/new-relic.html
+https://newrelic.com/press-release/20221205

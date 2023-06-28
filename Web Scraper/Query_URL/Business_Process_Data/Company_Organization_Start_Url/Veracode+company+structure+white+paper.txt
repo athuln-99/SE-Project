@@ -1,0 +1,10 @@
+https://www.veracode.com/sites/default/files/pdf/resources/whitepapers/veracode-static-analysis-veracode-whitepaper.pdf
+https://info.veracode.com/secure-coding-best-practices-hand-book-guide-resource.html
+https://www.veracode.com/sites/default/files/pdf/resources/whitepapers/dynamic-analysis-white-paper-veracode.pdf
+https://info.veracode.com/guide-ppc-ultimate-guide-to-getting-started-with-application-security.html
+https://www.veracode.com/sites/default/files/pdf/resources/whitepapers/veracode-security-labs-veracode-whitepaper.pdf
+https://community.veracode.com/s/knowledgeitem/veracode-for-developers-MCCEADXECDKNDKLFRH4ZSLHYWUZ4
+https://www.veracode.com/blog/security-news/avoidable-breach-could-happen-any-organization
+https://learn.microsoft.com/en-us/azure/active-directory/saas-apps/veracode-tutorial
+https://www.veracode.com/sites/default/files/pdf/resources/whitepapers/veracode-artificial-intelligence-white-paper.pdf
+https://www.coalfire.com/insights/resources

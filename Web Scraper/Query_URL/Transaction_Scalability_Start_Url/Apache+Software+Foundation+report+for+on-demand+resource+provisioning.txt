@@ -1,0 +1,10 @@
+https://cds.cern.ch/record/2650034/files/CR2018_314.pdf
+https://aws.amazon.com/ec2/faqs/
+https://dl.acm.org/doi/10.1145/2390906.2390910
+https://cloud.google.com/learn/training
+https://www.cloudera.com/about/news-and-blogs/press-releases/2019-09-24-cloudera-introduces-new-cloud-native-data-warehousing-service-for-cloudera-data-platform.html
+https://cloud.google.com/dataproc
+https://www.ibm.com/topics/serverless
+https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing
+https://docs.aws.amazon.com/sagemaker/latest/dg/serverless-endpoints.html
+https://www.linuxjournal.com/content/private-cloud-real-cloud

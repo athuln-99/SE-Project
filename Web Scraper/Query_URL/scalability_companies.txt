@@ -1,0 +1,7 @@
+google
+amazon web services (AWS)
+microsoft
+IBM
+Apache Software Foundation
+
+

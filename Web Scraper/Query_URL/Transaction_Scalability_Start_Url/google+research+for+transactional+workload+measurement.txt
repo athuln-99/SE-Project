@@ -1,0 +1,10 @@
+https://dl.acm.org/doi/abs/10.1145/3297663.3309667
+https://link.springer.com/article/10.1023/A:1018923012867
+https://dl.acm.org/doi/abs/10.1145/3422869
+https://cloud.google.com/blog/topics/developers-practitioners/your-google-cloud-database-options-explained
+https://www.sciencedirect.com/science/article/pii/S1071581920301828
+https://www.oracle.com/database/what-is-oltp/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4911781/
+https://www.frontiersin.org/articles/10.3389/fnins.2020.00268/full
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7154497/
+https://www.techtarget.com/searchdatacenter/definition/workload

@@ -1,0 +1,110 @@
+We’re in an agile development model, where a scrum team delivers service updates that are revised, tested, and released. 
+By May 2013, CC had attracted almost 700,000 paid subscribers and was far exceeding Adobe’s expectations, replacing Photoshop as Adobe’s most highly rated software in terms of customer satisfaction. 
+798,000 new paying Creative Cloud (CC) subscribers in the quarter
+With this update, we are updating users with Adobe IDs and users in trustee organizations to Enterprise Storage for Business. In the case of Creative Cloud for teams or Creative Cloud for enterprise customers, your organization controls the assets associated with these accounts.
+Most admins who are given administrative privileges for a single organization on the Adobe Admin Console will not see any change to their sign-in experience. They can continue to sign in and access the Admin Console as before.
+However, if you have administrative privileges for multiple organizations with the same email address,  you will see the following changes:
+From our rigorous integration of security into our internal software development process and tools to our cross-functional incident response teams, we strive to be proactive and nimble.
+What’s more, our collaborative work with partners, researchers, and other industry organizations helps us understand the latest threats and security best practices as well as continually build security into the products and services we offer.
+In addition to the centers of excellence described above, Adobe embeds team members from legal, privacy, marketing, and PR in the security organization to help drive transparency and accountability in all security-related decisions. 
+On hire, our technical employees, including engineering and technical operations teams, are auto-enrolled in an in-depth ‘martial arts’-styled training program, which is tailored to their specific roles. 
+Adobe SPLC defines clear, repeatable processes to help our development teams build security into our products and services and continuously evolves to incorporate the latest industry best practices. 
+To help ensure that all Adobe products and services are designed from inception with security best practices in mind, the operational security team created the Adobe Operational Security Stack (OSS). 
+We continuously monitor the threat landscape, share knowledge with security experts around the world, swiftly resolve incidents when they occur, and feed this information back to our development teams to help achieve the highest levels of security for all Adobe products and services. 
+All Adobe products and services adhere to the Adobe Common Controls Framework (CCF), a set of security activities and compliance controls that are implemented within our product operations teams as well as in various parts of our infrastructure and application teams. 
+The OSS is a consolidated set of tools that help product developers and engineers improve their security posture and reduce risk to both Adobe and our customers while also helping drive Adobe-wide adherence to compliance, privacy, and other governance frameworks. 
+Application Security Stack helps software developers to create secure code by default. 
+Accordingly, the project sponsor and project board should review and update the business case at key stages to check that the project remains viable and the reasons for doing it are still valid.
+The communications team uses Adobe Acrobat in conjunction with the work management platform Workfront to automate workflows for proofing and approvals.
+
+After your ADP representative enters this information in ADP Security Management Service, the security master will receive a confirmation email, which contains the user ID, access code, URL, and instructions to register for administrator access. Your security master uses this information to register and log on to ADP Security Management Service and other ADP services. 
+Dual access users can access ADP services in two ways: through a link on your organization's web site (federation does not require an ADP user ID and password) and from the ADP service web site when they log in with their ADP user ID and password. 
+Security masters, security administrators, and user masters can assign user security roles. This task does not apply to user administrators, product users, and self service users. Assigning an administrator role will prompt to select the email address to send instructions to get started. 
+A security master is a highly trusted user who has complete access to all the ADP services your organization uses. Security masters requires administrator access.  
+In order to serve the unique needs of diverse types of businesses, ADP provides a range of solutions, via a software- and service-based delivery model, which businesses of all types and sizes can use to recruit, pay, manage, and retain employees. We serve more than 570,000 clients via ADP’s cloud-based strategic software as a service (“SaaS”) offerings. As a leader in the growing HR Business Process Outsourcing market, we offer seamless outsourcing solutions that enable our clients to outsource their HR, time and attendance, payroll, benefits administration and talent management functions to ADP, and through the ADP DataCloud we provide clients with in-depth, data-driven workforce and business insights. 
+
+Security and risk professionals should plan and coordinate migrating workloads to the cloud, paying particular attention to: data security, identities, network, and compute and cloud platform configuration.
+As agile adoption has increased over the last decade, many organizations have grown with agile and are scaling agile methodologies to help them plan, deliver, and track progress across their teams. 
+Over the past two decades, software development teams have proven that practicing agile methodologies lets them deliver solutions to customers faster, with more predictability, and gives them the ability to pivot based on new information. 
+Agile’s roots in software often means the epicenter for adoption is within software development and IT teams.  At the run stage, agile has grown beyond technical teams into additional parts of a business, encompassing a broader set of teams with overlapping interests.
+You know that all of your teams  rely on a single team to get your software into market, whether this  is a single ops team or maybe a  cross-supporting platform  engineering team.  
+Program Manager/Release Train Engineer use Jira Align to understand and prioritize the scope of work and conduct long-term planning. They also use it to see how work is progressing across multiple program or ARTs.
+Product Manager use Jira Align to understand how work is progressing across projects/teams, and  how to ensure teams deliver on time.
+Portfolio Manager use Jira Align to understand how work is progressing across one or more projects/teams. 
+In this report, you’ll learn how cloud capabilities help drive agility and scalability while reducing complexity; how developer experience and environment can impact workflow productivity; and how embracing a zero-trust security model will help establish a safer operating environment for your developers.
+Development teams buying in will ensure that you’re able to see measurable changes in your company’s overall velocity.
+Spotify is the largest and most popular audio streaming subscription service in the world, with an estimated 286 million users.
+As Spotify’s engineering teams traveled down the path towards improved agility, they documented their experience, shared it with the world, and ultimately influenced the way many technology companies organize around work. It is now known as the Spotify model.
+The Spotify model is a people-driven, autonomous approach for scaling agile that emphasizes the importance of culture and network.
+Over the last 15 years, tens of thousands of organizations have
+adopted a DevOps way of working with the help of our tools.
+We’ve seen how DevOps has grown from a term only familiar to technical teams to becoming part of the C-suite vocabulary.
+Practices like CI/CD and automation have become the norm in every engineering organization. 
+Research, on behalf of Atlassian, conducted an online survey among 500 Developers & IT Decision Makers in February 2020
+On call improves the work product of developers by providing the opportunity for them to experience and learn from new challenges. On-call engineers must care about how to operate the software and should have the operations skill set to triage, diagnose, and fix problems. 
+Traditionally, many organizations have dedicated systems admins or Ops teams responsible for running IT operations.
+A relatively new role popularized by Google, site reliability engineers are software engineers who design, code, and maintain an operations function. 
+Senior developers get involved in on-call work as secondary responders when escalation is required. 
+In Companies of all sizes, including leading tech companies like Atlassian, Amazon, Google, and Netflix, expect all engineers to take on-call responsibilities to varying degrees. For example, while Amazon focuses on full ownership and expects developers to take on-call responsibilities, Google follows the principles of Site Reliability Engineering (SRE) and expects a healthy relationship between SRE teams and service teams (more on this later in the “Site reliability engineering approach to on call” section, below).
+Google’s VP of Engineering and father of SRE,  Ben Treynor, defines site reliability engineers as  software engineers who design an operations function.
+n an on-call setting, escalation is the process of notifying backup team members, more highly technical engineers, or managers to ensure that incidents are addressed as quickly and effectively as possible.
+SAFe assumes teams are following an Agile (Scrum or Kanban) methodology. 
+As agile teams matured and grew, they became challenged with how to:
+Product owner is responsible for defining stories, prioritizing the team backlog, review, and accepting stories.
+Scrum master is responsible for lean-agile leadership, agile process facilitation, enabling the team, and removal of impediments.
+Scrum team is a group of individuals responsible for defining, building, and testing components/features within their agile process.
+System architect/engineer is responsible for alignment with enterprise and solution architecture, and identifying and creation of solution architecture to be delivered by teams architecture.
+Product management is responsible for product backlog content and prioritization.
+Release train engineer is responsible for facilitating value stream and ART processes and execution including PI Planning, alignment with vision, and value stream objectives.
+Product security is responsible for the security of our products and platforms.
+Security intelligence is responsible for detecting and responding to security incidents.
+Development and SRE  are responsible for building and running tooling for the security team.
+While our security team continues to expand, everyone at Atlassian is part of our vision; We want to lead our peers in cloud security, meet all customer requirements for cloud security, exceed requirements for all industry security standards and certifications and be proud to publish details about how we protect customer data. Our goals and vision are made clear to all of our staff throughout their time here at Atlassian.
+Atlassian recognizes that, at some level, security vulnerabilities are an inherent part of any software development process.
+No discussion of vulnerability management would be complete without explaining the key role our product security engineers have in both ironing out bugs, and designing better irons.
+Our product security engineers perform the initial triage on newly reported vulnerabilities and collaborate with our product engineering teams to identify the best fix for the issue. Our product security engineers are subject matter experts in application security and are distributed globally so that they can most effectively collaborate with our product engineers as needed.
+We complete targeted code reviews, both manual and tools-assisted, and work closely with our product development teams to enhance their ability to self-detect and resolve vulnerabilities before the code reaches us.
+We have an internal red team whose role is to simulate the role of adversaries attempting to identify and exploit vulnerabilities that exist within our systems, processes, and environments, so that we can ensure they are identified and addressed as promptly as possible.
+While containers offer great benefits for our developers and customers in terms of being able to deploy code that can be used in a variety of environments, they can be a source of security vulnerabilities if the contents of the images consist of out-of-date or otherwise insecure libraries or components.
+Our security engineers has both pro-active and re-active security roles in relation to their assigned product, including but not limited to:
+The Atlassian Security Team creates alerts on our security analytics platform and monitors for indicators of compromise. Our SRE teams use this platform to monitor for availability or performance issues. Logs are retained for 30 days in hot backup, and 365 days in cold backup.
+
+Specifically, that means Dagger lets DevOps engineers write their pipelines as declarative models in CUE (which stands for “configure, unify, execute”). With this, engineers can describe their pipelines and connect the different pieces to each other, all in code. Dagger calls these individual pieces “actions” and they, too, are described declaratively.
+
+Intel, VMware, and Dell have teamed up to engineer a multicloud analytics solution to help take the guesswork out of building multicloud analytics. It provides a simple, security-enabled, and agile cloud infrastructure for on-premises, as-a-service public cloud, and edge analytics workloads. 
+It helps IT teams free up resources with productivityenhancing capabilities such as one-touch deployments and automated patching and updates.
+Containers and their de-facto standard for orchestration, Kubernetes, are top of mind for application developers, DevOps and platform operations teams.
+Kubeapps is an open-source and community supported web-based UI from the VMware Bitnami team for deploying and managing applications in Kubernetes clusters. Kubeapps can be deployed in one cluster but configured to manage one or more additional clusters, for example on top of the TKG-based CaaS offering. 
+Tanzu Observability is also considered as an optional future add-on service that can work in conjunction with vROps but addresses a set of additional use-cases for customer development, SRE and DevOps teams. 
+The Tanzu Basic setup requires an estimated 120 hours for a Solution Developer to implement the solution on top of the existing VCD deployment, two additional employees to train, as well as salaries for Kubernetes admins to operate the environment.
+Using App Launchpad, developers and DevOps engineers can launch applications to VMware Cloud Director in seconds.
+Our target audience are any members of organizations building software including but not limited to Architects, Developers, Project/Product/Program Managers, and all those who are responsible for designing and implementing secure, cloud native products and services.
+These concerns represent a shared responsibility between the developer, build team, infrastructure/cloud provider, and operating system provider.
+Software producers and consumers should perform threat modeling of their systems to assess their needs and make conscious decisions about risk appetite and security controls. 
+Repository administrators should define who has write permissions to a code repository. In addition, administrators should define the tests and policies for coding conventions and practices. Such policies can then be implemented using a combination of client-side (precommit) and server-side hooks (pre-receive or update). In addition project codeowners, templates, .gitignore, .gitattributes and denylist files can help mitigate injection risks and provide higher assurance.
+These concerns represent a shared responsibility between the developer, build team, infrastructure/cloud provider, and operating system provider. 
+
+The GoodData Enterprise Insights platform is designed to help enterprises and independent software vendors (ISVs) securely transform their data into actionable insights and deliver them to business users, customers, and partners at their point of work to drive better business outcomes.
+Users added to the GoodData Enterprise Insights platform are not given broad access to the network but to an explicit workspace that is assigned to a “consumer” site. This ensures that users only have access to the workspaces appropriate for them.
+To ensure that security is built into all aspects of the GoodData platform, the GoodData engineering team follows DevSecOps methodology. Our software engineers and operations staff are trained on secure development practices and use a wide range of technical means, which are built directly into the continuous integration infrastructure, to address risks related to code flaws and vulnerabilities as well as to prevent promotion of changes without proper review and approval.
+Events related to security are evaluated, investigated and tracked to resolution by a Security Operations team, reporting directly into the Platform Delivery organization. Security Operations team is also responsible for developing and maintaining comprehensive security monitoring and security response program both on the technical and organizational levels, and for the corporate patch and vulnerability management program.
+GoodData’s security and compliance department, together with the internal legal team, monitors the global regulatory landscape to identify emerging data security and privacy-related laws, standards, and regulations and ensure customer data is protected accordingly.
+All new employees around the world are subject to an industry standard background check. GoodData has established three levels of a security clearance; the highest level, which has the most demanding background check requirements and which has to be regularly renewed, is mandatory for all key security-related roles as well as for personnel with the highest level of administrative access to the GoodData platform and critical internal systems.
+GoodData has appointed a dedicated information security organization led by the chief information security officer (CISO), who has the executive responsibility for information security across the corporation and leads the security and compliance department.
+Additionally, endpoints of non-technical personnel have an MDM solution installed and are fully managed by the Internal IT department. Acceptable use rules are documented and communicated to all employees.
+Useful approaches to increasing trust in data use and other technology include clarifying the concerns of citizens related to science (for example, big data) through workshops, and developing and improving communication tools for experts such as engineers and business operators so they consider the desirable state of technology and society together with citizens.
+Data processing and cleanup can consume more than half of an analytics team’s time, including that of highly paid data scientists, which limits scalability and frustrates employees. Indeed, the productivity of employees across the organization can suffer: respondents to our 2019 Global Data Transformation Survey reported that an average of 30 percent of their total enterprise time was spent on non-value-added tasks because of poor data quality and availability (Exhibit 1).
+They then worked in sprints to identify priority data based on the value they could deliver, checking in with the CEO and senior leadership team every few weeks. 
+For example, organizations can apply light governance for data that is used only in an exploration setting and not beyond the boundaries of the science team. The team may also not need perfectly prepared and integrated data with full metadata available. 
+Data processing and cleanup can consume more than half of an analytics team’s time, including that of highly paid data scientists, which limits scalability and frustrates employees.
+
+The Fremont Engineering division includes four organizations: Electrical, Mechanical, Structural, and Environmental.
+The Administrative division includes four organizations: Executive Office, Human Resources, Finance, and Information Services.
+Under the business group, there are four divisions: Administrative, Fremont Engineering, Fremont Construction, and Fremont Services.
+Various product teams (e.g., notebook team, desktop team, server team, etc.) were capturing diagnostic information for evaluation.
+Dell’s Enterprise Architecture team includes business architects, information architects, application architects, and infrastructure specialists.
+“It’s important for enterprise architects to have a hand wherever the company invests in IT.
+Enabled its development team to focus on high-value activities.
+It also wanted to enhance communication between project management teams, and engineering, procurement, construction, and other business process units, so each department had timely access to the latest design, engineering, and project information. 
+The Schneider architecture team considered the following architectural tenets as they identified the tools and finalized the content management architecture.
+The productivity of marketing staff has improved, as they can now easily manage around 300 pages of data on a regular basis themselves, rather than relying on the IT department.

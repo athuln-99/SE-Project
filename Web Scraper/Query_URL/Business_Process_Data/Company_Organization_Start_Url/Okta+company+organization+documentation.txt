@@ -1,0 +1,10 @@
+https://www.okta.com/
+https://developer.okta.com/
+https://help.okta.com/eu/en-us/Content/Topics/end-user/manage-account-settings.htm
+https://developer.okta.com/docs/concepts/saml/
+https://help.okta.com/eu/en-us/Content/Topics/end-user/dashboard-overview.htm
+https://support.okta.com/help/s/article/okta-compliance?language=en_US
+https://help.okta.com/eu/en-us/Content/Topics/end-user/ov-reset-register.htm
+https://saml-doc.okta.com/SAML_Docs/How-to-Configure-SAML-2.0-in-Salesforce.html
+https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm
+https://docs.snowflake.com/en/user-guide/admin-security-fed-auth-configure-idp

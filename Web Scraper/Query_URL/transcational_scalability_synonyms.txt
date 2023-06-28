@@ -1,0 +1,16 @@
+transaction scalability
+throughput scalability
+concurrent transaction handling
+resource scaling strategy
+elastic resource provisioning
+load scalability
+load balancing techniques
+component load scalability
+on-demand resource provisioning
+resource elasticity
+auto-scaling strategies
+measuring transactional capacity
+capacity measurement techniques
+transactional workload measurement
+scalability performance metrics
+real-time scalability monitoring

@@ -1,0 +1,10 @@
+https://developer.mulesoft.com/
+https://www.mulesoft.com/integration-solutions/developer
+https://docs.mulesoft.com/mule-runtime/3.9/sustainable-software-development-practices-with-mule
+https://www.mulesoft.com/
+https://docs.mulesoft.com/mule-runtime/4.4/mule-app-dev
+https://training.mulesoft.com/learning-path/developers
+https://videos.mulesoft.com/watch/EFy5n1rF9H7Se6xe47wXRw
+https://blogs.mulesoft.com/learn-apis/api-led-connectivity/what-are-apis-how-do-apis-work/
+https://www.salesforce.com/news/stories/new-research-shows-how-to-keep-developers-happy-amid-the-great-resignation/
+https://training.mulesoft.com/

@@ -1,0 +1,10 @@
+https://docs.aws.amazon.com/whitepapers/latest/aws-overview/storage-services.html
+https://aws.amazon.com/products/databases/
+https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html
+https://aws.amazon.com/blogs/architecture/scaling-dlt-to-1m-tps-on-aws-optimizing-a-regulated-liabilities-network/
+https://docs.aws.amazon.com/pdfs/whitepapers/latest/big-data-analytics-options/big-data-analytics-options.pdf
+https://aws.amazon.com/architecture/well-architected/
+https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.pillar.performance.en.html
+https://aws.amazon.com/whitepapers/
+https://d1.awsstatic.com/whitepapers/building-a-scalable-and-secure-multi-vpc-aws-network-infrastructure.pdf
+https://www.fortinet.com/content/dam/fortinet/assets/white-papers/wp-aws-reference-architecture.pdf

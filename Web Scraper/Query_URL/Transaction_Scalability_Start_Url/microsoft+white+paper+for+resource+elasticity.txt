@@ -1,0 +1,10 @@
+https://azure.microsoft.com/en-us/resources/research/
+https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview
+https://azure.microsoft.com/en-us/resources/resilience-in-azure-whitepaper/
+https://learn.microsoft.com/en-us/azure/azure-sql/database/resource-limits-dtu-elastic-pools
+https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-resource-management
+https://learn.microsoft.com/en-us/azure/azure-sql/database/resource-limits-vcore-elastic-pools
+https://learn.microsoft.com/en-us/azure/architecture/best-practices/auto-scaling
+https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-manage?view=azuresql
+https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-scale
+https://learn.microsoft.com/en-us/cli/azure/elastic

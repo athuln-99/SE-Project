@@ -1,0 +1,10 @@
+https://slack.com/
+https://api.slack.com/
+https://slack.com/trust/security
+https://learn.microsoft.com/en-us/azure/active-directory/saas-apps/slack-tutorial
+https://slack.com/resources
+https://learn.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-slack?view=azure-bot-service-4.0
+https://slack.com/resources/slack-for-admins
+https://www.quest.com/
+https://www.arista.com/assets/data/pdf/Whitepapers/CloudVision_WP.pdf
+https://symphony.com/insights/blog/innovation/slack-gets-a-little-more-security-but-is-a-little-more-enough/

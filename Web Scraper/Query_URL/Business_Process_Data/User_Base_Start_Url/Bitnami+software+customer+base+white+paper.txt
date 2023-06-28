@@ -1,0 +1,10 @@
+https://bitnami.com/downloads/whitepapers/VAC.pdf
+https://project.linuxfoundation.org/hubfs/CNCF_SSCP_v1.pdf
+https://bitnami.com/
+https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/docs/vmware-intel-dell-multicloud.pdf
+https://bitnami.com/stacks
+https://www.infoworld.com/article/2902931/google-cloud-launcher-spins-up-vm-based-apps-in-a-snap.html
+https://tanzu.vmware.com/content/blog/vmware-tanzu-application-catalog-bitnami-s-enterprise-debut
+https://www.intel.com/content/dam/www/central-libraries/us/en/documents/software-optimization-getting-most-from-cloud.pdf
+https://tanzu.vmware.com/content/blog/use-bitnami-apps-with-vmware-application-catalog
+https://azure.microsoft.com/en-us/blog/bitnami-apache-airflow-multi-tier-now-available-in-azure-marketplace/

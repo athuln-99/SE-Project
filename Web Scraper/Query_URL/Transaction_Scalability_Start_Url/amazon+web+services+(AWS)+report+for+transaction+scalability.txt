@@ -1,0 +1,10 @@
+https://aws.amazon.com/products/databases/
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/optimizing-performance.html
+https://aws.amazon.com/products/storage/
+https://docs.aws.amazon.com/prescriptive-guidance/latest/backup-recovery/welcome.html
+https://aws.amazon.com/ses/
+https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html
+https://aws.amazon.com/ec2/faqs/
+https://docs.aws.amazon.com/whitepapers/latest/aws-overview/database.html
+https://www.usenix.org/conference/fast19/presentation/terry
+https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scale-based-on-demand.html

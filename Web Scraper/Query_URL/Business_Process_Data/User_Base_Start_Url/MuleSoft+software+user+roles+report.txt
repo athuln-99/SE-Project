@@ -1,0 +1,10 @@
+https://docs.mulesoft.com/rpa-home/automation-userrolesandpermissions
+https://www.mulesoft.com/
+https://docs.mulesoft.com/access-management/roles
+https://www.mulesoft.com/resources/api/what-is-an-api
+https://docs.mulesoft.com/rpa-home/
+https://training.mulesoft.com/
+https://blogs.mulesoft.com/dev-guides/api-security-ways-to-authenticate-and-authorize/
+https://workshop.tools.mulesoft.com/alc-workshop/4.5.0/module1/module1_lab1.html
+https://blogs.mulesoft.com/api-integration/security/anypoint-identity-and-access-management/
+https://www.salesforce.com/blog/what-is-mulesoft/

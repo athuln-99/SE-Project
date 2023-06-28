@@ -1,0 +1,10 @@
+https://github.com/justinamiller/SoftwareArchitect
+https://adr.github.io/
+https://github.com/mehdihadeli/awesome-software-architecture
+https://stackoverflow.com/questions/25267134/rational-software-architect-and-github
+https://github.com/DovAmir/awesome-design-patterns
+https://avandeursen.com/2013/12/30/teaching-software-architecture-with-github/
+https://github.com/simskij/awesome-software-architecture
+https://gist.github.com/5e051128ef141d8b4030
+https://github.com/joelparkerhenderson/architecture-decision-record
+https://docs.github.com/en/enterprise-server@3.4/admin/overview/system-overview

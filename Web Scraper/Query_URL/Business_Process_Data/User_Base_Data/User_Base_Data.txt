@@ -1,0 +1,126 @@
+Define user permissions and identities, infrastructure protection and data protection measures for a smooth and planned AWS adoption strategy.
+Data Protection and Encryption helps protect data via encryption, user behavior analysis, and identification of content.
+Identity and Access Control help define and manage user identity, access policies and entitlements. Helps enforce business governance including, user authentication, authorization, and single sign on.
+As a seller, you start by registering for the AWS Marketplace Management Portal. 
+AWS is the world’s most comprehensive and broadly adopted cloud offering, with millions of global users depending on it every day. 
+Whether you are running applications that share photos to millions of mobile users or you’re supporting the critical operations of your business, a cloud services platform provides rapid access to flexible and low-cost IT resources.
+SQL users can easily query streaming data or build entire streaming applications using templates and an interactive SQL editor. 
+QuickSight easily scales to tens of thousands of users without any software to install, servers to deploy, or infrastructure to manage.
+Amazon AppFlow automatically encrypts data in motion, and allows users to restrict data from flowing over the public Internet for SaaS applications that are integrated with AWS PrivateLink, reducing exposure to security threats.
+You can get started using Amazon WorkDocs with a 30-day free trial providing 1 TB of storage per user for up to 50 users.
+The self-service graphical interface in Amazon Connect makes it easy for nontechnical users to design contact flows, manage agents, and track performance metrics – no specialized skills required.
+With Amazon Cognito, you also have the option to authenticate users through social identity providers such as Facebook, Twitter, or Amazon, with SAML identity solutions, or by using your own identity system. 
+All AWS customers benefit from the automatic protections of AWS Shield Standard, at no additional charge. 
+With AWS SSO, you can easily manage SSO access and user permissions to all of your accounts in AWS Organizations centrally.
+Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources. 
+You can create users in IAM, assign them individual security credentials (access keys, passwords, and multi-factor authentication devices), or request temporary security credentials to provide users access to AWS services and resources. 
+You can create roles in IAM and manage permissions to control which operations can be performed by the entity, or AWS service, that assumes the role. You can also define which entity is allowed to assume the role.
+You can enable identity federation to allow existing identities (users, groups, and roles) in your enterprise to access the AWS Management Console, call AWS APIs, and access resources, without the need to create an IAM user for each identity.
+Your users simply sign in to a user portal with credentials they configure in AWS SSO or using their existing corporate credentials to access all their assigned accounts and applications from one place.
+Amazon API Gateway handles all the tasks involved in accepting and processing up to hundreds of thousands of concurrent API calls, including traffic management, authorization and access control, monitoring, and API version management.
+You can also choose to provide Amazon Personalize with additional demographic information from your users such as age, or geographic location. 
+If your software allows multiple users across an organization, you can charge by user. Each hour, the customer is charged for the total number of provisioned users.
+
+If our customers and partners do not have access to highly skilled and trained users of our platform, our customers may not be able to unlock the full potential of our platform, customer satisfaction may suffer, and our results of operations, financial condition and growth prospects may be adversely affected.
+I am proud that Anaplan delivered a very strong fourth quarter and finished the year with over 1,900 customers.
+Based in San Francisco, Anaplan has over 175 partners and more than 1,900 customers worldwide.
+If we experience a security incident affecting our platform, networks, systems or data or the data of our customers, or are perceived to have experienced such a security incident, our platform may be perceived as not being secure, our reputation may be harmed, customers may reduce the use of or stop using our platform, we may incur significant liabilities, and our business could be materially adversely affected.
+As of 2016, Anaplan had over 480 customers in 20 countries.
+Enterprise customers can upload data to the Anaplan cloud, letting the customer's business users organize and analyze disparate sets of enterprise data from finance, human resources, sales and other business units.
+Revise the access of each user and set ‘No Access’ if that user is no longer using the model. Setting ‘No Access’ will reduce the cell count of a module where the User list is being used.
+Begin by revisiting all the tabs in the User Access setting and set appropriate access by roles. A common mistake is granting full access to all roles, even though a specific role shouldn't have access to this complete level of items.
+Grant proper access as per each role in module settings. For instance, if the role doesn’t have to do any manual input to a module, then mark it as 'Read'.
+Give access only to the roles which need to add/remove/edit items in that list. It is best practice not to give access to the list for all the roles. 
+Breaking up the models mitigates the risk that someone accidentally was given inappropriate access by keeping finance partners in their own planning model (PBF), hiring managers in their own model (this is the largest user base in the process), and human resources and recruiting planning in their existing recruiting management model. 
+Lefouet said Anaplan was on track to sign up 150,000 users this year, and should triple that number in 2016, putting it in reach of 1 million users by 2017 or 2018, he said. By contrast, SAP and Oracle count tens of million of cloud software users, although these numbers include a far broader set of products.
+While Anaplan, now based in San Francisco, could consider an initial public offering (IPO) in the coming year, it is focused on its next milestone of signing up 1 million users, or an average of 1,000 users across 1,000 global accounts, Lefouet said.
+Anaplan offers users a cloud-based service that processes billions of spreadsheet cells of corporate data on central computers, then illustrates the results in charts and graphics within a user’s web browser.
+But a calculation based on the 45,000 customers Anaplan says it has signed up combined with an estimated average annual subscription fee comparable to Salesforce.com’s roughly $1,000, suggests revenue is nearing $50 million (45 million euros).
+The company can now show its corporate customers when and where their employees log in to Anaplan, and how long they used it, on a dashboard.
+
+We welcomed over 150 new customers and, most recently, a leading Children’s Research Hospital with whom we’re incredibly excited to partner. 
+We expanded our Unlimited library of product pairings and now have nearly 20% of our customers using a second, third, or even fourth Aurea product. And finally, we completed 100% of our Jive Cloud and Hosted migrations to AWS.
+
+Microchip is willing to work with the customer who is concerned about the integrity of their code.
+In general, most OpenSearch users rely primarily (or entirely) on hot storage and add some UltraWarm or cold if/when it makes sense.
+Avangate wanted to a deliver a visually-pleasing and comprehensive reporting experience to their users.
+REDWOOD CITY AND SAN FRANCISCO, CA - Francisco Partners, a global technology-focused private equity firm, today announced it has acquired Avangate, the leader in customer-centric commerce with over 3,000 customers across more than 100 countries.
+Almost all site traffic comes from search engines, and for holidays or special events, SoftStore sends email newsletters to more than 100,000 subscribers.
+Onofrio also has YouTube channels where software tutorial videos are published, and these are appreciated by inexperienced users.
+“We have an 85% conversion rate from trial users that reach the freemium limit to premium. With Avangate, we're converting all trial customers that enter the shopping cart to paying commercial customers.” 
+Converted thousands of trial customers that reached the freemium limit. 
+Allow end-users to access Secure Browser without requiring an agent at the end-user system.
+Many customers are looking for an enterprise-ready managed offering that would provide the security benefits of Citrix solution, while minimizing the complexity of deployment. 
+The system that hosts the application can have completely different access permissions than the endpoint that is accessing it. 
+
+To better understand how users access and use our Site and Services, both on an aggregated and individualized basis, in order to improve our Site and Services and respond to user desires and preferences, and for other research and analytical purposes.
+
+To distribute end user requests to multiple web server nodes, you need a load balancing solution.
+The benefits are the same as in the single-server architecture—you can offload the work associated with serving your static assets to Amazon S3 and CloudFront, enabling your web servers to focus on generating dynamic content only and serve more user requests per web server. 
+An IAM user is a person or application under an AWS account that has permission to make API calls to AWS services.  
+To prevent unauthorized users from gaining these permissions, protect the IAM user's credentials. 
+It enables customers to easily configure Amazon CloudFront and AWS Certificate Manager (ACM) to WordPress websites for enhanced performance and security.
+The responsibilities and liabilities of AWS to its customers are controlled by AWS agreements, and this document is not part of, nor does it modify, any agreement between AWS and its customers. 
+A legitimate question for current Bitnami Application Catalog users is: how does VMware Application Catalog differ from Bitnami’s free content? 
+To get information about the stacks they are running, Bitnami users go to DockerHub or GitHub repositories.
+VMware Application Catalog users have direct access to extensive metadata in their repositories, which eliminates the need to monitor any external sources. 
+VMware Application Catalog allows customers to request images that are custom-packaged on an OS of choice, hardened, security tested, and delivered to a private repository. 
+VxRail is the only jointly engineered system with deep VMware Cloud Foundation integration, making it ideal for existing vSphere customers who want to create and operate Kubernetes on-premises.
+Other VxRail integrations (such as vCenter plugin, SDDC Manager and VxRail Manager integration, and VxRail architecture awareness built into Cloud Builder) deliver a turnkey hybrid cloud user experience and simplify operations.
+Intel Optane SSDs help remove data bottlenecks to accelerate transactions and time to insights, so users get what they need, when they need it. 
+
+At the end of 2020, we had over 45,000 customers located in over 100 countries, with millions of users.
+Blackbaud provides audit reports by request to our subscription customers, their auditors, and our prospective customers, including SOC 2 type 2, SOC 1 type 1, and bridge letters for both SOC 1 and 2 reports, where applicable*.
+
+More than 12,000 clients of every size worldwide depend on Brightly’s complete suite of intuitive software – including CMMS, EAM, Strategic Asset Management, IoT Remote Monitoring, Sustainability and Community Engagement. 
+The combined organization will have a strong market position, with over 1,600 employees in 23 countries serving over 22,000 broadly diversified customers across industries and managing and securing more than 40 million endpoints.
+The combined company, which will have more than 350 employees serving its combined 8,700 customers globally, will be headquartered Milpitas, CA, and will maintain significant operations in Scottsdale, Arizona. 
+Today, Archer has over 1,000 customers spread throughout the globe, including more than 50% of the Fortune 500 across financial services, healthcare, technology, consumer and other end-markets, and has been awarded 24 cumulative “Leader” positions from Gartner since 2013.
+
+Coupa simplified its data integration workflow, enabling engineers, designers, and data scientists to readily identify opportunities
+4x the number of data users and adoption with Fivetran.
+
+The company enables millions of users in 100-plus countries to raise over $100 billion each year.
+With Demographic and Statistical Reports, for example, you can find out the day or month that produced the greatest income, the ZIP Code with the highest average of giving per constituent, or a geographic breakdown of where your constituents live. 
+These data findings held true across all sub-sectors as well as the demographic segments of age range, household income and head of household gender.
+In addition to these types of transactions, tens of thousands of additional data points were also appended, such as information on demographics, consumer habits, communication preferences, and more.
+
+Millions of users trust Grammarly’s writing app to write clearly and effectively. 
+Furthermore, Grammarly has more than 30 million daily active users as of 2023, and it generated more than 8.8 million US dollars in the year 2022. 
+In December 2022, Grammarly recorded monthly traffic of 71.4 million.
+More than 50,000 professional and enterprise teams use Grammarly. 
+Grammarly has more than 800 employees. 
+99% of students have reported that Grammarly has helped them increase their grades. 
+More than 50,000 professional and enterprise teams use Grammarly. 
+This means more than 30 million people daily depend on Grammarly to improve the quality of their content.
+In the year 2015, Grammarly had only 1 million daily users, while in 2018, it had only 8 million users.
+51.09% of female uses Grammarly, while 48.91% of male uses it as of 2023. 
+Native English speakers use Grammarly more often than non-native speakers. 68% of native speakers use Grammarly. On the other hand, 32% of non-native speakers use Grammarly.
+Grammarly is used by people worldwide, but 73% of Grammarly users are located in the United States. 
+31.15% of adults between the age of 25 to 34 use Grammarly, while 30.53% of adults in the age group of 18 to 24 years use it. 
+79% of Grammarly users said that they attended a college or University. 
+21% of Grammarly users had foreign student status. 
+43% of students using Grammarly were pursuing Masters’s degrees. 
+31% of students reported that they used Grammarly for writing courses. 
+Students mostly use Grammarly for school-related writing like course papers, research papers, presentations, reports, etc.
+Currently, Grammarly has 8346 customers. These customers are from different industries and niches.
+It includes people of both genders, as well as various ethnic, educational and professional backgrounds.
+There were slightly more female respondents (60%) than male respondents (40%). There were significantly more native English speakers (68%) than nonnative speakers (32%). This might suggest that people whose first language is English tend to use Grammarly more than those for whom English is not the mother tongue. Grammarly users live all over the world (from Afghanistan to United Arab Emirates), but the majority of them are located in the U.S. (73%). 
+The majority of the student respondents (79%) were attending a domestic college or university. Only 21% of students had foreign student status.
+Students did not feel very confident in their writing ability before they started using Grammarly. 
+To date, Grammarly’s free Chrome extension has been downloaded 10 million times, and the company has 6.9 million daily active users.
+
+The professionals who use Salesforce and make up the typical Salesforce customer are Salesforce developers. Just over 72% of Salesforce developers are men, and the remaining nearly 28% are women.
+The average age of Salesforce developers is over 40 years, making up 46% of the segment. The next largest age segment of Salesforce target users are between 30 and 40 years of age.
+
+You can now share the preserved users' device data with active users. With this capability, the active users can access the device data of the preserved user and ensure business continuity when a user leaves the organization.
+By selecting the option, users will not receive an account activation mail and login credentials for End User web portal.
+With this enhancement, inactive users will not receive backup inactivity alert notifications for the set duration.
+You now get an updated user interface for the Druva mobile app that aligns with the standards of inSync Client desktop applications to provide a simplified and consistent end-user experience. 
+You can now back up and restore the end-user device’s browser settings for Microsoft Edge on Windows devices.
+
+As of March 31, 2022, the platform has 268,000 active customer accounts, compared to 235,000 on March 31, 2021.
+Adobe serves millions of users across the globe.
+The company is driven by a workforce of more than 1,300 global professionals delivering innovative “Experience as a Service” solutions.
+Cvent was founded in 1999 just outside of Washington D.C. as a two-person start-up, and more than 22 years later, the company has grown to more than 4,500 employees around the world and is still led by its Founder and CEO, Reggie Aggarwal.
+With around 2,200 employees and approximately 41 million users, constituting 6.5% of the market for software that helps manage, share, and collaborate on digital files, Box’s market success has led to an international expansion that has seen the opening of offices in London, Berlin, Tokyo, and multiple other locations. 

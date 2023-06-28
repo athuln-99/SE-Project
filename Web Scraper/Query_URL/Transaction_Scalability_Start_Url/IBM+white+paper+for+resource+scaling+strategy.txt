@@ -1,0 +1,10 @@
+https://www.ibm.com/products/datastage/resources
+https://www.redbooks.ibm.com/abstracts/redp5610.html
+https://www.ibm.com/docs/en/spectrum-scale?topic=STXKQY/ibmspectrumscale_welcome.html
+https://community.ibm.com/community/user/storage/blogs/matthew-geiser1/2020/10/27/containerized-ibm-spectrum-scale
+https://www.ibm.com/downloads/cas/JEWOV1BM
+https://community.ibm.com/community/user/storage/blogs/pallavi-galgali1/2020/10/05/optimize-running-nvidia-gpu-enabled-ai-workloads-w
+https://www.ibm.com/power/resources/isv/
+https://www.seagate.com/resources/white-papers/
+https://www.ibm.com/downloads/cas/EQA04AW8
+https://community.ibm.com/community/user/storage/discussion/spectrum-scale-5151-rocemrot-technology-compatibilitysupport

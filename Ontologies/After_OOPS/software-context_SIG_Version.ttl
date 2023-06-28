@@ -157,7 +157,7 @@
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/organizationStructureImpacts
 :organizationStructureImpacts rdf:type owl:ObjectProperty ;
-                              rdfs:domain :Organization ;
+                              rdfs:domain :Internal_Organization ;
                               rdfs:range :Resource_Allocation .
 
 
@@ -671,8 +671,7 @@
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Developers
 :Developers rdf:type owl:Class ;
-            rdfs:subClassOf :Organization ,
-                            :Stakeholders .
+            rdfs:subClassOf :Stakeholders .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Development_Cycle_Security
@@ -889,6 +888,12 @@
                                 rdfs:subClassOf :Internal .
 
 
+###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Internal_Organization
+:Internal_Organization rdf:type owl:Class ;
+                       rdfs:subClassOf :Business_Process ,
+                                       :Development_Practices .
+
+
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Isolation
 :Isolation rdf:type owl:Class ;
            rdfs:subClassOf :Performance_Efficiency .
@@ -973,12 +978,6 @@
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Optimization
 :Optimization rdf:type owl:Class ;
               rdfs:subClassOf :Efficiency .
-
-
-###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Organization
-:Organization rdf:type owl:Class ;
-              rdfs:subClassOf :Business_Process ,
-                              :Development_Practices .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Other_Measures
@@ -1180,7 +1179,7 @@
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Stakeholders
 :Stakeholders rdf:type owl:Class ;
-              rdfs:subClassOf :Business_Process .
+              rdfs:subClassOf :Internal_Organization .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Strategic_Roadmap
@@ -1211,7 +1210,7 @@
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Teams
 :Teams rdf:type owl:Class ;
-       rdfs:subClassOf :Organization .
+       rdfs:subClassOf :Internal_Organization .
 
 
 ###  http://www.semanticweb.org/ontologies/2023/SE/software-context2/Technical_Debt

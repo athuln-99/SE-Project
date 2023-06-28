@@ -1,0 +1,10 @@
+https://research.ibm.com/publications/load-balancing-with-jet-just-enough-tracking-for-connection-consistency
+https://www.ibm.com/topics/load-balancing
+https://research.ibm.com/publications/dlb-deep-learning-based-load-balancing
+https://researcher.watson.ibm.com/researcher/view.php?person=il-DEAN
+https://www.ibm.com/cloud/load-balancer
+https://researcher.watson.ibm.com/researcher/view_group.php?id=2117
+https://info.ornl.gov/sites/publications/files/Pub47192.pdf
+https://dominoweb.draco.res.ibm.com/reports/rc23942.pdf
+https://www.cs.princeton.edu/courses/archive/fall05/cos518/papers/networkdispatch.pdf
+https://dominoweb.draco.res.ibm.com/reports/rc24106.pdf

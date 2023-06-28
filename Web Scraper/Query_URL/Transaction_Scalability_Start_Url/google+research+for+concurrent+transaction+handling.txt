@@ -1,0 +1,10 @@
+https://cloud.google.com/datastore/docs/concepts/transactions
+https://dl.acm.org/doi/abs/10.1145/3588724
+https://cloud.google.com/run/docs/about-concurrency
+https://stackoverflow.com/questions/31891335/google-datastore-transactions-optimistic-concurrency-control-or-not
+https://firebase.google.com/docs/firestore/manage-data/transactions
+https://www.usenix.org/event/osdi10/tech/full_papers/Peng.pdf
+https://firebase.google.com/docs/firestore/transaction-data-contention
+https://www.techtarget.com/searchdatacenter/definition/OLTP
+https://medium.com/yugabyte/implementing-distributed-transactions-the-google-way-percolator-vs-spanner-6cbccfc1f2ed
+https://research.google.com/archive/spanner-osdi2012.pdf

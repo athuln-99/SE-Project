@@ -1,0 +1,10 @@
+https://research.ibm.com/blog/ray-summit-codeflare-foundation-models
+https://www.ibm.com/cloud/blog/improve-application-availability-scalability-and-security-with-ibm-vpc
+https://meetings.aps.org/Meeting/MAR23/Session/Q72.9
+https://www.ibm.com/blog/category/turbonomic/
+https://itnext.io/run-scalable-gpu-workloads-on-ibm-cloud-vpc-with-ray-and-cuda-a1547869e736
+https://www.redbooks.ibm.com/redbooks/pdfs/sg246392.pdf
+https://dominoweb.draco.res.ibm.com/reports/ic200108.pdf
+https://rishabhpoddar.com/publications/Haven.pdf
+https://www.ra.ethz.ch/cdstore/www7/1899/com1899.htm
+https://developer.ibm.com/articles/eda-and-microservices-architecture-best-practices/

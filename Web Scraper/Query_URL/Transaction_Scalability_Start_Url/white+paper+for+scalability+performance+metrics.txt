@@ -1,0 +1,10 @@
+https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/whitepaper/products/vsan/vmware-virtual-san6-scalability-performance-white-paper.pdf
+https://www.fluentbio.com/fluent-biosciences-releases-comprehensive-white-paper-highlighting-increased-performance-metrics-with-the-latest-v4-0-pipseq-single-cell-rna-sequencing-kits/
+https://www.hyperledger.org/learn/publications/blockchain-performance-metrics
+https://money.yahoo.com/fluent-biosciences-releases-comprehensive-white-153300090.html
+https://www.ibm.com/support/pages/ecm-performance-and-scalability-library
+https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-b-series-blade-servers/white-paper-c11-744678.html
+https://www.bell-labs.com/institute/white-papers/energy-efficiency-in-next-generation-mobile-networks/
+https://cloud.google.com/bigtable/pdf/FISConsolidatedAuditTrail.pdf
+https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.pillar.performance.en.html
+https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html

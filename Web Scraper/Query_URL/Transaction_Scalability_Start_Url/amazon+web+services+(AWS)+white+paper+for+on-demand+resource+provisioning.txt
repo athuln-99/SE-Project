@@ -1,0 +1,10 @@
+https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html
+https://aws.amazon.com/blogs/apn/the-6-pillars-of-the-aws-well-architected-framework/
+https://docs.aws.amazon.com/pdfs/whitepapers/latest/development-and-test-on-aws/development-and-test-on-aws.pdf
+https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.pillar.reliability.en.html
+https://aws.amazon.com/ec2/faqs/
+https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.pillar.performance.en.html
+https://d1.awsstatic.com/whitepapers/aws-overview.pdf
+https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.pillar.costOptimization.en.html
+https://pages.awscloud.com/rs/112-TZM-766/images/AWS-BV%20IDC%202018.pdf
+https://www.cisco.com/c/en/us/solutions/collateral/data-center-virtualization/application-centric-infrastructure/white-paper-c11-741998.html

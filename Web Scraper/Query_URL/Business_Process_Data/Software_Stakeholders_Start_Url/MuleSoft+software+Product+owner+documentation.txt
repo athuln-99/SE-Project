@@ -1,0 +1,10 @@
+https://www.mulesoft.com/
+https://docs.mulesoft.com/visualizer/
+https://training.mulesoft.com/
+https://docs.mulesoft.com/access-management/roles
+https://blogs.mulesoft.com/api-integration/api-management-and-data-mesh/
+https://docs.mulesoft.com/access-management/business-groups
+https://training.mulesoft.com/certification
+https://www.mightymule.com/wp-content/uploads/Mighty-Mule-MM360-Single-Gate-Operator-Manual.pdf
+https://dev.solita.fi/tags.html
+https://www.mightymule.com/wp-content/uploads/Mighty-Mule-MM560-Heavy-Duty-Single-Gate-Operator.pdf

@@ -1,0 +1,10 @@
+https://www.microsoft.com/en-us/research/publication/join-idle-queue-a-novel-load-balancing-algorithm-for-dynamically-scalable-web-services/
+https://www.sciencedirect.com/science/article/pii/S0164121221001618
+https://dl.acm.org/doi/10.1145/2890955.2890968
+https://arxiv.org/pdf/2008.07944
+https://pubs.acs.org/doi/10.1021/ct700301q
+https://www.computerbusinessresearch.com/Home/database/scalability
+https://ieeexplore.ieee.org/document/9024501
+https://en.wikipedia.org/wiki/Scalability
+https://softwaremill.com/case-study/reliable-and-scalable-high-load-platform/
+https://research.spec.org/icpe_proceedings/2021/companion/p85.pdf

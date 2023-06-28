@@ -1,0 +1,10 @@
+https://mailchimp.com/developer/marketing/docs/merge-fields/
+https://styleguide.mailchimp.com/voice-and-tone/
+https://mailchimp.com/help/getting-started-tags/
+https://docs.gitbook.com/product-tour/integrations/mailchimp/configure?q=gitbook
+https://mailchimp.com/developer/marketing/api/
+https://doc.oroinc.com/user/back-office/system/integrations/mailchimp-integration/
+https://mailchimp.com/marketing-glossary/xml/
+https://templates.mailchimp.com/getting-started/template-language/
+https://docs.thememountain.com/email/sartre/mailchimp/
+https://www.stitchdata.com/docs/integrations/saas/mailchimp

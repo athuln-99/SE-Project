@@ -1,0 +1,10 @@
+https://community.tableau.com/s/question/0D54T00000C6QXBSA3/show-dimensions-based-on-user-selection
+https://www.tableau.com/
+https://help.tableau.com/current/pro/desktop/en-us/publish_userfilters.htm
+https://www.tableau.com/support/known-issues
+https://help.tableau.com/current/pro/desktop/en-us/formatting_specific_titlecaption.htm
+https://kb.tableau.com/articles/howto/creating-dynamic-titles-based-on-filters
+https://help.tableau.com/current/pro/desktop/en-us/filtering.htm
+https://kb.tableau.com/articles/issue/image-size-small-subscription-emails
+https://help.tableau.com/current/pro/desktop/en-us/calculations_aggregation.htm
+https://www.simplilearn.com/tutorials/power-bi-tutorial/power-bi-vs-tableau

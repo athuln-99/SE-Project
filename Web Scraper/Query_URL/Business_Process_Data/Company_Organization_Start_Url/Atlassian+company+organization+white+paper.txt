@@ -1,0 +1,10 @@
+https://www.atlassian.com/whitepapers
+https://pages.eml.atlassian.com/rs/594-ATC-127/images/Beyond-the-basics-of-scaling-agile-white-paper.pdf
+https://www.atlassian.com/agile/agile-at-scale/spotify
+https://www.spkaa.com/white-paper/the-ultimate-guide-to-atlassian-cloud-governance
+https://www.atlassian.com/dam/jcr:93265840-405e-4ea7-831c-b65eddc1d242/Scaling%20agile%20with%20Atlassian%20and%20SAFe%20white%20paper.pdf
+https://wac-cdn.atlassian.com/dam/jcr:89e1292d-4e01-4203-8d78-407ccbc304b9/Security-at-Atlassian.pdf?cdnVersion=1012
+https://www.atlassian.com/whitepapers/guide-to-atlassian-cloud-enterprise
+https://confluence.atlassian.com/doc/customize-exports-to-pdf-190480945.html
+https://www.atlassian.com/whitepapers/devops-survey-2020
+https://pages.eml.atlassian.com/rs/594-ATC-127/images/Whitepaper-On-Call-Book.pdf

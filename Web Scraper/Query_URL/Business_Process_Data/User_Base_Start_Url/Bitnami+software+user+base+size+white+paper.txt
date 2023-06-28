@@ -1,0 +1,10 @@
+https://bitnami.com/
+https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/docs/vmware-intel-dell-multicloud.pdf
+https://bitnami.com/stacks
+https://tanzu.vmware.com/content/blog/use-bitnami-apps-with-vmware-application-catalog
+https://bitnami.com/stack/wordpress
+https://tanzu.vmware.com/content/blog/vmware-tanzu-application-catalog-bitnami-s-enterprise-debut
+https://www.business-software.com/product/bitnami-cloud-hosting/
+https://azure.microsoft.com/en-us/blog/bitnami-apache-airflow-multi-tier-now-available-in-azure-marketplace/
+https://aws.amazon.com/marketplace/pp/prodview-bzstv3wbn5wkq
+https://d1.awsstatic.com/whitepapers/wordpress-best-practices-on-aws.pdf

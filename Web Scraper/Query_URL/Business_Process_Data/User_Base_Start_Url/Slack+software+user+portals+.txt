@@ -1,0 +1,10 @@
+https://slack.com/
+https://api.slack.com/apps
+https://slack.com/downloads/android
+https://api.slack.com/
+https://community.atlassian.com/t5/Jira-Service-Management/Jira-Cloud-App-for-Slack-not-possible-for-Portal-only-users/qaq-p/1531666
+https://solace.community/discussion/1569/slack-app-for-pubsub-event-portal
+https://knowledge.hubspot.com/integrations/how-do-i-use-the-slack-integration
+https://support.atlassian.com/jira-service-management-cloud/docs/connect-a-new-slack-workspace-to-your-service-project/
+https://learn.microsoft.com/en-us/azure/active-directory/saas-apps/slack-tutorial
+https://support.atlassian.com/jira-service-management-cloud/docs/hide-email-signatures-in-the-issue-view-and-portals/

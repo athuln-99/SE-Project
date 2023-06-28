@@ -1,0 +1,10 @@
+https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2020/Dec/IRENA_Green_hydrogen_cost_2020.pdf
+https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html
+https://www.softwaretestinghelp.com/what-is-scalability-testing/
+https://www.sqlshack.com/scaling-out-reporting-services-changes-in-sql-server-2016/
+https://aws.amazon.com/elasticloadbalancing/
+https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/ch01.html
+https://www.ibm.com/docs/SSPN2D_10.2.1/com.ibm.swg.im.cognos.cp_arch.10.2.1.doc/cp_arch_id1720IBMCognosServerScalability.html
+https://docs.microfocus.com/doc/Network_Automation/2021.05/Install
+https://docs.oracle.com/cd/E24705_01/doc.91/e24288/administrative_tasks.htm
+https://www.freecodecamp.org/news/measure-and-improve-performance-of-react-apps/

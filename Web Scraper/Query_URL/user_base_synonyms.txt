@@ -1,0 +1,12 @@
+user base information
+customer information
+user data
+customer base
+user demographics
+user base size
+user count
+user portals
+user roles
+user permissions
+user authorization
+

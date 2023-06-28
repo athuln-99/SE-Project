@@ -1,0 +1,10 @@
+https://about.att.com/story/breakthrough_elastic_cloud_to_cloud_networking_unveiled_by_att_ibm_research_and_acs.html
+https://research.ibm.com/publications/memory-disaggregation-research-problems-and-opportunities
+https://www.sciencedirect.com/science/article/abs/pii/S0167739X11000744
+https://www.telecomtv.com/content/cloud/at-t-and-ibm-stretch-the-elastic-cloud-with-sdn-technologies-11599/
+https://www.ibm.com/cloud/blog/provisioning-a-kubernetes-cluster-using-ibm-cloud-schematics-workspaces
+https://scholarworks.umass.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1768&context=open_access_dissertations
+https://www.ibm.com/cloud/blog/cloud-elasticity-vs-cloud-scalability
+https://research.google.com/pubs/archive/41687.pdf
+https://web.cs.umass.edu/publication/docs/2010/UM-CS-2010-005.pdf
+https://dl.acm.org/doi/abs/10.4018/jwsr.2011070103

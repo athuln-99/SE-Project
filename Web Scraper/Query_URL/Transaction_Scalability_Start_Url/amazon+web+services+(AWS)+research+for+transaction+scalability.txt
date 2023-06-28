@@ -1,0 +1,10 @@
+https://aws.amazon.com/products/databases/
+https://docs.aws.amazon.com/prescriptive-guidance/latest/backup-recovery/welcome.html
+https://aws.amazon.com/ec2/faqs/
+https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html
+https://aws.amazon.com/products/storage/
+https://docs.aws.amazon.com/whitepapers/latest/aws-overview/database.html
+https://www.usenix.org/conference/fast19/presentation/terry
+https://docs.aws.amazon.com/whitepapers/latest/aws-overview/analytics.html
+https://cointelegraph.com/news/australian-record-scalability-blockchain-how-crypto-is-stepping-into-the-land-down-under
+https://docs.aws.amazon.com/pdfs/whitepapers/latest/big-data-analytics-options/big-data-analytics-options.pdf

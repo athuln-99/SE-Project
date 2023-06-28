@@ -1,0 +1,10 @@
+https://architect.salesforce.com/fundamentals/platform-multitenant-architecture
+https://www.developerforce.com/media/ForcedotcomBookLibrary/Force.com_Multitenancy_WP_101508.pdf
+https://salesforce.stackexchange.com/questions/285118/force-com-architecture-whitepaper
+https://www.salesforce.com/ca/products/einstein-analytics/resources/
+https://compliance.salesforce.com/en/services/government-cloud-plus
+https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/integration_patterns_and_practices.pdf
+https://developer.salesforce.com/docs/atlas.en-us.salesforce_large_data_volumes_bp.meta/salesforce_large_data_volumes_bp/ldv_deployments_introduction.htm
+https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/sharing_architecture.pdf
+https://www.tableau.com/learn/whitepapers/tableau-online-scalability-overview-proof-points
+https://a.sfdcstatic.com/content/dam/www/ocms/assets/pdf/misc/SAP_Integration_White_Paper.pdf

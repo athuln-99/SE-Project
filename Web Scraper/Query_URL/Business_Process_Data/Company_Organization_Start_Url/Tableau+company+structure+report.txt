@@ -1,0 +1,10 @@
+https://www.tableau.com/pricing/teams-orgs
+https://help.tableau.com/current/blueprint/en-us/bp_governance_in_tableau.htm
+https://www.tableau.com/learn/articles/how-to-build-a-data-driven-organization
+https://community.tableau.com/s/question/0D54T00000C5zQ6SAJ/design-guidance-on-organizational-structure
+https://help.tableau.com/current/pro/desktop/en-us/embed.htm
+https://community.tableau.com/s/question/0D54T00000C5jKhSAJ/using-the-same-reports-with-different-data-sources
+https://help.salesforce.com/s/articleView?id=sf.netzerowhatif_configure_whatif.htm&language=en_US&type=5
+https://community.tableau.com/s/question/0D58b0000AawryNCQQ/connecting-to-multiple-sales-force-databases-same-company-new-team-structure
+https://kb.tableau.com/articles/issue/google-analytics-numbers-not-same
+https://community.tableau.com/s/question/0D54T00000C5PZRSA3/why-is-tableau-server-report-url-contain-or-t-symbols

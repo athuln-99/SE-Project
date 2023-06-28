@@ -1,0 +1,10 @@
+https://www.zendesk.com/service/ticketing-system/documentation/
+https://support.zendesk.com/hc/en-us/articles/4408837969946-Setting-up-the-Zendesk-Support-for-Jira-integration
+https://www.zendesk.com/trust-center/
+https://support.zendesk.com/hc/en-us/articles/4408824477082-Granting-Zendesk-temporary-access-to-assume-your-account
+https://developer.zendesk.com/api-reference/
+https://terradotta.zendesk.com/hc/en-us/articles/360043426873-Glossary-of-Terms
+https://developer.zendesk.com/api-reference/sales-crm/authentication/introduction/
+https://oomnitza.zendesk.com/hc/en-us/articles/360056578134-Creating-an-extended-integration-for-Cisco-Webex-users
+https://developer.zendesk.com/documentation/live-chat/getting-started/restrictions/
+https://training.zendesk.com/

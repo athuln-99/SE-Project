@@ -1,0 +1,10 @@
+https://www.sciencedirect.com/science/article/pii/S1877050915005104
+https://www.mdpi.com/2079-9292/9/7/1091
+https://www.sciencedirect.com/science/article/pii/S1877050921014071
+https://journalofcloudcomputing.springeropen.com/articles/10.1186/s13677-019-0146-7
+https://research.google/pubs/pub49025/
+https://research.google.com/pubs/archive/44824.pdf
+https://research.google/pubs/pub44824/
+https://sre.google/workbook/managing-load/
+https://dl.acm.org/doi/10.1145/3281010
+https://link.springer.com/article/10.1007/s42979-023-01702-7

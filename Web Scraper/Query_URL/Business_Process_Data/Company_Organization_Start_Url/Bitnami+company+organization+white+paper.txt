@@ -1,0 +1,10 @@
+https://bitnami.com/
+https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/docs/vmware-intel-dell-multicloud.pdf
+https://cloudsolutions.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/partners/Modern-Apps-Whitepaper-v1.0.pdf
+https://www.networkworld.com/article/2228738/bitnami-builds-on-its-open-source-packaging-to-become-a-cloud-host.html
+https://krista.ai/product/low-code-application-platform/
+https://project.linuxfoundation.org/hubfs/CNCF_SSCP_v1.pdf
+https://www.awhonn.org/news-advocacy-and-publications/awhonn-position-statements/
+https://d1.awsstatic.com/whitepapers/wordpress-best-practices-on-aws.pdf
+https://devblogs.microsoft.com/azuregov/azure-export-controls-white-paper-updates/
+https://www.ontotext.com/company/news/ontotext-platform-3-5-enables-high-availability/
