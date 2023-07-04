@@ -1,0 +1,10 @@
+https://learn.microsoft.com/en-us/azure/devops/boards/sprints/best-practices-scrum
+https://www.redhat.com/en/resources/alleviate-technical-debt-whitepaper
+https://news.microsoft.com/wp-content/uploads/prod/sites/66/2023/04/IDC-WP_MSFT_FINAL_17.04.pdf
+https://www2.deloitte.com/content/dam/Deloitte/xe/Documents/technology/me-consulting_technical-debt.pdf
+https://www.microsoftpartnercommunity.com/t5/Co-sell-with-Microsoft/Technical-Whitepaper-Enterprise-application-modernization-with/m-p/68670
+https://www.softwareone.com/en-ca/downloads/noram/noram_whitepaper-redmond-summit
+https://www.linkedin.com/posts/olihuggins_digitaltransformation-innovation-microsoft-activity-7047147642115473409-8MgS
+https://papers.neurips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf
+https://www.tiny.cloud/blog/technical-vs-functional-debt/
+https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE5edz9

@@ -1,0 +1,10 @@
+https://www.hitachivantara.com/en-us/pdf/white-paper/hcp-for-cloud-scale-whitepaper.pdf
+https://www.f5.com/pdf/white-papers/scalen-elastic-infrastructure-white-paper.pdf
+https://www.juniper.net/content/dam/www/assets/white-papers/us/en/introduction-to-big-data-infrastructure-and-networking.pdf
+https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html
+https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/white-paper-c11-743245.html
+https://d1.awsstatic.com/whitepapers/managing-your-aws-infrastructure-at-scale.pdf
+https://www.cisco.com/c/en/us/products/collateral/hyperconverged-infrastructure/hyperflex-hx-series/hyperflex-hx-data-platform-wp.html
+https://vastdata.com/whitepaper
+https://www.cisco.com/c/en/us/td/docs/dcn/whitepapers/cisco-application-centric-infrastructure-design-guide.html
+https://plaid.com/data-access-infrastructure/

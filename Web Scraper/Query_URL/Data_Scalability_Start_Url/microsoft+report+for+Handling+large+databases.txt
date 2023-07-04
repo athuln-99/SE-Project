@@ -1,0 +1,10 @@
+https://learn.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/data-storage
+https://support.microsoft.com/en-us/office/using-access-or-excel-to-manage-your-data-09576147-47d1-4c6f-9312-e825227fcaea
+https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-large-models
+https://support.microsoft.com/en-gb/office/access-specifications-0cf3c66f-9cf2-4e32-9568-98c1025bb47c
+https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-nosql-database
+https://support.microsoft.com/en-gb/office/what-to-do-if-a-data-set-is-too-large-for-the-excel-grid-976e6a34-9756-48f4-828c-ca80b3d0e15c
+https://techcommunity.microsoft.com/t5/modernization-best-practices-and/sql-server-replication-as-a-tool-to-migrate-very-large-databases/ba-p/3161695
+https://devblogs.microsoft.com/cosmosdb/nosql-vs-relational-which-database-should-you-use-for-your-app/
+https://maqsoftware.com/insights/power-bi-best-practices
+https://www.simplilearn.com/tutorials/power-bi-tutorial/power-bi-vs-tableau

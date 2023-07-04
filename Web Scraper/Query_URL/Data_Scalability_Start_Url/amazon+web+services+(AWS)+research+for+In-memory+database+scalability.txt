@@ -1,0 +1,10 @@
+https://aws.amazon.com/products/databases/
+https://docs.aws.amazon.com/whitepapers/latest/aws-overview/database.html
+https://aws.amazon.com/timestream/
+https://docs.aws.amazon.com/pdfs/whitepapers/latest/big-data-analytics-options/big-data-analytics-options.pdf
+https://aws.amazon.com/nosql/
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
+https://aws.amazon.com/ec2/faqs/
+https://wa.aws.amazon.com/wat.question.PERF_4.en.html
+https://www.oracle.com/a/ocom/docs/engineered-systems/exadata/wikibon-msgc-excs-vs-aws.pdf
+https://d1.awsstatic.com/whitepapers/Storage/aws-storage-options.9187f853ca480ee7d904e499999cab985c698409.pdf

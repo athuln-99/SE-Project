@@ -1,0 +1,10 @@
+https://cloud.google.com/blog/products/devops-sre/dora-2022-accelerate-state-of-devops-report-now-out
+https://stackoverflow.com/questions/43997780/how-to-include-google-benchmark-in-continuous-integration
+https://cloud.google.com/blog/products/devops-sre/cloud-build-named-a-leader-for-continuous-integration-in-the-forrester-wave
+https://developer.chrome.com/docs/lighthouse/overview/
+https://google.github.io/oss-fuzz/getting-started/continuous-integration/
+https://web.dev/lighthouse-ci/
+https://cd.foundation/
+https://github.com/GoogleChrome/lighthouse-ci
+https://about.gitlab.com/analysts/forrester-cloudci19/
+http://cope.eecs.oregonstate.edu/papers/OpenSourceCIUsage.pdf

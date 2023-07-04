@@ -1,0 +1,10 @@
+https://support.microsoft.com/en-gb/office/use-task-boards-in-microsoft-project-online-desktop-client-1b9b44d7-fd8e-4b3b-ab94-2b97deb9945b
+https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/january/vsts-2010-agile-planning-tools-in-visual-studio-team-system-2010
+https://azure.microsoft.com/en-us/products/devops/boards
+https://learn.microsoft.com/en-us/azure/devops/boards/get-started/what-is-azure-boards
+https://www.microsoft.com/en-us/microsoft-365/business/task-management-software
+https://docs.servicenow.com/en-US/bundle/utah-it-business-management/page/product/agile-azure-integration/concept/agile-azure-integration-overview.html
+https://www.microsoft.com/en-us/microsoft-365/project/project-management
+https://partner.microsoft.com/case-studies/agile-solutions
+https://www.microsoft.com/en-us/microsoft-365/project/project-planning-templates
+https://powerplatform.microsoft.com/en-us/

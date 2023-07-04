@@ -1,0 +1,10 @@
+https://thrift.apache.org/
+https://www.gridgain.com/resources/papers/introducing-apache-ignite
+https://www.scylladb.com/learn/apache-cassandra/introduction-to-apache-cassandra/
+https://docs.aws.amazon.com/pdfs/whitepapers/latest/big-data-analytics-options/big-data-analytics-options.pdf
+https://resources.sei.cmu.edu/asset_files/WhitePaper/2021_019_001_735330.pdf
+https://cwiki.apache.org/confluence/display/thrift/
+https://www.datastax.com/resources/whitepaper/data-modeling-apache-cassandra
+https://www.dataversity.net/apache-software-foundation-announces-apache-mahout-v0-13-0/
+https://hadoop.apache.org/
+https://d1.awsstatic.com/whitepapers/aws-overview.pdf

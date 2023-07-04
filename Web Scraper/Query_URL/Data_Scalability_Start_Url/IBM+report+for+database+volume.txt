@@ -1,0 +1,10 @@
+https://www.ibm.com/docs/SSRS7Z_8.5.0/com.ibm.administeringcm.doc/msr10104.htm
+https://www.redbooks.ibm.com/redpapers/pdfs/redp4859.pdf
+https://www.ibm.com/docs/en/spectrum-protect/8.1.15?topic=ac-audit-volume-verify-database-information-storage-pool-volume
+https://www-40.ibm.com/servers/resourcelink/svc00100.nsf/pages/zOSV2R3sc236859/$file/idav100_v2r3.pdf
+https://www.ibm.com/docs/en/netcoolomnibus/8?topic=jdbc-target-database-sizing
+https://public.dhe.ibm.com/storage/tivoli-storage-management/front_end_capacity_measurement_tools/ISPSuite_FE_LicenseGuide_816_en.pdf
+https://www.ibm.com/docs/SS5R93_5.4.2/com.ibm.spectrum.sc.messages/msg_hwnpm3603e.html
+https://www-40.ibm.com/servers/resourcelink/svc00100.nsf/pages/zOSV2R3sa380671/$file/ieam400_v2r3.pdf
+https://www.ibm.com/support/pages/database-sizing-alarm-archiving
+https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-power-iaas-faqs

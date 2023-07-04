@@ -1,0 +1,10 @@
+https://learn.microsoft.com/en-us/azure/data-explorer/power-bi-best-practices
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/08/0005880.pdf
+https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl
+https://download.microsoft.com/download/D/6/6/D66E61BA-3D18-49E8-B042-8434E64FAFCA/Scalable%20Security%20Modeling%20with%20Microsoft%20Dynamics%20CRM%202015.pdf
+https://support.microsoft.com/en-au/office/worksheet-compatibility-issues-f9c80c5b-5afc-40da-a841-b888746abd40
+https://azure.microsoft.com/en-us/blog/general-availability-of-azure-openai-service-expands-access-to-large-advanced-ai-models-with-added-enterprise-benefits/
+https://techcommunity.microsoft.com/t5/azure-data-explorer-blog/overcoming-the-challenges-of-big-data-export-with-adx-export/ba-p/3741814
+https://azure.microsoft.com/en-us/products/cognitive-services/openai-service
+https://dl.acm.org/doi/10.14778/3547305.3547309
+https://azure.microsoft.com/en-us/solutions/cost-optimization/

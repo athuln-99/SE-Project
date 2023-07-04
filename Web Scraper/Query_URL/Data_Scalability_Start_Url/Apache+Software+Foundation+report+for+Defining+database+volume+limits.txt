@@ -1,0 +1,10 @@
+https://azure.microsoft.com/en-us/solutions/data-lake
+https://www.ibm.com/topics/couchdb
+https://aws.amazon.com/ec2/faqs/
+https://confluence.atlassian.com/adminjiraserver/setting-properties-and-options-on-startup-938847831.html
+https://en.wikipedia.org/wiki/Big_data
+https://docs.databricks.com/clusters/configure.html
+https://cloud.google.com/bigquery/quotas
+https://www.techtarget.com/searchbusinessanalytics/definition/big-data-analytics
+https://beam.apache.org/documentation/programming-guide/
+https://poi.apache.org/components/spreadsheet/limitations.html

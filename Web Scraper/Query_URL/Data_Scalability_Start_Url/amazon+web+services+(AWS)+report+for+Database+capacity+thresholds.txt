@@ -1,0 +1,10 @@
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Storage.html
+https://aws.amazon.com/ec2/faqs/
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PIOPS.StorageTypes.html
+https://aws.amazon.com/premiumsupport/faqs/
+https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.concept.service-limits.en.html
+https://aws.amazon.com/rds/free/
+https://aws.amazon.com/s3/faqs/
+https://aws.amazon.com/blogs/database/amazon-dynamodb-auto-scaling-performance-and-cost-optimization-at-any-scale/
+https://aws.amazon.com/cloudwatch/features/
+https://aws.amazon.com/getting-started/hands-on/control-your-costs-free-tier-budgets/

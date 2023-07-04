@@ -1,0 +1,10 @@
+https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/
+https://azure.microsoft.com/en-us/resources/research/
+https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/overview-cloud-scale-analytics
+https://azure.microsoft.com/en-us/solutions/data-lake
+https://learn.microsoft.com/en-us/azure/architecture/patterns/
+https://azure.microsoft.com/en-us/products/machine-learning
+https://www.delltechnologies.com/asset/en-us/products/storage/industry-market/h18564-powerprotect-data-manager-deployment-best-practice-wp.pdf
+https://azure.microsoft.com/en-us/products/purview
+https://www.microsoft.com/en-us/sql-server/sql-server-2016
+https://azure.microsoft.com/en-us/resources/resilience-in-azure-whitepaper/

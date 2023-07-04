@@ -1,0 +1,10 @@
+https://www.linkedin.com/advice/0/how-do-you-optimize-star-schema-scalability
+https://learn.microsoft.com/en-us/azure/architecture/best-practices/data-partitioning
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/optimizing-performance.html
+https://www.polymersearch.com/glossary/data-partitioning
+https://support.sas.com/resources/papers/proceedings17/SAS0278-2017.pdf
+https://medium.com/@burakkocakeu/optimizing-postgresql-database-performance-908f309a4156
+https://arxiv.org/abs/2010.10272
+https://www.sqlshack.com/query-optimization-techniques-in-sql-server-database-design-and-architecture/
+https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-tips-for-amazon-athena/
+https://www.cs.yale.edu/homes/soule/pubs/le2019.pdf

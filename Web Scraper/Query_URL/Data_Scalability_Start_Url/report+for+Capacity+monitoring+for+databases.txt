@@ -1,0 +1,10 @@
+https://www.who.int/news-room/events/detail/2022/08/26/default-calendar/webinar-on-strengthening-data-and-information-management-for-blood-and-transfusion-safety-and-capacity-to-report-to-global-database-on-blood-safety-gdbs-in-member-states
+https://learn.microsoft.com/en-us/power-platform/admin/capacity-storage
+https://www.solarwinds.com/storage-resource-monitor
+https://www.imperva.com/blog/understanding-capacity-management-challenges-database-monitoring-solutions/
+https://docs.oracle.com/cd/E88198_01/AMAGD/amagd_report.htm
+https://www.unicef.org/evaluation/reports
+https://www.mongodb.com/basics/how-to-monitor-mongodb-and-what-metrics-to-monitor
+https://databank.worldbank.org/
+https://www.dbta.com/Columns/DBA-Corner/Database-Capacity-Planning-156629.aspx
+https://docs.oracle.com/en/enterprise-manager/cloud-control/enterprise-manager-cloud-control/13.4/emxig/oracle-exadata-database-machine-administration.html

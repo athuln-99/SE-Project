@@ -1,0 +1,10 @@
+https://www.cohesity.com/resource-assets/white-paper/Cohesity-MS-SQL-SingleDB-Solution-Guide.pdf
+https://www.delltechnologies.com/asset/en-us/products/storage/industry-market/h13697-dell-emc-powermax-vmax-all-flash-timefinder-snapvx-local-replication.pdf
+https://www.google.com/chrome/privacy/whitepaper.html
+https://d1.awsstatic.com/whitepapers/aws-overview.pdf
+https://www.oracle.com/docs/tech/dbsec/unified-audit-best-practice-guidelines.pdf
+https://www.biorxiv.org/about/FAQ
+https://learn.microsoft.com/en-us/azure/azure-sql/database/alerts-insights-configure-portal
+https://www.cisco.com/c/en/us/solutions/collateral/data-center-virtualization/application-centric-infrastructure/white-paper-c11-739989.html
+https://docs.aws.amazon.com/pdfs/whitepapers/latest/microservices-on-aws/microservices-on-aws.pdf
+https://www.imperva.com/blog/database-activity-monitoring-checklist/

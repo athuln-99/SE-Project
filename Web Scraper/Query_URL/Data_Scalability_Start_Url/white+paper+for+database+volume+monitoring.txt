@@ -1,0 +1,10 @@
+https://cx.rightnow.com/euf/assets/cc_resources/answerdocs/answer10440/DataVolume.pdf
+https://www.oracle.com/technetwork/database/availability/redo-apply-2745943.pdf
+https://aws.amazon.com/whitepapers/
+https://docs.aws.amazon.com/dms/latest/userguide/CHAP_BestPractices.html
+https://www.cisco.com/c/en/us/solutions/collateral/enterprise-networks/sd-wan/white-paper-c11-741440.html
+https://www.imperva.com/blog/database-activity-monitoring-checklist/
+https://www.appdynamics.com/product/infrastructure-monitoring/database-monitoring
+https://www.delltechnologies.com/asset/en-us/products/storage/industry-market/h15691-cloudiq-overview.pdf
+https://support.sap.com/en/alm/sap-focused-run.html
+https://www.seagate.com/files/www-content/our-story/trends/files/idc-seagate-dataage-whitepaper.pdf

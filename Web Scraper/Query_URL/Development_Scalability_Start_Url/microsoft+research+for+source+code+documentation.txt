@@ -1,0 +1,10 @@
+https://www.microsoft.com/en-us/research/blog/learning-source-code/
+https://github.com/microsoft/Detours
+https://www.microsoft.com/en-us/research/academic-program/rl-open-source-fest/
+https://learn.microsoft.com/en-us/java/api/overview/azure/security-confidentialledger-readme
+https://code.visualstudio.com/docs
+https://learn.microsoft.com/en-us/python/api/overview/azure/confidentialledger-readme
+https://microsoft.github.io/AirSim/
+https://learn.microsoft.com/en-us/azure/machine-learning/concept-automated-ml
+https://customers.microsoft.com/EN-AU/story/1549838968222249829-trelent-azure-openai-service
+https://learn.microsoft.com/en-us/security/gsp/contenttransparencycenters

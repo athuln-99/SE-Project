@@ -1,0 +1,10 @@
+https://aws.amazon.com/devops/what-is-devops/
+https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_attribute-based-access-control.html
+https://aws.amazon.com/security/penetration-testing/
+https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html
+https://aws.amazon.com/blogs/big-data/test-data-quality-at-scale-with-deequ/
+https://docs.aws.amazon.com/whitepapers/latest/gxp-systems-on-aws/quality-infrastructure-and-support-processes.html
+https://aws.amazon.com/glue/features/data-quality/
+https://docs.aws.amazon.com/connect/latest/adminguide/tools-and-info.html
+https://www.techmagic.co/blog/aws-testing-tools/
+https://www.linkedin.com/in/michael-hindley-521346164

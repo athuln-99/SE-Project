@@ -1,0 +1,10 @@
+https://www.pharmar.org/white-paper/
+https://www.oracle.com/assets/dod-and-open-source-software-2012277.pdf
+https://docs.aws.amazon.com/pdfs/whitepapers/latest/big-data-analytics-options/big-data-analytics-options.pdf
+https://iot.eclipse.org/community/resources/white-papers/pdf/Eclipse%20IoT%20White%20Paper%20-%20Open%20Source%20Software%20for%20Industry%204.0.pdf
+https://pubmed.ncbi.nlm.nih.gov/34860667/
+https://www.gridgain.com/resources/papers/introducing-apache-ignite
+https://learn.microsoft.com/en-us/azure/architecture/solutions/power-platform-scenarios
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8686402/
+https://cloud.google.com/docs/security/overview/whitepaper
+https://azure.microsoft.com/en-us/resources/research/

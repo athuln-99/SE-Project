@@ -1,0 +1,10 @@
+https://www.ibm.com/docs/SSEP7J_11.1.0/com.ibm.swg.ba.cognos.ug_cra.doc/t_governorlimit.html
+https://www.redbooks.ibm.com/redbooks/pdfs/sg248503.pdf
+https://www.ibm.com/docs/en/SSEP7J_11.0.0/com.ibm.swg.ba.cognos.ug_fm.doc/c_setgovernors.html
+https://www.redbooks.ibm.com/redpapers/pdfs/redp5506.pdf
+https://www.ibm.com/topics/data-security
+https://community.ibm.com/community/user/businessanalytics/discussion/exceeding-a-maximum-size-setting-on-the-sending-service-19mb
+https://www.ibm.com/docs/es/ssw_aix_72/u_commands/ulimit.html
+https://community.ibm.com/community/user/businessanalytics/discussion/data-module-limitations-best-practices
+https://www.ibm.com/support/pages/rds-err-1023-report-name-could-not-be-run-because-it-exceeds-report-data-service-data-size-limit-set-administrator
+https://www-01.ibm.com/servers/resourcelink/svc00100.nsf/pages/zOSV2R3sc236855/$file/idad400_v2r3.pdf

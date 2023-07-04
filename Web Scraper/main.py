@@ -50,7 +50,7 @@ def web_scrape_google(search_query):
         print("Long description:", long_description)
         print("URL:", link, "\n")
 
-        file_path = f"Query_URL/Transaction_Scalability_Start_Url/{query}.txt"
+        file_path = f"Query_URL/Development_Scalability_Start_Url/{query}.txt"
         with open(file_path, 'w') as file:
             # Write each URL to a new line in the file
             for url in url_list:
@@ -109,7 +109,7 @@ if __name__ == '__main__':
     with open(file_path, 'r') as file:
         company_list = file.read().splitlines()
 
-    file_path = 'Query_URL/transcational_scalability_synonyms.txt'  # Replace with the actual file path
+    file_path = 'Query_URL/development_scalability_synonyms.txt'  # Replace with the actual file path
     with open(file_path, 'r') as file:
         synonyms_list = file.read().splitlines()
 
@@ -118,16 +118,16 @@ if __name__ == '__main__':
         documentation_queries = file.read().splitlines()
 
     j = 0
-    for q in documentation_queries:
-        if j >= 22:
-            break
-        for i in synonyms_list:
-            query = random.choice(company_list)+" "+random.choice(documentation_queries)+"+for+"+i
-            query = query.lstrip()
-            query = query.replace(" ", "+")
-            web_scrape_google(query)
-            print(query)
-            j += 1
+    # for q in documentation_queries:
+    #     if j >= 22:
+    #         break
+    for i in synonyms_list:
+        query = random.choice(company_list)+" "+random.choice(documentation_queries)+"+for+"+i
+        query = query.lstrip()
+        query = query.replace(" ", "+")
+        web_scrape_google(query)
+        print(query)
+        j += 1
     print(j)
     # for q in synonyms_list:
     #     for i in range(10):

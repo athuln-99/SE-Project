@@ -1,0 +1,10 @@
+https://trends.google.com/trends/
+https://www.boardroomalpha.com/spac/
+https://www.finra.org/filing-reporting/trace
+https://f1000research.com/
+https://journals.ashs.org/horttech/view/journals/horttech/15/3/article-p666.xml
+https://www.msci.com/our-solutions/real-assets/real-capital-analytics
+https://learn.microsoft.com/en-us/azure/defender-for-cloud/alerts-reference
+https://www.consumerfinance.gov/data-research/consumer-complaints/search/
+https://docs.oracle.com/en/database/oracle/oracle-database/12.2/admin/monitoring-the-database.html
+https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm

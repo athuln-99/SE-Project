@@ -1,0 +1,10 @@
+https://learn.microsoft.com/en-us/power-bi/admin/service-admin-manage-your-data-storage-in-power-bi
+https://techcommunity.microsoft.com/t5/azure-paas-blog/leveraging-blob-inventory-report-for-calculating-storage/ba-p/3750539
+https://learn.microsoft.com/en-us/power-platform/admin/capacity-storage
+https://azure.microsoft.com/en-us/pricing/details/storage/blobs/
+https://learn.microsoft.com/en-us/power-platform/admin/finance-operations-storage-capacity
+https://azure.microsoft.com/en-us/pricing/details/storage/data-lake/
+https://learn.microsoft.com/en-us/azure/storage/common/storage-insights-overview
+https://support.microsoft.com/en-us/office/manage-your-onedrive-for-work-or-school-storage-31519161-059c-4764-b6f8-f5cd29f7fe68
+https://news.microsoft.com/source/features/innovation/hello-data-dna-storage/
+https://support.microsoft.com/en-gb/office/access-specifications-0cf3c66f-9cf2-4e32-9568-98c1025bb47c

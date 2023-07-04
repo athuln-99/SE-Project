@@ -1,0 +1,10 @@
+https://products.premierinc.com/downloads/PremierHealthcareDatabaseWhitepaper.pdf
+https://aws.amazon.com/products/databases/
+https://docs.aws.amazon.com/whitepapers/latest/aws-overview/database.html
+https://www.fda.gov/science-research/data-mining/data-mining-fda-white-paper
+https://www.oracle.com/a/tech/docs/database19c-wp.pdf
+https://www.mcobject.com/embedded-database-white-papers/
+https://www.esri.com/content/dam/esrisites/en-us/media/technical-papers/data-in-arcgis-user-managed-and-arcgis-managed.pdf
+https://www.f5.com/pdf/white-papers/load-balancing-oracle-database-wp.pdf
+https://www.oracle.com/technetwork/database/bi-datawarehousing/twp-parallel-execution-fundamentals-133639.pdf
+https://learn.microsoft.com/en-us/sql/relational-databases/diagnose-resolve-spinlock-contention?view=sql-server-ver16

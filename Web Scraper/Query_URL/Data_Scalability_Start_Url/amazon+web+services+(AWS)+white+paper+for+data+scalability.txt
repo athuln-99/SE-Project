@@ -1,0 +1,10 @@
+https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html
+https://aws.amazon.com/products/databases/
+https://docs.aws.amazon.com/whitepapers/latest/real-time-communication-on-aws/high-availability-and-scalability-on-aws.html
+https://aws.amazon.com/whitepapers/
+https://docs.aws.amazon.com/pdfs/whitepapers/latest/big-data-analytics-options/big-data-analytics-options.pdf
+https://aws.amazon.com/architecture/well-architected/
+https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.pillar.performance.en.html
+https://aws.amazon.com/security/
+https://d1.awsstatic.com/whitepapers/aws-overview.pdf
+https://aws.amazon.com/nosql/

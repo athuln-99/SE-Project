@@ -1,0 +1,10 @@
+https://aws.amazon.com/ec2/faqs/
+https://docs.aws.amazon.com/cur/latest/userguide/product-columns.html
+https://aws.amazon.com/ebs/features/
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Storage.html
+https://calculator.aws/
+https://docs.aws.amazon.com/awssupport/latest/user/cost-optimization-checks.html
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
+https://docs.aws.amazon.com/cur/latest/userguide/Lineitem-columns.html
+https://docs.aws.amazon.com/cost-management/latest/userguide/ce-filtering.html
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html

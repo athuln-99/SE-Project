@@ -1,0 +1,10 @@
+https://cloud.google.com/blog/products/application-development/5-principles-for-cloud-native-architecture-what-it-is-and-how-to-master-it
+https://www.its.dot.gov/research_archives/msaa/pdf/MSAA_SystemDesignFINAL.pdf
+https://www.sciencedirect.com/science/article/pii/S2212827116000494
+https://dl.acm.org/doi/10.1109/2.917539
+https://www.sciencedirect.com/science/article/pii/S2352484721001013
+https://dl.acm.org/doi/10.1145/3173162.3173191
+https://www.altexsoft.com/blog/engineering/solution-architect-role/
+https://microservices.io/patterns/microservices.html
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5836419/
+https://blog.bytebytego.com/p/how-to-design-google-docs-episode

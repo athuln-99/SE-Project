@@ -1,0 +1,10 @@
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3438148/
+https://cloud.google.com/spanner/quotas
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2864034/
+https://cloud.google.com/bigquery/quotas
+https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-poverty-thresholds.html
+https://developers.google.com/sheets/api/limits
+https://support.google.com/webmasters/answer/9205520?hl=en
+https://www.sba.gov/document/support-table-size-standards
+https://sites.research.google/open-buildings/
+https://stackoverflow.com/questions/10988569/storage-limits-on-chrome-browser

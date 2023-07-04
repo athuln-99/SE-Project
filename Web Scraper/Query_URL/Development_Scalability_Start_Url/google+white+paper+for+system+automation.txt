@@ -1,0 +1,10 @@
+https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning
+https://www.se.com/us/en/download/document/998-21022781/
+https://cloud.google.com/whitepapers
+https://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/crosswork-network-automation/automation-routed-optical-nw.html
+https://www.arista.com/assets/data/pdf/Whitepapers/CloudVision_WP.pdf
+https://www.cisco.com/c/en/us/solutions/data-center-virtualization/application-centric-infrastructure/white-paper-listing.html
+https://www.whitehouse.gov/wp-content/uploads/2022/10/Blueprint-for-an-AI-Bill-of-Rights.pdf
+https://www.archives.gov/files/records-mgmt/policy/nara-cognitive-technologies-whitepaper.pdf
+https://github.com/google/ads-privacy/blob/master/proposals/FLoC/FLOC-Whitepaper-Google.pdf
+https://www.google.com/chrome/privacy/whitepaper.html

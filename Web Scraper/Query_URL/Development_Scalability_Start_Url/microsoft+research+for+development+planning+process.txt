@@ -1,0 +1,10 @@
+https://www.microsoft.com/en-us/research/publication/codemine-building-a-software-development-data-analytics-platform-at-microsoft/
+https://news.microsoft.com/features/microsoft-research-project-puts-cloud-in-ocean-for-the-first-time/
+https://www.microsoft.com/en-us/research/uploads/prod/2021/09/Microsoft-Research-Plan.pdf
+https://learn.microsoft.com/en-us/dynamics365/business-central/production-about-production-orders
+https://www.microsoft.com/investor/reports/ar13/financial-review/business-description/research-development/index.html
+https://learn.microsoft.com/en-us/azure/machine-learning/concept-automated-ml
+https://www.microsoft.com/en-us/research/group/experimentation-platform-exp/articles/microsofts-experimentation-platform-how-we-build-a-world-class-product/
+https://news.microsoft.com/source/features/ai/microsoft-approach-to-ai/
+https://www.microsoft.com/investor/reports/ar21/index.html
+https://blogs.microsoft.com/blog/2017/02/16/microsoft-partners-combine-cloud-ai-research-industry-expertise-focus-transforming-health-care/

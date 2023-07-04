@@ -1,0 +1,19 @@
+scalable software development
+technology stack
+system architechture documentation
+source code documentation
+development planning process
+agile development planning
+software development lifecycle planning
+technical debt
+system automation
+deployment automation
+continuous integration
+CI CD (Continuous Integration/Continuous Deployment)
+automation issue management
+quality assurance
+testing and quality control
+code review
+coding standards
+coding guidelines
+architectural and design constraints

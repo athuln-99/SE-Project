@@ -1,0 +1,10 @@
+https://azure.microsoft.com/en-us/products/monitor
+https://learn.microsoft.com/en-us/sharepoint/administration/storage-and-sql-server-capacity-planning-and-configuration
+https://azure.microsoft.com/en-us/pricing/
+https://learn.microsoft.com/en-us/azure/azure-monitor/overview
+https://www.microsoft.com/en-us/research/podcast/project-orleans-and-the-distributed-database-future-with-dr-philip-bernstein/
+https://support.microsoft.com/en-us/office/using-access-or-excel-to-manage-your-data-09576147-47d1-4c6f-9312-e825227fcaea
+https://www.microsoft.com/en-us/research/people/bpkroth/
+https://news.microsoft.com/2022/07/20/oracle-and-microsoft-announce-availability-of-oracle-database-service-for-microsoft-azure/
+https://www.microsoft.com/en-us/research/uploads/prod/2019/05/socrates.pdf
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3628063/

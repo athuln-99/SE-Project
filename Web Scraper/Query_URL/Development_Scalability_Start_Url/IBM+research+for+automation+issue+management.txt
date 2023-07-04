@@ -1,0 +1,10 @@
+https://research.ibm.com/projects/automation-and-reasoning-in-threat-management
+https://www.ibm.com/cloud/blog/announcements/the-impact-of-ai-on-proactive-incident-management
+https://research.ibm.com/labs/india
+https://www.ibm.com/cloud/blog/announcements/ibm-to-introduce-a-new-incident-management-saas-offering
+https://exchange.xforce.ibmcloud.com/hub/extension/b5cb289381d80050c30afff7cb71c7f9
+https://newsroom.ibm.com/2019-04-11-IBM-Study-More-Than-Half-of-Organizations-with-Cybersecurity-Incident-Response-Plans-Fail-to-Test-Them
+https://www.zurich.ibm.com/security/aithreatmanagement.html
+https://securityledger.com/2016/02/ibm-research-calls-out-smart-building-risks/
+https://www.redbooks.ibm.com/redpapers/pdfs/redp5394.pdf
+https://www.redhat.com/en/about/press-releases/red-hat-and-ibm-research-advance-it-automation-ai-powered-capabilities-ansible

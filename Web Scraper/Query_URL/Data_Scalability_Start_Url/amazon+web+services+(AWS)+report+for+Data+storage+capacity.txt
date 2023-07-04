@@ -1,0 +1,10 @@
+https://aws.amazon.com/s3/faqs/
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
+https://aws.amazon.com/s3/pricing/
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
+https://aws.amazon.com/ec2/faqs/
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/aws-usage-report.html
+https://docs.aws.amazon.com/quicksight/latest/user/managing-spice-capacity.html
+https://docs.aws.amazon.com/cur/latest/userguide/product-columns.html
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/WhatIsCloudWatchLogs.html
+https://en.wikipedia.org/wiki/Amazon_Web_Services

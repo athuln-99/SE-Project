@@ -1,0 +1,10 @@
+https://www.iba-ag.com/index.php?eID=dumpFile&t=f&f=4995624&token=aee5d48fb3008580c6b7bef25d04c9caf64912cc
+https://docs.aws.amazon.com/pdfs/whitepapers/latest/big-data-analytics-options/big-data-analytics-options.pdf
+https://www.delltechnologies.com/asset/en-gb/products/servers/industry-market/h17964-dell-winning-new-era-data-management-sql-server.pdf
+https://www.confluent.io/resources/
+https://www.gridgain.com/resources/papers/introducing-apache-ignite
+https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/big-data-meets-high-performance-computing-white-paper.pdf
+https://www.informatica.com/content/dam/informatica-com/en/collateral/white-paper/artificial-intelligence-for-data-driven-disruption_white-paper_3328en.pdf
+https://www.oracle.com/technetwork/topics/entarch/articles/oea-big-data-guide-1522052.pdf
+https://www.netapp.com/pdf.html?item=/media/19782-Architectural-Plans.pdf&v=202010152134
+https://azure.microsoft.com/en-us/solutions/data-lake

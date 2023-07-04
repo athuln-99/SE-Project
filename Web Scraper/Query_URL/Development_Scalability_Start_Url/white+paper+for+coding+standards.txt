@@ -1,0 +1,10 @@
+https://pahandsonlab.blob.core.windows.net/documents/PowerApps%20canvas%20app%20coding%20standards%20and%20guidelines.pdf
+https://powerapps.microsoft.com/it-ch/blog/powerapps-canvas-app-coding-standards-and-guidelines/
+https://www.perforce.com/resources/qac/coding-standards
+https://www.synopsys.com/software-integrity/resources/white-papers/ISO26262-guidelines.html
+https://csrc.nist.gov/publications/detail/white-paper/2018/01/26/security-considerations-for-code-signing/final
+https://bok.ahima.org/doc?oid=302649
+https://csrc.nist.gov/Projects/ssdf
+https://www.aaoms.org/practice-resources/aaoms-advocacy-and-position-statements/white-papers
+https://sharepointdiv.wordpress.com/2022/06/27/powerapps-canvas-app-coding-standards-and-guidelines/
+http://decisionhealth.com/static/whitepaper/Coding-Productivity-Benchmarks-whitepaper.pdf

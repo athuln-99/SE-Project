@@ -1,0 +1,10 @@
+https://research.google/pubs/pub50617/
+https://cloud.google.com/blog/topics/public-sector/how-data-analytics-and-ai-are-helping-achieve-mission-outcomes
+https://research.google/research-areas/data-management/
+https://research.google.com/pubs/archive/42851.pdf
+https://research.google/pubs/
+https://cloud.google.com/bigquery
+https://research.google/pubs/pub41318/
+https://dl.acm.org/doi/10.14778/3476311.3476377
+http://www.vldb.org/pvldb/vol14/p2986-sankaranarayanan.pdf
+https://db.khoury.northeastern.edu/

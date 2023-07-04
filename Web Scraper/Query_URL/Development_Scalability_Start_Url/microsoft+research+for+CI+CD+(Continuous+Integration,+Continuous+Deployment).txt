@@ -1,0 +1,10 @@
+https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops
+https://azure.microsoft.com/en-us/products/devops/pipelines
+https://www.microsoft.com/insidetrack/blog/how-microsoft-is-delivering-smart-building-experiences-with-ci-cd-for-azure-digital-twins/
+https://azure.microsoft.com/en-us/solutions/devops
+https://www.redhat.com/en/topics/devops/what-cicd-pipeline
+https://www.microsoft.com/en-gb/industry/blog/technetuk/2019/06/18/perfecting-continuous-delivery-of-nuget-packages-for-azure-artifacts/
+https://www.redhat.com/en/topics/devops/what-is-ci-cd
+https://www.microsoft.com/en-gb/industry/blog/technetuk/2022/11/22/improve-your-devops-skills-with-these-ebooks/
+https://customers.microsoft.com/en-gb/story/1576317370253756949-split-software-j-j-keller-customer-success-story-united-states-safety-compliance
+https://cloudblogs.microsoft.com/sqlserver/2019/11/07/new-in-azure-synapse-analytics-cicd-for-sql-analytics-using-sql-server-data-tools/

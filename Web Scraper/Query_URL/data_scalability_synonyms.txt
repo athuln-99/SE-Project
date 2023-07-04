@@ -1,0 +1,23 @@
+data scalability
+Scalable data management
+Scaling data infrastructure
+Managing increasing data volume
+Data storage capacity
+database volume
+Handling large databases
+database volume monitoring
+Capacity monitoring for databases
+Database volume tracking and alerts
+Defining database volume limits
+Database capacity thresholds
+performansive intensive data types
+data filtering
+Filtering large datasets efficiently
+Scalable data filtering methods
+In-memory database scalability
+scalable data archiving strategy
+Scalable operational data management
+Scalable reporting data management
+Data redundancy and replication scalability
+Optimizing data partitioning for scalability
+Scalable data distribution techniques

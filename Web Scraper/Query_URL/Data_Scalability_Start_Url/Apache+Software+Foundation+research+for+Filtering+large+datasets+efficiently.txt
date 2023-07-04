@@ -1,0 +1,10 @@
+https://www.integrate.io/blog/apache-spark-vs-hadoop-mapreduce/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4720168/
+https://www.integrate.io/blog/apache-spark-vs-hadoop-mapreduce//
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5041595/
+https://en.wikipedia.org/wiki/Bloom_filter
+https://www.techtarget.com/searchbusinessanalytics/definition/big-data-analytics
+https://spark.apache.org/
+https://www.techtarget.com/searchdatamanagement/feature/15-big-data-tools-and-technologies-to-know-about
+https://www.elastic.co/blog/introducing-approximate-nearest-neighbor-search-in-elasticsearch-8-0
+https://www.intechopen.com/online-first/1136439

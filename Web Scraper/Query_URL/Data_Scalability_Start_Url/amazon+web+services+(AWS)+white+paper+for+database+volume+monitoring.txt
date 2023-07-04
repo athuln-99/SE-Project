@@ -1,0 +1,10 @@
+https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html
+https://aws.amazon.com/whitepapers/
+https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/how-aws-pricing-works.pdf
+https://aws.amazon.com/products/databases/
+https://docs.aws.amazon.com/dms/latest/userguide/CHAP_BestPractices.html
+https://d1.awsstatic.com/whitepapers/aws-overview.pdf
+https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.pillar.performance.en.html
+https://www.fortinet.com/content/dam/fortinet/assets/white-papers/wp-aws-reference-architecture.pdf
+https://d0.awsstatic.com/whitepapers/aws-security-whitepaper.pdf
+https://www.amazon.com/gp/help/customer/display.html?nodeId=GRGWE27XHZPRPBGX

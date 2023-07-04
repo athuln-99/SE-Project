@@ -1,0 +1,10 @@
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
+https://aws.amazon.com/products/storage/
+https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.pillar.performance.en.html
+https://aws.amazon.com/big-data/datalakes-and-analytics/
+https://www.investopedia.com/articles/investing/011316/what-amazon-web-services-and-why-it-so-successful.asp
+https://aws.amazon.com/s3/
+https://developer-docs.amazon.com/sp-api-blog/docs/streamlining-analytics-with-amazon-selling-partner-api-data-ingestion-into-a-data-lake
+https://aws.amazon.com/s3/faqs/
+https://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf
+https://aws.amazon.com/

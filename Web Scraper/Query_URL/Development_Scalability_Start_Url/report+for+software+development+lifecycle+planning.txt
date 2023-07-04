@@ -1,0 +1,10 @@
+https://stackify.com/what-is-sdlc/
+https://www.tutorialspoint.com/sdlc/sdlc_overview.htm
+https://www.gartner.com/reviews/market/application-development-life-cycle-management
+https://www.ibm.com/products/engineering-lifecycle-management
+https://www.guru99.com/software-development-life-cycle-tutorial.html
+https://aws.amazon.com/what-is/sdlc/
+https://www.synopsys.com/glossary/what-is-sdlc.html
+https://www.pmi.org/learning/library/project-managing-sdlc-8232
+https://www.synopsys.com/blogs/software-security/secure-sdlc/
+https://phoenixnap.com/blog/software-development-life-cycle

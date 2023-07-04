@@ -1,0 +1,10 @@
+https://aws.amazon.com/s3/faqs/
+https://www.mongodb.com/docs/manual/replication/
+https://ieeexplore.ieee.org/abstract/document/8985481
+https://www.ibm.com/docs/SSGU8G_14.1.0/com.ibm.admin.doc/ids_admin_1388.htm
+https://learn.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/data-storage
+https://success.outsystems.com/documentation/11/setup_and_maintain_your_outsystems_infrastructure/setting_up_outsystems/possible_setups_for_an_outsystems_infrastructure/high_availability_and_scalability_strategies/
+https://www.geeksforgeeks.org/data-replication-in-dbms/
+https://www.netsuite.com/portal/platform/infrastructure/data-management.shtml
+https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html
+https://cloud.google.com/architecture/disaster-recovery

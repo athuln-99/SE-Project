@@ -1,0 +1,10 @@
+https://cloud.google.com/whitepapers
+https://research.google.com/pubs/archive/42851.pdf
+https://cloud.google.com/blog/products/storage-data-transfer/a-peek-behind-colossus-googles-file-system
+https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/white-paper-c11-743245.html
+https://www.nature.com/articles/s41746-018-0029-1
+https://research.google/pubs/pub50617/
+https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html
+https://www.mongodb.com/resources/white-papers
+https://hevodata.com/resources/resource-guides/
+https://docs.aws.amazon.com/pdfs/whitepapers/latest/big-data-analytics-options/big-data-analytics-options.pdf

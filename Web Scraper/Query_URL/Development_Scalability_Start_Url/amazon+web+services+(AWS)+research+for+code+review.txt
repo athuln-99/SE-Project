@@ -1,0 +1,10 @@
+https://aws.amazon.com/codeguru/
+https://docs.aws.amazon.com/whitepapers/latest/aws-overview/machine-learning.html
+https://aws.amazon.com/machine-learning/ai-services/
+https://docs.aws.amazon.com/
+https://aws.amazon.com/codewhisperer/
+https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html
+https://www.amazon.com/Genomics-AWS-Cloud-Performing-Analysis/dp/1119573378
+https://docs.aws.amazon.com/pdfs/whitepapers/latest/security-design-of-aws-nitro-system/security-design-of-aws-nitro-system.pdf
+https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.pillar.operationalExcellence.en.html
+https://www.techtarget.com/searchaws/definition/Amazon-Web-Services

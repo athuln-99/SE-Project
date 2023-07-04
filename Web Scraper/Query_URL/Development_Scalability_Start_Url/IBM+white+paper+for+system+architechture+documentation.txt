@@ -1,0 +1,10 @@
+https://www.ibm.com/downloads/cas/2RJYYJML
+https://www-03.ibm.com/autonomic/pdfs/AC%20Blueprint%20White%20Paper%20V7.pdf
+https://www.ibm.com/products/datastage
+https://www.redbooks.ibm.com/
+https://www.ibm.com/products/z-integrated-information-processor
+https://www.vm.ibm.com/library/
+https://www.ibm.com/support/pages/system/files/inline-files/platform_architecture_whitepaper_external_pdf.pdf
+https://images.nvidia.com/content/volta-architecture/pdf/volta-architecture-whitepaper.pdf
+https://www.delltechnologies.com/asset/en-ca/products/storage/industry-market/h14071-ecs-architectural-guide-wp.pdf
+https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-getting-started

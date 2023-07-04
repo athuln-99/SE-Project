@@ -1,0 +1,10 @@
+https://octopus.com/blog/whitepaper-automated-deployment-benefits
+https://powerautomate.microsoft.com/en-us/blog/administer-and-govern-a-low-code-intelligent-automation-platform-whitepaper-enterprise-deployment-for-rpa-and-more-in-power-automate/
+https://learn.microsoft.com/en-us/power-automate/guidance/automation-coe/automation-admin-gov
+https://download.octopusdeploy.com/files/whitepaper-automated-deployment-octopus-deploy.pdf
+https://www.whitehouse.gov/ostp/ai-bill-of-rights/
+https://www.cisco.com/c/dam/m/en_us/customer-experience/collateral/5G-automation-architecture-white-paper.pdf
+https://www.devbridge.com/white-papers/cicd-pipeline-continuous-delivery-deployment/benefits/
+https://www.cisco.com/c/en/us/solutions/data-center-virtualization/application-centric-infrastructure/white-paper-listing.html
+https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/products/vmw-vrealize-cloud-universal-licensing-whitepaper.pdf
+https://www.ansible.com/resources/whitepapers
