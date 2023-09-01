@@ -5,8 +5,8 @@ import json
 from bs4 import BeautifulSoup
 from urllib.request import Request, urlopen
 
-API_KEY = 'AIzaSyCbHt6DAqJvbiUtkgCJmVD7xpRTON2XqfE'
-SEARCH_ENGINE_ID = '61fcf7c969dce4ff2'
+API_KEY = 'something'
+SEARCH_ENGINE_ID = 'something'
 
 
 # https://www.thepythoncode.com/article/use-google-custom-search-engine-api-in-python
